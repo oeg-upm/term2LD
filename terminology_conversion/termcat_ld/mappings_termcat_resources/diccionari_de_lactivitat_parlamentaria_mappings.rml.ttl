@@ -1,0 +1,435 @@
+@prefix rr: <http://www.w3.org/ns/r2rml#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix rml: <http://semweb.mmlab.be/ns/rml#>.
+@prefix ql: <http://semweb.mmlab.be/ns/ql#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix tc: <http://w3id.org/termcat-ld/>.
+@prefix ontolex: <https://www.w3.org/2016/05/ontolex#>.
+@prefix lexinfo: <http://www.lexinfo.net/ontology/3.0/lexinfo#>.
+@prefix lime: <http://www.w3.org/ns/lemon/lime#>.
+@prefix termlex: <https://drive.google.com/file/d/1FSyCf89q4iNeiqBSa4zjgL3fbxxWZdxU/view?usp=drive_link>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#>.
+@prefix olia: <http://purl.org/olia/olia.owl#>.
+@prefix etv: <https://w3id.org/def/easytv#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix dbo: <http://dbpedia.org/ontology/>.
+@prefix prov: <http://www.w3.org/ns/prov#>.
+@prefix wdt: <https://www.wikidata.org/wiki/Property:>.
+@base <http://w3id.org/termcat-ld/>.
+
+
+<#CONCEPTSET>
+    a rr:TriplesMap;
+    rml:logicalSource [
+    	rml:source "TC_clean/clean_terminology.xml";
+    	rml:referenceFormulation ql:XPath;
+        rml:iterator "/root";
+    ];
+    rr:subjectMap [
+    	a rr:Subject ;
+    	rr:termType rr:IRI ;
+    	rr:template "http://w3id.org/termcat-ld/{title/clean}_ConceptSet" ;
+    	rr:class ontolex:ConceptSet ;
+    ];
+    rr:predicateObjectMap [
+    	rr:predicateMap	[ rr:constant prov:wasAttributedTo];
+    	rr:objectMap	[ rml:reference "author"; rr:termType rr:Literal; rr:datatype xsd:string ]
+    ];
+    rr:predicateObjectMap [
+    	rr:predicateMap	[ rr:constant prov:hasPrimarySource];
+    	rr:objectMap	[ rml:reference "title/original"; rr:termType rr:Literal; rr:datatype xsd:string ]
+    ];
+.
+
+
+
+<#LEXCONCEPT>
+    a rr:TriplesMap;
+    rml:logicalSource [
+    	rml:source "TC_clean/clean_terminology.xml";
+    	rml:referenceFormulation ql:XPath;
+        rml:iterator "/root/lexicalData/lexConcept";
+    ];
+    rr:subjectMap [
+    	a rr:Subject ;
+    	rr:termType rr:IRI ;
+    	rr:template "http://w3id.org/termcat-ld/{@conceptID}" ;
+    	rr:class ontolex:LexicalConcept ;
+    ];
+    rr:predicateObjectMap [
+    	rr:predicateMap	[ rr:constant dct:identifier];
+    	rr:objectMap	[ rml:reference "@tcID"; rr:termType rr:Literal; rr:datatype xsd:string ]
+    ];
+    rr:predicateObjectMap [
+    	rr:predicateMap	[ rr:constant ontolex:lexicalizedSense];
+    	rr:objectMap	[ rr:template "http://w3id.org/termcat-ld/{lexEntry/lexSense/@senseID}"; rr:termType rr:IRI ]
+    ];
+    rr:predicateObjectMap [
+    	rr:predicateMap	[ rr:constant skos:inScheme];
+    	rr:objectMap	[ rr:template "http://w3id.org/termcat-ld/{../../title/clean}_ConceptSet"; rr:termType rr:IRI ]
+    ];
+    rr:predicateObjectMap [
+    	rr:predicateMap	[ rr:constant dct:subject];
+    	rr:objectMap	[ rr:template "http://w3id.org/termcat-ld/{domains/domain/topic[last()]/@domainID}"; rr:termType rr:IRI ]
+    ];
+    rr:predicateObjectMap [
+    	rr:predicateMap	[ rr:constant dbo:code];
+    	rr:objectMap	[ rml:reference "code"; rr:termType rr:Literal; rr:datatype xsd:string ]
+    ];
+    rr:predicateObjectMap [
+    	rr:predicateMap	[ rr:constant wdt:P3295];
+    	rr:objectMap	[ rml:reference "code"; rr:termType rr:Literal; rr:datatype xsd:string ]
+    ];
+    rr:predicateObjectMap [
+    	rr:predicateMap	[ rr:constant dbo:casNumber];
+    	rr:objectMap	[ rml:reference "casNum"; rr:termType rr:Literal; rr:datatype xsd:string ]
+    ];
+    rr:predicateObjectMap [
+    	rr:predicateMap	[ rr:constant wdt:P231];
+    	rr:objectMap	[ rml:reference "casNum"; rr:termType rr:Literal; rr:datatype xsd:string ]
+    ];
+    rr:predicateObjectMap [
+    	rr:predicateMap	[ rr:constant ontolex:isEvokedBy];
+    	rr:objectMap	[ rr:template "http://w3id.org/termcat-ld/{lexEntry/@entryID}"; rr:termType rr:IRI ]
+    ];
+.
+
+
+
+<#LEXENTRY>
+    a rr:TriplesMap;
+    rml:logicalSource [
+    	rml:source "TC_clean/clean_terminology.xml";
+    	rml:referenceFormulation ql:XPath;
+        rml:iterator "/root/lexicalData/lexConcept/lexEntry[@entryType='lexicalEntry']";
+    ];
+    rr:subjectMap [
+    	a rr:Subject ;
+    	rr:termType rr:IRI ;
+    	rr:template "http://w3id.org/termcat-ld/{@entryID}" ;
+    	rr:class ontolex:LexicalEntry ;
+    ];
+    rr:predicateObjectMap [
+    	rr:predicateMap	[ rr:constant ontolex:sense];
+    	rr:objectMap	[ rr:template "http://w3id.org/termcat-ld/{lexSense/@senseID}"; rr:termType rr:IRI ]
+    ];
+    rr:predicateObjectMap [
+    	rr:predicateMap	[ rr:constant ontolex:lexicalForm];
+    	rr:objectMap	[ rr:template "http://w3id.org/termcat-ld/{lexForm/@formID}"; rr:termType rr:IRI ]
+    ];
+    rr:predicateObjectMap [
+    	rr:predicateMap	[ rr:constant etv:signedForm];
+    	rr:objectMap	[ rr:template "http://w3id.org/termcat-ld/{signedForm/@formID}"; rr:termType rr:IRI ]
+    ];
+    rr:predicateObjectMap [
+    	rr:predicateMap	[ rr:constant lexinfo:partOfSpeech];
+    	rr:objectMap	[ rr:template "http://www.lexinfo.net/ontology/3.0/lexinfo#{@pos}"; rr:termType rr:IRI ]
+    ];
+    rr:predicateObjectMap [
+    	rr:predicateMap	[ rr:constant ontolex:evokes];
+    	rr:objectMap	[ rr:template "http://w3id.org/termcat-ld/{../@conceptID}"; rr:termType rr:IRI ]
+    ];
+    rr:predicateObjectMap [
+    	rr:predicateMap	[ rr:constant olia:hasValency];
+    	rr:objectMap	[ rr:template "http://purl.org/olia/olia.owl#{lexForm/valency}"; rr:termType rr:IRI ]
+    ];
+    rr:predicateObjectMap [
+    	rr:predicateMap	[ rr:constant vartrans:synBehavior];
+    	rr:objectMap	[ rr:template "http://www.lexinfo.net/ontology/3.0/lexinfo#{lexForm/synFrame}"; rr:termType rr:IRI ]
+    ];
+    rr:predicateObjectMap [
+    	rr:predicateMap	[ rr:constant lime:language];
+    	rr:objectMap	[ rml:reference "@language"; rr:termType rr:Literal; rr:datatype xsd:string ]
+    ];
+.
+
+
+
+<#LEXSENSE>
+    a rr:TriplesMap;
+    rml:logicalSource [
+    	rml:source "TC_clean/clean_terminology.xml";
+    	rml:referenceFormulation ql:XPath;
+        rml:iterator "/root/lexicalData/lexConcept/lexEntry/lexSense";
+    ];
+    rr:subjectMap [
+    	a rr:Subject ;
+    	rr:termType rr:IRI ;
+    	rr:template "http://w3id.org/termcat-ld/{@senseID}" ;
+    	rr:class ontolex:LexicalSense ;
+    ];
+    rr:predicateObjectMap [
+    	rr:predicateMap	[ rr:constant ontolex:isSenseOf];
+    	rr:objectMap	[ rr:template "http://w3id.org/termcat-ld/{../@entryID}"; rr:termType rr:IRI ]
+    ];
+    rr:predicateObjectMap [
+    	rr:predicateMap	[ rr:constant ontolex:isLexicalizedSenseOf];
+    	rr:objectMap	[ rr:template "http://w3id.org/termcat-ld/{../../@conceptID}"; rr:termType rr:IRI ]
+    ];
+    rr:predicateObjectMap [
+    	rr:predicateMap	[ rr:constant lexinfo:normativeAuthorization];
+    	rr:objectMap	[ rr:template "http://www.lexinfo.net/ontology/3.0/lexinfo#{@normAuth}"; rr:termType rr:IRI ]
+    ];
+    rr:predicateObjectMap [
+    	rr:predicateMap	[ rr:constant vartrans:translation];
+    	rr:objectMap	[ rr:template "http://w3id.org/termcat-ld/{transRel/@with}"; rr:termType rr:IRI ]
+    ];
+    rr:predicateObjectMap [
+    	rr:predicateMap	[ rr:constant vartrans:synonym];
+    	rr:objectMap	[ rr:template "http://w3id.org/termcat-ld/{synRel/@with}"; rr:termType rr:IRI ]
+    ];
+.
+
+
+
+<#LEXFORM>
+    a rr:TriplesMap;
+    rml:logicalSource [
+    	rml:source "TC_clean/clean_terminology.xml";
+    	rml:referenceFormulation ql:XPath;
+        rml:iterator "/root/lexicalData/lexConcept/lexEntry/lexForm";
+    ];
+    rr:subjectMap [
+    	a rr:Subject ;
+    	rr:termType rr:IRI ;
+    	rr:template "http://w3id.org/termcat-ld/{@formID}" ;
+    	rr:class ontolex:LexicalForm ;
+    ];
+    rr:predicateObjectMap [
+    	rr:predicateMap	[ rr:constant ontolex:writtenRep];
+    	rr:objectMap	[ rml:reference "text()"; rr:termType rr:Literal; rr:datatype xsd:string ]
+    ];
+    rr:predicateObjectMap [
+    	rr:predicateMap	[ rr:constant lexinfo:gender];
+    	rr:objectMap	[ rr:template "http://www.lexinfo.net/ontology/3.0/lexinfo#{gender}"; rr:termType rr:IRI ]
+    ];
+    rr:predicateObjectMap [
+    	rr:predicateMap	[ rr:constant lexinfo:number];
+    	rr:objectMap	[ rr:template "http://www.lexinfo.net/ontology/3.0/lexinfo#{number}"; rr:termType rr:IRI ]
+    ];
+    rr:predicateObjectMap [
+    	rr:predicateMap	[ rr:constant lexinfo:termType];
+    	rr:objectMap	[ rr:template "http://www.lexinfo.net/ontology/3.0/lexinfo#{termType}"; rr:termType rr:IRI ]
+    ];
+.
+
+
+
+<#SIGNEDFORM>
+    a rr:TriplesMap;
+    rml:logicalSource [
+    	rml:source "TC_clean/clean_terminology.xml";
+    	rml:referenceFormulation ql:XPath;
+        rml:iterator "/root/lexicalData/lexConcept/lexEntry/signedForm";
+    ];
+    rr:subjectMap [
+    	a rr:Subject ;
+    	rr:termType rr:IRI ;
+    	rr:template "http://w3id.org/termcat-ld/{@formID}" ;
+    	rr:class etv:SignedForm ;
+    ];
+    rr:predicateObjectMap [
+    	rr:predicateMap	[ rr:constant etv:video];
+    	rr:objectMap	[ rr:template "http://w3id.org/termcat-ld/{video/@videoID}"; rr:termType rr:IRI ]
+    ];
+.
+
+
+
+<#SFVIDEO>
+    a rr:TriplesMap;
+    rml:logicalSource [
+    	rml:source "TC_clean/clean_terminology.xml";
+    	rml:referenceFormulation ql:XPath;
+        rml:iterator "/root/lexicalData/lexConcept/lexEntry/signedForm/video";
+    ];
+    rr:subjectMap [
+    	a rr:Subject ;
+    	rr:termType rr:IRI ;
+    	rr:template "http://w3id.org/termcat-ld/{@videoID}" ;
+    	rr:class etv:Video ;
+    ];
+    rr:predicateObjectMap [
+    	rr:predicateMap	[ rr:constant etv:url];
+    	rr:objectMap	[ rml:reference "text()"; rr:termType rr:Literal; rr:datatype xsd:string ]
+    ];
+.
+
+
+
+<#PREFIX>
+    a rr:TriplesMap;
+    rml:logicalSource [
+    	rml:source "TC_clean/clean_terminology.xml";
+    	rml:referenceFormulation ql:XPath;
+        rml:iterator "/root/lexicalData/lexConcept/lexEntry[@entryType='prefix']";
+    ];
+    rr:subjectMap [
+    	a rr:Subject ;
+    	rr:termType rr:IRI ;
+    	rr:template "http://w3id.org/termcat-ld/{@entryID}" ;
+    	rr:class lexinfo:Prefix ;
+    ];
+    rr:predicateObjectMap [
+    	rr:predicateMap	[ rr:constant ontolex:sense];
+    	rr:objectMap	[ rr:template "http://w3id.org/termcat-ld/{lexSense/@senseID}"; rr:termType rr:IRI ]
+    ];
+    rr:predicateObjectMap [
+    	rr:predicateMap	[ rr:constant ontolex:lexicalForm];
+    	rr:objectMap	[ rr:template "http://w3id.org/termcat-ld/{lexForm/@formID}"; rr:termType rr:IRI ]
+    ];
+    rr:predicateObjectMap [
+    	rr:predicateMap	[ rr:constant lexinfo:partOfSpeech];
+    	rr:objectMap	[ rr:template "http://www.lexinfo.net/ontology/3.0/lexinfo#{@pos}"; rr:termType rr:IRI ]
+    ];
+    rr:predicateObjectMap [
+    	rr:predicateMap	[ rr:constant ontolex:evokes];
+    	rr:objectMap	[ rr:template "http://w3id.org/termcat-ld/{../@conceptID}"; rr:termType rr:IRI ]
+    ];
+    rr:predicateObjectMap [
+    	rr:predicateMap	[ rr:constant olia:hasValency];
+    	rr:objectMap	[ rr:template "http://www.lexinfo.net/ontology/3.0/lexinfo#{lexForm/valency}"; rr:termType rr:IRI ]
+    ];
+    rr:predicateObjectMap [
+    	rr:predicateMap	[ rr:constant vartrans:synBehavior];
+    	rr:objectMap	[ rr:template "http://purl.org/olia/olia.owl#{lexForm/synFrame}"; rr:termType rr:IRI ]
+    ];
+    rr:predicateObjectMap [
+    	rr:predicateMap	[ rr:constant lime:language];
+    	rr:objectMap	[ rml:reference "@language"; rr:termType rr:Literal; rr:datatype xsd:string ]
+    ];
+.
+
+
+
+<#SUFFIX>
+    a rr:TriplesMap;
+    rml:logicalSource [
+    	rml:source "TC_clean/clean_terminology.xml";
+    	rml:referenceFormulation ql:XPath;
+        rml:iterator "/root/lexicalData/lexConcept/lexEntry[@entryType='suffix']";
+    ];
+    rr:subjectMap [
+    	a rr:Subject ;
+    	rr:termType rr:IRI ;
+    	rr:template "http://w3id.org/termcat-ld/{@entryID}" ;
+    	rr:class lexinfo:Suffix ;
+    ];
+    rr:predicateObjectMap [
+    	rr:predicateMap	[ rr:constant ontolex:sense];
+    	rr:objectMap	[ rr:template "http://w3id.org/termcat-ld/{lexSense/@senseID}"; rr:termType rr:IRI ]
+    ];
+    rr:predicateObjectMap [
+    	rr:predicateMap	[ rr:constant ontolex:lexicalForm];
+    	rr:objectMap	[ rr:template "http://w3id.org/termcat-ld/{lexForm/@formID}"; rr:termType rr:IRI ]
+    ];
+    rr:predicateObjectMap [
+    	rr:predicateMap	[ rr:constant lexinfo:partOfSpeech];
+    	rr:objectMap	[ rr:template "http://www.lexinfo.net/ontology/3.0/lexinfo#{@pos}"; rr:termType rr:IRI ]
+    ];
+    rr:predicateObjectMap [
+    	rr:predicateMap	[ rr:constant ontolex:evokes];
+    	rr:objectMap	[ rr:template "http://w3id.org/termcat-ld/{../@conceptID}"; rr:termType rr:IRI ]
+    ];
+    rr:predicateObjectMap [
+    	rr:predicateMap	[ rr:constant olia:hasValency];
+    	rr:objectMap	[ rr:template "http://purl.org/olia/olia.owl#{lexForm/valency}"; rr:termType rr:IRI ]
+    ];
+    rr:predicateObjectMap [
+    	rr:predicateMap	[ rr:constant vartrans:synBehavior];
+    	rr:objectMap	[ rr:template "http://www.lexinfo.net/ontology/3.0/lexinfo#{lexForm/synFrame}"; rr:termType rr:IRI ]
+    ];
+    rr:predicateObjectMap [
+    	rr:predicateMap	[ rr:constant lime:language];
+    	rr:objectMap	[ rml:reference "@language"; rr:termType rr:Literal; rr:datatype xsd:string ]
+    ];
+.
+
+
+
+<#TOPDOMAIN>
+    a rr:TriplesMap;
+    rml:logicalSource [
+    	rml:source "TC_clean/clean_terminology.xml";
+    	rml:referenceFormulation ql:XPath;
+        rml:iterator "/root/lexicalData/lexConcept/domains/domain/topic[@type='topDomain']";
+    ];
+    rr:subjectMap [
+    	a rr:Subject ;
+    	rr:termType rr:IRI ;
+    	rr:template "http://w3id.org/termcat-ld/{@domainID}" ;
+    	rr:class skos:Concept ;
+    ];
+    rr:predicateObjectMap [
+    	rr:predicateMap	[ rr:constant skos:prefLabel];
+    	rr:objectMap	[ rml:reference "text()"; rr:termType rr:Literal; rr:datatype xsd:string ]
+    ];
+    rr:predicateObjectMap [
+    	rr:predicateMap	[ rr:constant skos:broader];
+    	rr:objectMap	[ rr:template "http://w3id.org/termcat-ld/{@broader}"; rr:termType rr:IRI ]
+    ];
+    rr:predicateObjectMap [
+    	rr:predicateMap	[ rr:constant skos:narrower];
+    	rr:objectMap	[ rr:template "http://w3id.org/termcat-ld/{@narrower}"; rr:termType rr:IRI ]
+    ];
+    rr:predicateObjectMap [
+    	rr:predicateMap	[ rr:constant skos:topConceptOf];
+    	rr:objectMap	[ rr:template "http://w3id.org/termcat-ld/{../../@schemeID}"; rr:termType rr:IRI ]
+    ];
+.
+
+
+
+<#SUBDOMAIN>
+    a rr:TriplesMap;
+    rml:logicalSource [
+    	rml:source "TC_clean/clean_terminology.xml";
+    	rml:referenceFormulation ql:XPath;
+        rml:iterator "/root/lexicalData/lexConcept/domains/domain/topic[@type='subDomain']";
+    ];
+    rr:subjectMap [
+    	a rr:Subject ;
+    	rr:termType rr:IRI ;
+    	rr:template "http://w3id.org/termcat-ld/{@domainID}" ;
+    	rr:class skos:Concept ;
+    ];
+    rr:predicateObjectMap [
+    	rr:predicateMap	[ rr:constant skos:prefLabel];
+    	rr:objectMap	[ rml:reference "text()"; rr:termType rr:Literal; rr:datatype xsd:string ]
+    ];
+    rr:predicateObjectMap [
+    	rr:predicateMap	[ rr:constant skos:narrower];
+    	rr:objectMap	[ rr:template "http://w3id.org/termcat-ld/{@narrower}"; rr:termType rr:IRI ]
+    ];
+    rr:predicateObjectMap [
+    	rr:predicateMap	[ rr:constant skos:broader];
+    	rr:objectMap	[ rr:template "http://w3id.org/termcat-ld/{@broader}"; rr:termType rr:IRI ]
+    ];
+    rr:predicateObjectMap [
+    	rr:predicateMap	[ rr:constant skos:inScheme];
+    	rr:objectMap	[ rr:template "http://w3id.org/termcat-ld/{../../@schemeID}"; rr:termType rr:IRI ]
+    ];
+.
+
+
+
+<#DOMAINSCHEME>
+    a rr:TriplesMap;
+    rml:logicalSource [
+    	rml:source "TC_clean/clean_terminology.xml";
+    	rml:referenceFormulation ql:XPath;
+        rml:iterator "/root";
+    ];
+    rr:subjectMap [
+    	a rr:Subject ;
+    	rr:termType rr:IRI ;
+    	rr:template "http://w3id.org/termcat-ld/{title/clean}_domainScheme" ;
+    	rr:class skos:ConceptScheme ;
+    ];
+    rr:predicateObjectMap [
+    	rr:predicateMap	[ rr:constant skos:hasTopConcept];
+    	rr:objectMap	[ rr:template "http://w3id.org/termcat-ld/{lexicalData/lexConcept/domains/domain/topic[@type='topDomain']/@domainID}"; rr:termType rr:IRI ]
+    ];
+.
+

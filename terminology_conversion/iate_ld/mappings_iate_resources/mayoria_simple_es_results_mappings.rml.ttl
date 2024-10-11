@@ -1,0 +1,397 @@
+@prefix rr: <http://www.w3.org/ns/r2rml#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix rml: <http://semweb.mmlab.be/ns/rml#>.
+@prefix ql: <http://semweb.mmlab.be/ns/ql#>.
+@prefix rdf: <https://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix iate: <http://myexample.com/iate-ld/>.
+@prefix ontolex: <https://www.w3.org/2016/05/ontolex#>.
+@prefix lexinfo: <http://www.lexinfo.net/ontology/3.0/lexinfo#>.
+@prefix lexicog: <http://www.w3.org/ns/lemon/lexicog#>.
+@prefix termlex: <https://termlex.oeg.fi.upm.es/termlex/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#>.
+@prefix olia: <http://purl.org/olia/olia.owl#>.
+@prefix etv: <https://myexample.com/def/easytv#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix dbo: <http://dbpedia.org/ontology/>.
+@prefix prov: <http://www.w3.org/ns/prov#>.
+@prefix wdt: <https://www.wikidata.org/wiki/Property:>.
+@base <http://myexample.com/iate-ld/>.
+
+
+<#CONCEPTSET>
+    a rr:TriplesMap;
+    rml:logicalSource [
+    	rml:source "terminos_iate/iate_terms_results_clean/mayoria_simple_es_iate_results_clean.xml";
+    	rml:referenceFormulation ql:XPath;
+        rml:iterator "/root";
+    ];
+    rr:subjectMap [
+    	a rr:Subject ;
+    	rr:termType rr:IRI ;
+    	rr:constant "http://myexample.com/iate-ld/IATE_ConceptSet" ;
+    	rr:class ontolex:ConceptSet ;
+    ];
+    rr:predicateObjectMap [
+    	rr:predicateMap	[ rr:constant dct:title];
+    	rr:objectMap	[ rr:constant "IATE"; rr:termType rr:Literal; rr:datatype xsd:string ]
+    ];
+.
+
+
+
+<#LEXCONCEPT>
+    a rr:TriplesMap;
+    rml:logicalSource [
+    	rml:source "terminos_iate/iate_terms_results_clean/mayoria_simple_es_iate_results_clean.xml";
+    	rml:referenceFormulation ql:XPath;
+        rml:iterator "/root/iate_concept";
+    ];
+    rr:subjectMap [
+    	a rr:Subject ;
+    	rr:termType rr:IRI ;
+    	rr:template "http://myexample.com/iate-ld/concept_{@conceptID}" ;
+    	rr:class ontolex:LexicalConcept ;
+    ];
+    rr:predicateObjectMap [
+    	rr:predicateMap	[ rr:constant skos:inScheme];
+    	rr:objectMap	[ rr:constant "http://myexample.com/iate-ld/IATE_ConceptSet"; rr:termType rr:IRI ]
+    ];
+    rr:predicateObjectMap [
+    	rr:predicateMap	[ rr:constant dct:identifier];
+    	rr:objectMap	[ rr:template "IATE-{@conceptID}"; rr:termType rr:Literal; rr:datatype xsd:string ]
+    ];
+    rr:predicateObjectMap [
+    	rr:predicateMap	[ rr:constant dct:subject];
+    	rr:objectMap	[ rr:template "http://eurovoc.europa.eu/{domains/domain/topic[last()]/@uriID}"; rr:termType rr:IRI ]
+    ];
+    rr:predicateObjectMap [
+    	rr:predicateMap	[ rr:constant skos:definition];
+    	rr:objectMap	[ rr:template "http://myexample.com/iate-ld/concept_{@conceptID}_definition_{definitionsNotes/definition/@language}"; rr:termType rr:IRI ]
+    ];
+    rr:predicateObjectMap [
+    	rr:predicateMap	[ rr:constant skos:note];
+    	rr:objectMap	[ rr:template "http://myexample.com/iate-ld/concept_{@conceptID}_note_{definitionsNotes/note/@language}"; rr:termType rr:IRI ]
+    ];
+    rr:predicateObjectMap [
+    	rr:predicateMap	[ rr:constant ontolex:isEvokedBy];
+    	rr:objectMap	[ rr:template "http://myexample.com/iate-ld/{terms/iate_term/@entryID}_entry"; rr:termType rr:IRI ]
+    ];
+    rr:predicateObjectMap [
+    	rr:predicateMap	[ rr:constant ontolex:lexicalizedSense];
+    	rr:objectMap	[ rr:template "http://myexample.com/iate-ld/{terms/iate_term/@entryID}_sense"; rr:termType rr:IRI ]
+    ];
+    rr:predicateObjectMap [
+    	rr:predicateMap	[ rr:constant skos:broader];
+    	rr:objectMap	[ rr:template "http://myexample.com/iate-ld/{crossreferences/is_narrower_than/@target}"; rr:termType rr:IRI ]
+    ];
+    rr:predicateObjectMap [
+    	rr:predicateMap	[ rr:constant skos:related];
+    	rr:objectMap	[ rr:template "http://myexample.com/iate-ld/{crossreferences/is_related_to/@target}"; rr:termType rr:IRI ]
+    ];
+.
+
+
+
+<#LEXSENSE>
+    a rr:TriplesMap;
+    rml:logicalSource [
+    	rml:source "terminos_iate/iate_terms_results_clean/mayoria_simple_es_iate_results_clean.xml";
+    	rml:referenceFormulation ql:XPath;
+        rml:iterator "/root/iate_concept/terms/iate_term/sense";
+    ];
+    rr:subjectMap [
+    	a rr:Subject ;
+    	rr:termType rr:IRI ;
+    	rr:template "http://myexample.com/iate-ld/{../@entryID}_sense" ;
+    	rr:class ontolex:LexicalSense ;
+    ];
+    rr:predicateObjectMap [
+    	rr:predicateMap	[ rr:constant ontolex:isLexicalizedSenseOf];
+    	rr:objectMap	[ rr:template "http://myexample.com/iate-ld/concept_{../../../@conceptID}"; rr:termType rr:IRI ]
+    ];
+    rr:predicateObjectMap [
+    	rr:predicateMap	[ rr:constant ontolex:isSenseOf];
+    	rr:objectMap	[ rr:template "http://myexample.com/iate-ld/{../@entryID}_entry"; rr:termType rr:IRI ]
+    ];
+    rr:predicateObjectMap [
+    	rr:predicateMap	[ rr:constant termlex:reliabiliityCode];
+    	rr:objectMap	[ rr:template "https://termlex.oeg.fi.upm.es/termlex/{@reliability_code}"; rr:termType rr:IRI ]
+    ];
+    rr:predicateObjectMap [
+    	rr:predicateMap	[ rr:constant lexicog:usageExample];
+    	rr:objectMap	[ rr:template "http://myexample.com/iate-ld/{../@entryID}_example{../contexts/context_example/@example_num}"; rr:termType rr:IRI ]
+    ];
+    rr:predicateObjectMap [
+    	rr:predicateMap	[ rr:constant lexinfo:synonym];
+    	rr:objectMap	[ rr:template "http://myexample.com/iate-ld/{synonymRel/@with}_sense"; rr:termType rr:IRI ]
+    ];
+    rr:predicateObjectMap [
+    	rr:predicateMap	[ rr:constant vartrans:translation];
+    	rr:objectMap	[ rr:template "http://myexample.com/iate-ld/{translationRel/@with}_sense"; rr:termType rr:IRI ]
+    ];
+.
+
+
+
+<#LEXENTRY>
+    a rr:TriplesMap;
+    rml:logicalSource [
+    	rml:source "terminos_iate/iate_terms_results_clean/mayoria_simple_es_iate_results_clean.xml";
+    	rml:referenceFormulation ql:XPath;
+        rml:iterator "/root/iate_concept/terms/iate_term";
+    ];
+    rr:subjectMap [
+    	a rr:Subject ;
+    	rr:termType rr:IRI ;
+    	rr:template "http://myexample.com/iate-ld/{@entryID}_entry" ;
+    	rr:class ontolex:LexicalEntry ;
+    ];
+    rr:predicateObjectMap [
+    	rr:predicateMap	[ rr:constant ontolex:sense];
+    	rr:objectMap	[ rr:template "http://myexample.com/iate-ld/{@entryID}_sense"; rr:termType rr:IRI ]
+    ];
+    rr:predicateObjectMap [
+    	rr:predicateMap	[ rr:constant ontolex:evokes];
+    	rr:objectMap	[ rr:template "http://myexample.com/iate-ld/concept_{../../@conceptID}"; rr:termType rr:IRI ]
+    ];
+    rr:predicateObjectMap [
+    	rr:predicateMap	[ rr:constant dct:language];
+    	rr:objectMap	[ rml:reference "@language"; rr:termType rr:Literal; rr:datatype xsd:string ]
+    ];
+    rr:predicateObjectMap [
+    	rr:predicateMap	[ rr:constant lexinfo:partOfSpeech];
+    	rr:objectMap	[ rml:reference "grammatical_info/part_of_speech"; rr:termType rr:Literal; rr:datatype xsd:string ]
+    ];
+    rr:predicateObjectMap [
+    	rr:predicateMap	[ rr:constant ontolex:lexicalForm];
+    	rr:objectMap	[ rr:template "http://myexample.com/iate-ld/{@entryID}_form"; rr:termType rr:IRI ]
+    ];
+    rr:predicateObjectMap [
+    	rr:predicateMap	[ rr:constant dct:source];
+    	rr:objectMap	[ rr:template "http://myexample.com/iate-ld/{@entryID}_entry_source{term_refs/term_ref/@refNum}"; rr:termType rr:IRI ]
+    ];
+    rr:predicateObjectMap [
+    	rr:predicateMap	[ rr:constant lexinfo:termType];
+    	rr:objectMap	[ rr:template "http://www.lexinfo.net/ontology/3.0/lexinfo#{termType}"; rr:termType rr:IRI ]
+    ];
+.
+
+
+
+<#LEXFORM>
+    a rr:TriplesMap;
+    rml:logicalSource [
+    	rml:source "terminos_iate/iate_terms_results_clean/mayoria_simple_es_iate_results_clean.xml";
+    	rml:referenceFormulation ql:XPath;
+        rml:iterator "/root/iate_concept/terms/iate_term/form";
+    ];
+    rr:subjectMap [
+    	a rr:Subject ;
+    	rr:termType rr:IRI ;
+    	rr:template "http://myexample.com/iate-ld/{../@entryID}_form" ;
+    	rr:class ontolex:LexicalForm ;
+    ];
+    rr:predicateObjectMap [
+    	rr:predicateMap	[ rr:constant ontolex:writtenRep];
+    	rr:objectMap	[ rml:reference "text()"; rr:termType rr:Literal; rr:datatype xsd:string ]
+    ];
+    rr:predicateObjectMap [
+    	rr:predicateMap	[ rr:constant lexinfo:gender];
+    	rr:objectMap	[ rr:template "http://www.lexinfo.net/ontology/3.0/lexinfo#{../grammatical_info/gender}"; rr:termType rr:IRI ]
+    ];
+    rr:predicateObjectMap [
+    	rr:predicateMap	[ rr:constant lexinfo:number];
+    	rr:objectMap	[ rr:template "http://www.lexinfo.net/ontology/3.0/lexinfo#{../grammatical_info/number}"; rr:termType rr:IRI ]
+    ];
+.
+
+
+
+<#TERMREF>
+    a rr:TriplesMap;
+    rml:logicalSource [
+    	rml:source "terminos_iate/iate_terms_results_clean/mayoria_simple_es_iate_results_clean.xml";
+    	rml:referenceFormulation ql:XPath;
+        rml:iterator "/root/iate_concept/terms/iate_term/term_refs/term_ref";
+    ];
+    rr:subjectMap [
+    	a rr:Subject ;
+    	rr:termType rr:IRI ;
+    	rr:template "http://myexample.com/iate-ld/{../../@entryID}_entry_source{@refNum}" ;
+    	rr:class termlex:Source ;
+    ];
+    rr:predicateObjectMap [
+    	rr:predicateMap	[ rr:constant dct:label];
+    	rr:objectMap	[ rml:reference "text()"; rr:termType rr:Literal; rr:datatype xsd:string ]
+    ];
+.
+
+
+
+<#USAGE>
+    a rr:TriplesMap;
+    rml:logicalSource [
+    	rml:source "terminos_iate/iate_terms_results_clean/mayoria_simple_es_iate_results_clean.xml";
+    	rml:referenceFormulation ql:XPath;
+        rml:iterator "/root/iate_concept/terms/iate_term/";
+    ];
+    rr:subjectMap [
+    	a rr:Subject ;
+    	rr:termType rr:IRI ;
+    	rr:template "http://myexample.com/iate-ld/{../../@entryID}_usage" ;
+    	rr:class termlex:Usage ;
+    ];
+.
+
+
+
+<#EXAMPLE>
+    a rr:TriplesMap;
+    rml:logicalSource [
+    	rml:source "terminos_iate/iate_terms_results_clean/mayoria_simple_es_iate_results_clean.xml";
+    	rml:referenceFormulation ql:XPath;
+        rml:iterator "/root/iate_concept/terms/iate_term/contexts/context";
+    ];
+    rr:subjectMap [
+    	a rr:Subject ;
+    	rr:termType rr:IRI ;
+    	rr:template "http://myexample.com/iate-ld/{../../@entryID}_example{@example_num}" ;
+    	rr:class lexicog:UsageExample ;
+    ];
+    rr:predicateObjectMap [
+    	rr:predicateMap	[ rr:constant rdfs:label];
+    	rr:objectMap	[ rml:reference "example"; rr:termType rr:Literal; rr:datatype xsd:string ]
+    ];
+    rr:predicateObjectMap [
+    	rr:predicateMap	[ rr:constant dct:language];
+    	rr:objectMap	[ rml:reference "../../@language"; rr:termType rr:Literal; rr:datatype xsd:string ]
+    ];
+    rr:predicateObjectMap [
+    	rr:predicateMap	[ rr:constant dct:source];
+    	rr:objectMap	[ rr:template "http://myexample.com/iate-ld/{context_ref/@of}_source"; rr:termType rr:IRI ]
+    ];
+.
+
+
+
+<#EXAMPLEREF>
+    a rr:TriplesMap;
+    rml:logicalSource [
+    	rml:source "terminos_iate/iate_terms_results_clean/mayoria_simple_es_iate_results_clean.xml";
+    	rml:referenceFormulation ql:XPath;
+        rml:iterator "/root/iate_concept/terms/iate_term/contexts/context_example/context_ref";
+    ];
+    rr:subjectMap [
+    	a rr:Subject ;
+    	rr:termType rr:IRI ;
+    	rr:template "http://myexample.com/iate-ld/{@of}_source" ;
+    	rr:class termlex:Source ;
+    ];
+    rr:predicateObjectMap [
+    	rr:predicateMap	[ rr:constant dct:label];
+    	rr:objectMap	[ rml:reference "text()"; rr:termType rr:Literal; rr:datatype xsd:string ]
+    ];
+.
+
+
+
+<#DEFINITION>
+    a rr:TriplesMap;
+    rml:logicalSource [
+    	rml:source "terminos_iate/iate_terms_results_clean/mayoria_simple_es_iate_results_clean.xml";
+    	rml:referenceFormulation ql:XPath;
+        rml:iterator "/root/iate_concept/definitionsNotes/definition";
+    ];
+    rr:subjectMap [
+    	a rr:Subject ;
+    	rr:termType rr:IRI ;
+    	rr:template "http://myexample.com/iate-ld/concept_{../../@conceptID}_definition_{@language}" ;
+    	rr:class termlex:Definition ;
+    ];
+    rr:predicateObjectMap [
+    	rr:predicateMap	[ rr:constant rdfs:label];
+    	rr:objectMap	[ rml:reference "value"; rr:termType rr:Literal; rr:datatype xsd:string ]
+    ];
+    rr:predicateObjectMap [
+    	rr:predicateMap	[ rr:constant dct:language];
+    	rr:objectMap	[ rml:reference "@language"; rr:termType rr:Literal; rr:datatype xsd:string ]
+    ];
+    rr:predicateObjectMap [
+    	rr:predicateMap	[ rr:constant dct:source];
+    	rr:objectMap	[ rr:template "http://myexample.com/iate-ld/concept_{reference/@of}_source"; rr:termType rr:IRI ]
+    ];
+.
+
+
+
+<#DEFREF>
+    a rr:TriplesMap;
+    rml:logicalSource [
+    	rml:source "terminos_iate/iate_terms_results_clean/mayoria_simple_es_iate_results_clean.xml";
+    	rml:referenceFormulation ql:XPath;
+        rml:iterator "/root/iate_concept/definitionsNotes/definition/reference";
+    ];
+    rr:subjectMap [
+    	a rr:Subject ;
+    	rr:termType rr:IRI ;
+    	rr:template "http://myexample.com/iate-ld/concept_{@of}_source" ;
+    	rr:class termlex:Source ;
+    ];
+    rr:predicateObjectMap [
+    	rr:predicateMap	[ rr:constant rdfs:label];
+    	rr:objectMap	[ rml:reference "text()"; rr:termType rr:Literal; rr:datatype xsd:string ]
+    ];
+.
+
+
+
+<#NOTE>
+    a rr:TriplesMap;
+    rml:logicalSource [
+    	rml:source "terminos_iate/iate_terms_results_clean/mayoria_simple_es_iate_results_clean.xml";
+    	rml:referenceFormulation ql:XPath;
+        rml:iterator "/root/iate_concept/definitionsNotes/note";
+    ];
+    rr:subjectMap [
+    	a rr:Subject ;
+    	rr:termType rr:IRI ;
+    	rr:template "http://myexample.com/iate-ld/concept_{../../@conceptID}_note_{@language}" ;
+    	rr:class termlex:Note ;
+    ];
+    rr:predicateObjectMap [
+    	rr:predicateMap	[ rr:constant rdfs:label];
+    	rr:objectMap	[ rml:reference "value"; rr:termType rr:Literal; rr:datatype xsd:string ]
+    ];
+    rr:predicateObjectMap [
+    	rr:predicateMap	[ rr:constant dct:language];
+    	rr:objectMap	[ rml:reference "@language"; rr:termType rr:Literal; rr:datatype xsd:string ]
+    ];
+    rr:predicateObjectMap [
+    	rr:predicateMap	[ rr:constant dct:source];
+    	rr:objectMap	[ rr:template "http://myexample.com/iate-ld/concept_{reference/@of}_source"; rr:termType rr:IRI ]
+    ];
+.
+
+
+
+<#NOTEREF>
+    a rr:TriplesMap;
+    rml:logicalSource [
+    	rml:source "terminos_iate/iate_terms_results_clean/mayoria_simple_es_iate_results_clean.xml";
+    	rml:referenceFormulation ql:XPath;
+        rml:iterator "/root/iate_concept/definitionsNotes/note/reference";
+    ];
+    rr:subjectMap [
+    	a rr:Subject ;
+    	rr:termType rr:IRI ;
+    	rr:template "http://myexample.com/iate-ld/concept_{@of}_source" ;
+    	rr:class termlex:Source ;
+    ];
+    rr:predicateObjectMap [
+    	rr:predicateMap	[ rr:constant rdf:label];
+    	rr:objectMap	[ rml:reference "text()"; rr:termType rr:Literal; rr:datatype xsd:string ]
+    ];
+.
+

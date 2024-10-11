@@ -1,0 +1,3628 @@
+{
+ "items": [
+  {
+   "self": {
+    "href": "https://test.iate2.eu/em-api/ws/entries/8279203F4300AE7CE053C3E4A79E4140",
+    "method": "GET",
+    "accept_media_types": [
+     "application/vnd.iate.entry+json;version=1",
+     "application/vnd.iate.entry+json;version=2",
+     "application/vnd.iate.entry+json",
+     "application/json",
+     "*/*"
+    ]
+   },
+   "code": "8279203F4300AE7CE053C3E4A79E4140",
+   "language": {
+    "es": {
+     "self": {
+      "href": "https://test.iate2.eu/em-api/ws/entries/8279203F4300AE7CE053C3E4A79E4140/language-entries/es",
+      "method": "GET",
+      "accept_media_types": [
+       "application/vnd.iate.language-entry+json;version=1",
+       "application/vnd.iate.language-entry+json;version=2",
+       "application/vnd.iate.language-entry+json",
+       "application/json",
+       "*/*"
+      ]
+     },
+     "term_entries": [
+      {
+       "self": {
+        "href": "https://test.iate2.eu/em-api/ws/entries/8279203F4300AE7CE053C3E4A79E4140/language-entries/es/term-entries/99A2C9EAF68047C0AE2D2C05B47A521F",
+        "method": "GET",
+        "accept_media_types": [
+         "application/vnd.iate.term-entry+json;version=1",
+         "application/vnd.iate.term-entry+json;version=2",
+         "application/vnd.iate.term-entry+json",
+         "application/json",
+         "*/*"
+        ]
+       },
+       "code": "99A2C9EAF68047C0AE2D2C05B47A521F",
+       "id": 2580694,
+       "type": {
+        "self": {
+         "href": "https://test.iate2.eu/em-api/ws/inventories/2254",
+         "method": "GET",
+         "accept_media_types": [
+          "application/json"
+         ]
+        },
+        "code": 4,
+        "name": "term"
+       },
+       "term_value": "mayoría simple",
+       "term_references": [
+        {
+         "text": "Tratado de Funcionamiento de la Unión Europea, art. 238 <a href=\"http://eur-lex.europa.eu/legal-content/ES/TXT/?uri=uriserv:OJ.C_.2016.202.01.0001.01.SPA&amp;toc=OJ:C:2016:202:TOC\" target=\"_blank\">http://eur-lex.europa.eu/legal-content/ES/TXT/?uri=uriserv:OJ.C_.2016.202.01.0001.01.SPA&amp;toc=OJ:C:2016:202:TOC</a> [4.4.2017]",
+         "metadata": {
+          "confidentiality": {
+           "self": {
+            "href": "https://test.iate2.eu/em-api/ws/inventories/2253",
+            "method": "GET",
+            "accept_media_types": [
+             "application/json"
+            ]
+           },
+           "code": 0,
+           "name": "public"
+          }
+         },
+         "tooltip_text": "Tratado de Funcionamiento de la Unión Europea...",
+         "code": "77AA0F7726AE446FA83CAFB1773323D0",
+         "display_order": 0
+        }
+       ],
+       "metadata": {
+        "creation": {
+         "institution": {
+          "name": "Consilium",
+          "self": {
+           "href": "https://test.iate2.eu/uac-api/ws/institutions/8BA9662AF9D04F069072CB5230E3AFA0",
+           "method": "GET",
+           "accept_media_types": [
+            "application/json"
+           ]
+          },
+          "code": "8BA9662AF9D04F069072CB5230E3AFA0"
+         },
+         "division": {
+          "name": "ES",
+          "self": {
+           "href": "https://test.iate2.eu/uac-api/ws/divisions/11DCC2F32F154C15968D91650305D6AB",
+           "method": "GET",
+           "accept_media_types": [
+            "application/json"
+           ]
+          },
+          "code": "11DCC2F32F154C15968D91650305D6AB"
+         },
+         "timestamp": "2006-03-20T10:49:49.001Z"
+        },
+        "modification": {
+         "institution": {
+          "name": "Consilium",
+          "self": {
+           "href": "https://test.iate2.eu/uac-api/ws/institutions/8BA9662AF9D04F069072CB5230E3AFA0",
+           "method": "GET",
+           "accept_media_types": [
+            "application/json"
+           ]
+          },
+          "code": "8BA9662AF9D04F069072CB5230E3AFA0"
+         },
+         "division": {
+          "name": "ES",
+          "self": {
+           "href": "https://test.iate2.eu/uac-api/ws/divisions/11DCC2F32F154C15968D91650305D6AB",
+           "method": "GET",
+           "accept_media_types": [
+            "application/json"
+           ]
+          },
+          "code": "11DCC2F32F154C15968D91650305D6AB"
+         },
+         "timestamp": "2017-04-04T12:28:13.001Z"
+        },
+        "institution": {
+         "name": "Consilium",
+         "self": {
+          "href": "https://test.iate2.eu/uac-api/ws/institutions/8BA9662AF9D04F069072CB5230E3AFA0",
+          "method": "GET",
+          "accept_media_types": [
+           "application/json"
+          ]
+         },
+         "code": "8BA9662AF9D04F069072CB5230E3AFA0"
+        },
+        "owned_by_creator": true,
+        "validation_metadata": {
+         "institution": {
+          "name": "Consilium",
+          "self": {
+           "href": "https://test.iate2.eu/uac-api/ws/institutions/8BA9662AF9D04F069072CB5230E3AFA0",
+           "method": "GET",
+           "accept_media_types": [
+            "application/json"
+           ]
+          },
+          "code": "8BA9662AF9D04F069072CB5230E3AFA0"
+         },
+         "timestamp": "2017-04-03T22:00:00.001Z"
+        },
+        "display_order": 0,
+        "confidentiality": {
+         "self": {
+          "href": "https://test.iate2.eu/em-api/ws/inventories/2253",
+          "method": "GET",
+          "accept_media_types": [
+           "application/json"
+          ]
+         },
+         "code": 0,
+         "name": "public"
+        },
+        "validation": {
+         "self": {
+          "href": "https://test.iate2.eu/em-api/ws/inventories/1949",
+          "method": "GET",
+          "accept_media_types": [
+           "application/json"
+          ]
+         },
+         "code": 1,
+         "name": "Valid"
+        },
+        "reliability": {
+         "self": {
+          "href": "https://test.iate2.eu/em-api/ws/inventories/1957",
+          "method": "GET",
+          "accept_media_types": [
+           "application/json"
+          ]
+         },
+         "code": 4,
+         "name": "very reliable"
+        }
+       },
+       "highlighted_term_value": "<mark>mayoría simple</mark>",
+       "update": {
+        "href": "https://test.iate2.eu/em-api/ws/entries/8279203F4300AE7CE053C3E4A79E4140/language-entries/es/term-entries/99A2C9EAF68047C0AE2D2C05B47A521F",
+        "method": "PATCH",
+        "content_media_types": [
+         "application/vnd.iate.json-patch+json;version=1",
+         "application/vnd.iate.json-patch+json",
+         "application/json",
+         "*/*"
+        ],
+        "accept_media_types": [
+         "application/vnd.iate.entry+json;version=1",
+         "application/vnd.iate.entry+json;version=2",
+         "application/vnd.iate.entry+json",
+         "application/json",
+         "*/*",
+         "application/vnd.iate.language-entry+json;version=1",
+         "application/vnd.iate.language-entry+json;version=2",
+         "application/vnd.iate.language-entry+json",
+         "application/vnd.iate.term-entry+json;version=1",
+         "application/vnd.iate.term-entry+json;version=2",
+         "application/vnd.iate.term-entry+json"
+        ]
+       },
+       "delete": {
+        "href": "https://test.iate2.eu/em-api/ws/entries/8279203F4300AE7CE053C3E4A79E4140/language-entries/es/term-entries/99A2C9EAF68047C0AE2D2C05B47A521F",
+        "method": "DELETE",
+        "accept_media_types": [
+         "application/vnd.iate.entry+json;version=1",
+         "application/vnd.iate.entry+json;version=2",
+         "application/vnd.iate.entry+json",
+         "application/json",
+         "*/*",
+         "application/vnd.iate.language-entry+json;version=1",
+         "application/vnd.iate.language-entry+json;version=2",
+         "application/vnd.iate.language-entry+json",
+         "application/vnd.iate.term-entry+json;version=1",
+         "application/vnd.iate.term-entry+json;version=2",
+         "application/vnd.iate.term-entry+json"
+        ]
+       }
+      },
+      {
+       "self": {
+        "href": "https://test.iate2.eu/em-api/ws/entries/8279203F4300AE7CE053C3E4A79E4140/language-entries/es/term-entries/79D6690D54864F78BCFF30969FEFF602",
+        "method": "GET",
+        "accept_media_types": [
+         "application/vnd.iate.term-entry+json;version=1",
+         "application/vnd.iate.term-entry+json;version=2",
+         "application/vnd.iate.term-entry+json",
+         "application/json",
+         "*/*"
+        ]
+       },
+       "code": "79D6690D54864F78BCFF30969FEFF602",
+       "id": 2580695,
+       "type": {
+        "self": {
+         "href": "https://test.iate2.eu/em-api/ws/inventories/2254",
+         "method": "GET",
+         "accept_media_types": [
+          "application/json"
+         ]
+        },
+        "code": 4,
+        "name": "term"
+       },
+       "term_value": "mayoría relativa",
+       "term_references": [
+        {
+         "text": "<p>Reglamento del Parlamento Europeo (ed. provisional de enero de 2017), art. 17.1 <a href=\"http://www.europarl.europa.eu/sides/getLastRules.do;jsessionid=520DEC7042C8D73366C233E820C64BE5.node1?language=ES&amp;reference=TOC\" target=\"_blank\">http://www.europarl.europa.eu/sides/getLastRules.do;jsessionid=520DEC7042C8D73366C233E820C64BE5.node1?language=ES&amp;reference=TOC</a> [4.4.2017]</p>Real Academia Española y Asociación de Academias de la Lengua Española, Diccionario de la lengua española, Edición del Tricentenario, voz «mayoría» <a href=\"http://dle.rae.es/?id=OgHvXOA\" target=\"_blank\">http://dle.rae.es/?id=OgHvXOA</a> [4.4.2017]",
+         "metadata": {
+          "confidentiality": {
+           "self": {
+            "href": "https://test.iate2.eu/em-api/ws/inventories/2253",
+            "method": "GET",
+            "accept_media_types": [
+             "application/json"
+            ]
+           },
+           "code": 0,
+           "name": "public"
+          }
+         },
+         "tooltip_text": "Reglamento del Parlamento Europeo (ed. provis...",
+         "code": "66192563E4414E40903B5FAEFE398940",
+         "display_order": 0
+        }
+       ],
+       "metadata": {
+        "creation": {
+         "institution": {
+          "name": "Consilium",
+          "self": {
+           "href": "https://test.iate2.eu/uac-api/ws/institutions/8BA9662AF9D04F069072CB5230E3AFA0",
+           "method": "GET",
+           "accept_media_types": [
+            "application/json"
+           ]
+          },
+          "code": "8BA9662AF9D04F069072CB5230E3AFA0"
+         },
+         "division": {
+          "name": "ES",
+          "self": {
+           "href": "https://test.iate2.eu/uac-api/ws/divisions/11DCC2F32F154C15968D91650305D6AB",
+           "method": "GET",
+           "accept_media_types": [
+            "application/json"
+           ]
+          },
+          "code": "11DCC2F32F154C15968D91650305D6AB"
+         },
+         "timestamp": "2006-03-20T10:59:29.001Z"
+        },
+        "modification": {
+         "institution": {
+          "name": "Consilium",
+          "self": {
+           "href": "https://test.iate2.eu/uac-api/ws/institutions/8BA9662AF9D04F069072CB5230E3AFA0",
+           "method": "GET",
+           "accept_media_types": [
+            "application/json"
+           ]
+          },
+          "code": "8BA9662AF9D04F069072CB5230E3AFA0"
+         },
+         "division": {
+          "name": "ES",
+          "self": {
+           "href": "https://test.iate2.eu/uac-api/ws/divisions/11DCC2F32F154C15968D91650305D6AB",
+           "method": "GET",
+           "accept_media_types": [
+            "application/json"
+           ]
+          },
+          "code": "11DCC2F32F154C15968D91650305D6AB"
+         },
+         "timestamp": "2017-04-04T12:51:04.001Z"
+        },
+        "institution": {
+         "name": "Consilium",
+         "self": {
+          "href": "https://test.iate2.eu/uac-api/ws/institutions/8BA9662AF9D04F069072CB5230E3AFA0",
+          "method": "GET",
+          "accept_media_types": [
+           "application/json"
+          ]
+         },
+         "code": "8BA9662AF9D04F069072CB5230E3AFA0"
+        },
+        "owned_by_creator": true,
+        "validation_metadata": {
+         "institution": {
+          "name": "Consilium",
+          "self": {
+           "href": "https://test.iate2.eu/uac-api/ws/institutions/8BA9662AF9D04F069072CB5230E3AFA0",
+           "method": "GET",
+           "accept_media_types": [
+            "application/json"
+           ]
+          },
+          "code": "8BA9662AF9D04F069072CB5230E3AFA0"
+         },
+         "timestamp": "2017-04-03T22:00:00.001Z"
+        },
+        "display_order": 1,
+        "confidentiality": {
+         "self": {
+          "href": "https://test.iate2.eu/em-api/ws/inventories/2253",
+          "method": "GET",
+          "accept_media_types": [
+           "application/json"
+          ]
+         },
+         "code": 0,
+         "name": "public"
+        },
+        "validation": {
+         "self": {
+          "href": "https://test.iate2.eu/em-api/ws/inventories/1949",
+          "method": "GET",
+          "accept_media_types": [
+           "application/json"
+          ]
+         },
+         "code": 1,
+         "name": "Valid"
+        },
+        "reliability": {
+         "self": {
+          "href": "https://test.iate2.eu/em-api/ws/inventories/1957",
+          "method": "GET",
+          "accept_media_types": [
+           "application/json"
+          ]
+         },
+         "code": 4,
+         "name": "very reliable"
+        }
+       },
+       "update": {
+        "href": "https://test.iate2.eu/em-api/ws/entries/8279203F4300AE7CE053C3E4A79E4140/language-entries/es/term-entries/79D6690D54864F78BCFF30969FEFF602",
+        "method": "PATCH",
+        "content_media_types": [
+         "application/vnd.iate.json-patch+json;version=1",
+         "application/vnd.iate.json-patch+json",
+         "application/json",
+         "*/*"
+        ],
+        "accept_media_types": [
+         "application/vnd.iate.entry+json;version=1",
+         "application/vnd.iate.entry+json;version=2",
+         "application/vnd.iate.entry+json",
+         "application/json",
+         "*/*",
+         "application/vnd.iate.language-entry+json;version=1",
+         "application/vnd.iate.language-entry+json;version=2",
+         "application/vnd.iate.language-entry+json",
+         "application/vnd.iate.term-entry+json;version=1",
+         "application/vnd.iate.term-entry+json;version=2",
+         "application/vnd.iate.term-entry+json"
+        ]
+       },
+       "delete": {
+        "href": "https://test.iate2.eu/em-api/ws/entries/8279203F4300AE7CE053C3E4A79E4140/language-entries/es/term-entries/79D6690D54864F78BCFF30969FEFF602",
+        "method": "DELETE",
+        "accept_media_types": [
+         "application/vnd.iate.entry+json;version=1",
+         "application/vnd.iate.entry+json;version=2",
+         "application/vnd.iate.entry+json",
+         "application/json",
+         "*/*",
+         "application/vnd.iate.language-entry+json;version=1",
+         "application/vnd.iate.language-entry+json;version=2",
+         "application/vnd.iate.language-entry+json",
+         "application/vnd.iate.term-entry+json;version=1",
+         "application/vnd.iate.term-entry+json;version=2",
+         "application/vnd.iate.term-entry+json"
+        ]
+       }
+      }
+     ],
+     "definition": {
+      "tooltip_value": "Conjunto uniforme de pareceres o de votos que...",
+      "value": "Conjunto uniforme de pareceres o de votos que predomina en una discusión o votación, sin llegar a más de la mitad de los emitidos.",
+      "references": [
+       {
+        "text": "Cabanellas, G.: Diccionario Enciclopédico de Derecho Usual, Heliasta, Buenos Aires, 1981",
+        "metadata": {
+         "confidentiality": {
+          "self": {
+           "href": "https://test.iate2.eu/em-api/ws/inventories/2253",
+           "method": "GET",
+           "accept_media_types": [
+            "application/json"
+           ]
+          },
+          "code": 0,
+          "name": "public"
+         }
+        },
+        "tooltip_text": "Cabanellas, G.: Diccionario Enciclopédico de...",
+        "code": "EB1BE067309C4ECCB6FC0367C6D72185",
+        "display_order": 0
+       }
+      ]
+     },
+     "note": {
+      "tooltip_value": "Véanse asimismo:- «mayoría» IATE:2224299 - «m...",
+      "metadata": {
+       "confidentiality": {
+        "self": {
+         "href": "https://test.iate2.eu/em-api/ws/inventories/2253",
+         "method": "GET",
+         "accept_media_types": [
+          "application/json"
+         ]
+        },
+        "code": 0,
+        "name": "public"
+       }
+      },
+      "value": "Véanse asimismo:<p>- «mayoría» <a href=\"/entry/result/2224299/all\" id=\"ENTRY_TO_ENTRY_CONVERTER\" target=\"_blank\">IATE:2224299</a> </p><p>- «mayoría absoluta» <a href=\"/entry/result/1133882/all\" id=\"ENTRY_TO_ENTRY_CONVERTER\" target=\"_blank\">IATE:1133882</a> </p><p>- «mayoría cualificada» <a href=\"/entry/result/773005/all\" id=\"ENTRY_TO_ENTRY_CONVERTER\" target=\"_blank\">IATE:773005</a> </p><p>- «mayoría política» <a href=\"/entry/result/2224778/all\" id=\"ENTRY_TO_ENTRY_CONVERTER\" target=\"_blank\">IATE:2224778</a> </p><p>- «mayoría especial» <a href=\"/entry/result/1880882/all\" id=\"ENTRY_TO_ENTRY_CONVERTER\" target=\"_blank\">IATE:1880882</a> </p><p>- «mayoría inversa» <a href=\"/entry/result/3527705/all\" id=\"ENTRY_TO_ENTRY_CONVERTER\" target=\"_blank\">IATE:3527705</a> </p>"
+     },
+     "metadata": {
+      "creation": {
+       "institution": {
+        "name": "Consilium",
+        "self": {
+         "href": "https://test.iate2.eu/uac-api/ws/institutions/8BA9662AF9D04F069072CB5230E3AFA0",
+         "method": "GET",
+         "accept_media_types": [
+          "application/json"
+         ]
+        },
+        "code": "8BA9662AF9D04F069072CB5230E3AFA0"
+       },
+       "division": {
+        "name": "ES",
+        "self": {
+         "href": "https://test.iate2.eu/uac-api/ws/divisions/11DCC2F32F154C15968D91650305D6AB",
+         "method": "GET",
+         "accept_media_types": [
+          "application/json"
+         ]
+        },
+        "code": "11DCC2F32F154C15968D91650305D6AB"
+       },
+       "timestamp": "2006-03-20T10:44:30.001Z"
+      },
+      "modification": {
+       "institution": {
+        "name": "Consilium",
+        "self": {
+         "href": "https://test.iate2.eu/uac-api/ws/institutions/8BA9662AF9D04F069072CB5230E3AFA0",
+         "method": "GET",
+         "accept_media_types": [
+          "application/json"
+         ]
+        },
+        "code": "8BA9662AF9D04F069072CB5230E3AFA0"
+       },
+       "division": {
+        "name": "ES",
+        "self": {
+         "href": "https://test.iate2.eu/uac-api/ws/divisions/11DCC2F32F154C15968D91650305D6AB",
+         "method": "GET",
+         "accept_media_types": [
+          "application/json"
+         ]
+        },
+        "code": "11DCC2F32F154C15968D91650305D6AB"
+       },
+       "timestamp": "2017-04-04T12:24:25.001Z"
+      },
+      "institution": {
+       "name": "Consilium",
+       "self": {
+        "href": "https://test.iate2.eu/uac-api/ws/institutions/8BA9662AF9D04F069072CB5230E3AFA0",
+        "method": "GET",
+        "accept_media_types": [
+         "application/json"
+        ]
+       },
+       "code": "8BA9662AF9D04F069072CB5230E3AFA0"
+      },
+      "owned_by_creator": true,
+      "validation_metadata": {
+       "institution": {
+        "name": "Consilium",
+        "self": {
+         "href": "https://test.iate2.eu/uac-api/ws/institutions/8BA9662AF9D04F069072CB5230E3AFA0",
+         "method": "GET",
+         "accept_media_types": [
+          "application/json"
+         ]
+        },
+        "code": "8BA9662AF9D04F069072CB5230E3AFA0"
+       },
+       "timestamp": "2017-04-04T12:24:46.001Z"
+      },
+      "confidentiality": {
+       "self": {
+        "href": "https://test.iate2.eu/em-api/ws/inventories/2253",
+        "method": "GET",
+        "accept_media_types": [
+         "application/json"
+        ]
+       },
+       "code": 0,
+       "name": "public"
+      },
+      "validation": {
+       "self": {
+        "href": "https://test.iate2.eu/em-api/ws/inventories/1949",
+        "method": "GET",
+        "accept_media_types": [
+         "application/json"
+        ]
+       },
+       "code": 1,
+       "name": "Valid"
+      }
+     },
+     "update": {
+      "href": "https://test.iate2.eu/em-api/ws/entries/8279203F4300AE7CE053C3E4A79E4140/language-entries/es",
+      "method": "PATCH",
+      "content_media_types": [
+       "application/vnd.iate.json-patch+json;version=1",
+       "application/vnd.iate.json-patch+json",
+       "application/json",
+       "*/*"
+      ],
+      "accept_media_types": [
+       "application/vnd.iate.entry+json;version=1",
+       "application/vnd.iate.entry+json;version=2",
+       "application/vnd.iate.entry+json",
+       "application/json",
+       "*/*",
+       "application/vnd.iate.language-entry+json;version=1",
+       "application/vnd.iate.language-entry+json;version=2",
+       "application/vnd.iate.language-entry+json"
+      ]
+     },
+     "delete": {
+      "href": "https://test.iate2.eu/em-api/ws/entries/8279203F4300AE7CE053C3E4A79E4140/language-entries/es",
+      "method": "DELETE",
+      "accept_media_types": [
+       "application/vnd.iate.entry+json;version=1",
+       "application/vnd.iate.entry+json;version=2",
+       "application/vnd.iate.entry+json",
+       "application/json",
+       "*/*",
+       "application/vnd.iate.language-entry+json;version=1",
+       "application/vnd.iate.language-entry+json;version=2",
+       "application/vnd.iate.language-entry+json"
+      ]
+     },
+     "create_term_entry": {
+      "href": "https://test.iate2.eu/em-api/ws/entries/8279203F4300AE7CE053C3E4A79E4140/language-entries/es/term-entries",
+      "method": "POST",
+      "content_media_types": [
+       "application/vnd.iate.term-entry-create+json;version=1",
+       "application/vnd.iate.term-entry-create+json",
+       "application/json",
+       "*/*"
+      ],
+      "accept_media_types": [
+       "application/vnd.iate.entry+json;version=1",
+       "application/vnd.iate.entry+json;version=2",
+       "application/vnd.iate.entry+json",
+       "application/json",
+       "*/*",
+       "application/vnd.iate.language-entry+json;version=1",
+       "application/vnd.iate.language-entry+json;version=2",
+       "application/vnd.iate.language-entry+json",
+       "application/vnd.iate.term-entry+json;version=1",
+       "application/vnd.iate.term-entry+json;version=2",
+       "application/vnd.iate.term-entry+json"
+      ]
+     }
+    },
+    "en": {
+     "self": {
+      "href": "https://test.iate2.eu/em-api/ws/entries/8279203F4300AE7CE053C3E4A79E4140/language-entries/en",
+      "method": "GET",
+      "accept_media_types": [
+       "application/vnd.iate.language-entry+json;version=1",
+       "application/vnd.iate.language-entry+json;version=2",
+       "application/vnd.iate.language-entry+json",
+       "application/json",
+       "*/*"
+      ]
+     },
+     "term_entries": [
+      {
+       "self": {
+        "href": "https://test.iate2.eu/em-api/ws/entries/8279203F4300AE7CE053C3E4A79E4140/language-entries/en/term-entries/22249FB38A3349DEB500BB257E6DB218",
+        "method": "GET",
+        "accept_media_types": [
+         "application/vnd.iate.term-entry+json;version=1",
+         "application/vnd.iate.term-entry+json;version=2",
+         "application/vnd.iate.term-entry+json",
+         "application/json",
+         "*/*"
+        ]
+       },
+       "code": "22249FB38A3349DEB500BB257E6DB218",
+       "id": 2580707,
+       "type": {
+        "self": {
+         "href": "https://test.iate2.eu/em-api/ws/inventories/2254",
+         "method": "GET",
+         "accept_media_types": [
+          "application/json"
+         ]
+        },
+        "code": 4,
+        "name": "term"
+       },
+       "term_value": "simple majority",
+       "term_references": [
+        {
+         "text": "Consolidated version of the Treaty on the Functioning of the European Union, Art. 238 (ex Article 205(1) and (2) <a href=\"http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:12008E238\" target=\"_blank\">CELEX:12008E238</a>",
+         "metadata": {
+          "confidentiality": {
+           "self": {
+            "href": "https://test.iate2.eu/em-api/ws/inventories/2253",
+            "method": "GET",
+            "accept_media_types": [
+             "application/json"
+            ]
+           },
+           "code": 0,
+           "name": "public"
+          }
+         },
+         "tooltip_text": "Consolidated version of the Treaty on the Fun...",
+         "code": "22830D67337B4602ADAB1E49470169CC",
+         "display_order": 0
+        }
+       ],
+       "contexts": [
+        {
+         "code": "5F69C88D3DAD42898C9B55715DD816EB",
+         "context": "\"This means that a decision is taken when there are more votes for than against. Each Member of the Council has one vote. The simple majority is applicable when the Treaty does not provide otherwise (Article 205(1) EC). It is thus the decision-making process found in ordinary law. In practice it applies to only a small number of decisions: internal Council rules, organisation of the Council secretariat, and the rules governing committees provided for in the Treaty.\"",
+         "tooltip_context": "\"This means that a decision is taken when the...",
+         "reference": {
+          "text": "How the European Union Works <a href=\"http://www.europarl.europa.eu/parliament/expert/displayFtu.do?language=en&amp;id=74&amp;ftuId=FTU_1.3.6.html\" target=\"_blank\">http://www.europarl.europa.eu/parliament/expert/displayFtu.do?language=en&amp;id=74&amp;ftuId=FTU_1.3.6.html</a> (27.11.2009)",
+          "metadata": {
+           "confidentiality": {
+            "self": {
+             "href": "https://test.iate2.eu/em-api/ws/inventories/2253",
+             "method": "GET",
+             "accept_media_types": [
+              "application/json"
+             ]
+            },
+            "code": 0,
+            "name": "public"
+           }
+          },
+          "tooltip_text": "How the European Union Works http://www.europ..."
+         },
+         "display_order": -1,
+         "highlighted_context": null
+        }
+       ],
+       "language_usage": {
+        "metadata": {
+         "confidentiality": {
+          "self": {
+           "href": "https://test.iate2.eu/em-api/ws/inventories/2253",
+           "method": "GET",
+           "accept_media_types": [
+            "application/json"
+           ]
+          },
+          "code": 0,
+          "name": "public"
+         }
+        },
+        "value": "by a simple majority"
+       },
+       "metadata": {
+        "creation": {
+         "institution": {
+          "name": "Consilium",
+          "self": {
+           "href": "https://test.iate2.eu/uac-api/ws/institutions/8BA9662AF9D04F069072CB5230E3AFA0",
+           "method": "GET",
+           "accept_media_types": [
+            "application/json"
+           ]
+          },
+          "code": "8BA9662AF9D04F069072CB5230E3AFA0"
+         },
+         "division": {
+          "name": "EN",
+          "self": {
+           "href": "https://test.iate2.eu/uac-api/ws/divisions/FBD65C83BA3B4149B7BA75D5BA7014DB",
+           "method": "GET",
+           "accept_media_types": [
+            "application/json"
+           ]
+          },
+          "code": "FBD65C83BA3B4149B7BA75D5BA7014DB"
+         },
+         "timestamp": "1993-11-17T23:00:00.001Z"
+        },
+        "modification": {
+         "institution": {
+          "name": "Consilium",
+          "self": {
+           "href": "https://test.iate2.eu/uac-api/ws/institutions/8BA9662AF9D04F069072CB5230E3AFA0",
+           "method": "GET",
+           "accept_media_types": [
+            "application/json"
+           ]
+          },
+          "code": "8BA9662AF9D04F069072CB5230E3AFA0"
+         },
+         "division": {
+          "name": "EN",
+          "self": {
+           "href": "https://test.iate2.eu/uac-api/ws/divisions/FBD65C83BA3B4149B7BA75D5BA7014DB",
+           "method": "GET",
+           "accept_media_types": [
+            "application/json"
+           ]
+          },
+          "code": "FBD65C83BA3B4149B7BA75D5BA7014DB"
+         },
+         "timestamp": "2017-10-26T08:12:42.001Z"
+        },
+        "institution": {
+         "name": "Consilium",
+         "self": {
+          "href": "https://test.iate2.eu/uac-api/ws/institutions/8BA9662AF9D04F069072CB5230E3AFA0",
+          "method": "GET",
+          "accept_media_types": [
+           "application/json"
+          ]
+         },
+         "code": "8BA9662AF9D04F069072CB5230E3AFA0"
+        },
+        "owned_by_creator": true,
+        "validation_metadata": {
+         "institution": {
+          "name": "Consilium",
+          "self": {
+           "href": "https://test.iate2.eu/uac-api/ws/institutions/8BA9662AF9D04F069072CB5230E3AFA0",
+           "method": "GET",
+           "accept_media_types": [
+            "application/json"
+           ]
+          },
+          "code": "8BA9662AF9D04F069072CB5230E3AFA0"
+         },
+         "division": {
+          "name": "EN",
+          "self": {
+           "href": "https://test.iate2.eu/uac-api/ws/divisions/FBD65C83BA3B4149B7BA75D5BA7014DB",
+           "method": "GET",
+           "accept_media_types": [
+            "application/json"
+           ]
+          },
+          "code": "FBD65C83BA3B4149B7BA75D5BA7014DB"
+         },
+         "timestamp": "2017-10-26T08:12:42.001Z"
+        },
+        "display_order": 0,
+        "confidentiality": {
+         "self": {
+          "href": "https://test.iate2.eu/em-api/ws/inventories/2253",
+          "method": "GET",
+          "accept_media_types": [
+           "application/json"
+          ]
+         },
+         "code": 0,
+         "name": "public"
+        },
+        "validation": {
+         "self": {
+          "href": "https://test.iate2.eu/em-api/ws/inventories/1949",
+          "method": "GET",
+          "accept_media_types": [
+           "application/json"
+          ]
+         },
+         "code": 1,
+         "name": "Valid"
+        },
+        "reliability": {
+         "self": {
+          "href": "https://test.iate2.eu/em-api/ws/inventories/1957",
+          "method": "GET",
+          "accept_media_types": [
+           "application/json"
+          ]
+         },
+         "code": 4,
+         "name": "very reliable"
+        }
+       },
+       "initial_source_id": "TIS",
+       "legacy_id": "A215673",
+       "update": {
+        "href": "https://test.iate2.eu/em-api/ws/entries/8279203F4300AE7CE053C3E4A79E4140/language-entries/en/term-entries/22249FB38A3349DEB500BB257E6DB218",
+        "method": "PATCH",
+        "content_media_types": [
+         "application/vnd.iate.json-patch+json;version=1",
+         "application/vnd.iate.json-patch+json",
+         "application/json",
+         "*/*"
+        ],
+        "accept_media_types": [
+         "application/vnd.iate.entry+json;version=1",
+         "application/vnd.iate.entry+json;version=2",
+         "application/vnd.iate.entry+json",
+         "application/json",
+         "*/*",
+         "application/vnd.iate.language-entry+json;version=1",
+         "application/vnd.iate.language-entry+json;version=2",
+         "application/vnd.iate.language-entry+json",
+         "application/vnd.iate.term-entry+json;version=1",
+         "application/vnd.iate.term-entry+json;version=2",
+         "application/vnd.iate.term-entry+json"
+        ]
+       },
+       "delete": {
+        "href": "https://test.iate2.eu/em-api/ws/entries/8279203F4300AE7CE053C3E4A79E4140/language-entries/en/term-entries/22249FB38A3349DEB500BB257E6DB218",
+        "method": "DELETE",
+        "accept_media_types": [
+         "application/vnd.iate.entry+json;version=1",
+         "application/vnd.iate.entry+json;version=2",
+         "application/vnd.iate.entry+json",
+         "application/json",
+         "*/*",
+         "application/vnd.iate.language-entry+json;version=1",
+         "application/vnd.iate.language-entry+json;version=2",
+         "application/vnd.iate.language-entry+json",
+         "application/vnd.iate.term-entry+json;version=1",
+         "application/vnd.iate.term-entry+json;version=2",
+         "application/vnd.iate.term-entry+json"
+        ]
+       }
+      },
+      {
+       "self": {
+        "href": "https://test.iate2.eu/em-api/ws/entries/8279203F4300AE7CE053C3E4A79E4140/language-entries/en/term-entries/D8F0CB70F7C3434EB99EC046E2A00CD0",
+        "method": "GET",
+        "accept_media_types": [
+         "application/vnd.iate.term-entry+json;version=1",
+         "application/vnd.iate.term-entry+json;version=2",
+         "application/vnd.iate.term-entry+json",
+         "application/json",
+         "*/*"
+        ]
+       },
+       "code": "D8F0CB70F7C3434EB99EC046E2A00CD0",
+       "id": 2580708,
+       "type": {
+        "self": {
+         "href": "https://test.iate2.eu/em-api/ws/inventories/1951",
+         "method": "GET",
+         "accept_media_types": [
+          "application/json"
+         ]
+        },
+        "code": 5,
+        "name": "lookup form"
+       },
+       "term_value": "relative majority",
+       "metadata": {
+        "creation": {
+         "institution": {
+          "name": "Consilium",
+          "self": {
+           "href": "https://test.iate2.eu/uac-api/ws/institutions/8BA9662AF9D04F069072CB5230E3AFA0",
+           "method": "GET",
+           "accept_media_types": [
+            "application/json"
+           ]
+          },
+          "code": "8BA9662AF9D04F069072CB5230E3AFA0"
+         },
+         "division": {
+          "name": "EN",
+          "self": {
+           "href": "https://test.iate2.eu/uac-api/ws/divisions/FBD65C83BA3B4149B7BA75D5BA7014DB",
+           "method": "GET",
+           "accept_media_types": [
+            "application/json"
+           ]
+          },
+          "code": "FBD65C83BA3B4149B7BA75D5BA7014DB"
+         },
+         "timestamp": "1993-11-17T23:00:00.001Z"
+        },
+        "modification": {
+         "institution": {
+          "name": "Consilium",
+          "self": {
+           "href": "https://test.iate2.eu/uac-api/ws/institutions/8BA9662AF9D04F069072CB5230E3AFA0",
+           "method": "GET",
+           "accept_media_types": [
+            "application/json"
+           ]
+          },
+          "code": "8BA9662AF9D04F069072CB5230E3AFA0"
+         },
+         "division": {
+          "name": "EN",
+          "self": {
+           "href": "https://test.iate2.eu/uac-api/ws/divisions/FBD65C83BA3B4149B7BA75D5BA7014DB",
+           "method": "GET",
+           "accept_media_types": [
+            "application/json"
+           ]
+          },
+          "code": "FBD65C83BA3B4149B7BA75D5BA7014DB"
+         },
+         "timestamp": "2017-10-26T08:12:42.001Z"
+        },
+        "institution": {
+         "name": "Consilium",
+         "self": {
+          "href": "https://test.iate2.eu/uac-api/ws/institutions/8BA9662AF9D04F069072CB5230E3AFA0",
+          "method": "GET",
+          "accept_media_types": [
+           "application/json"
+          ]
+         },
+         "code": "8BA9662AF9D04F069072CB5230E3AFA0"
+        },
+        "owned_by_creator": true,
+        "validation_metadata": {
+         "institution": {
+          "name": "Consilium",
+          "self": {
+           "href": "https://test.iate2.eu/uac-api/ws/institutions/8BA9662AF9D04F069072CB5230E3AFA0",
+           "method": "GET",
+           "accept_media_types": [
+            "application/json"
+           ]
+          },
+          "code": "8BA9662AF9D04F069072CB5230E3AFA0"
+         },
+         "division": {
+          "name": "EN",
+          "self": {
+           "href": "https://test.iate2.eu/uac-api/ws/divisions/FBD65C83BA3B4149B7BA75D5BA7014DB",
+           "method": "GET",
+           "accept_media_types": [
+            "application/json"
+           ]
+          },
+          "code": "FBD65C83BA3B4149B7BA75D5BA7014DB"
+         },
+         "timestamp": "2017-10-26T08:12:42.001Z"
+        },
+        "display_order": 1,
+        "confidentiality": {
+         "self": {
+          "href": "https://test.iate2.eu/em-api/ws/inventories/2253",
+          "method": "GET",
+          "accept_media_types": [
+           "application/json"
+          ]
+         },
+         "code": 0,
+         "name": "public"
+        },
+        "validation": {
+         "self": {
+          "href": "https://test.iate2.eu/em-api/ws/inventories/1949",
+          "method": "GET",
+          "accept_media_types": [
+           "application/json"
+          ]
+         },
+         "code": 1,
+         "name": "Valid"
+        },
+        "reliability": {
+         "self": {
+          "href": "https://test.iate2.eu/em-api/ws/inventories/1902",
+          "method": "GET",
+          "accept_media_types": [
+           "application/json"
+          ]
+         },
+         "code": 1,
+         "name": "reliability not verified"
+        }
+       },
+       "update": {
+        "href": "https://test.iate2.eu/em-api/ws/entries/8279203F4300AE7CE053C3E4A79E4140/language-entries/en/term-entries/D8F0CB70F7C3434EB99EC046E2A00CD0",
+        "method": "PATCH",
+        "content_media_types": [
+         "application/vnd.iate.json-patch+json;version=1",
+         "application/vnd.iate.json-patch+json",
+         "application/json",
+         "*/*"
+        ],
+        "accept_media_types": [
+         "application/vnd.iate.entry+json;version=1",
+         "application/vnd.iate.entry+json;version=2",
+         "application/vnd.iate.entry+json",
+         "application/json",
+         "*/*",
+         "application/vnd.iate.language-entry+json;version=1",
+         "application/vnd.iate.language-entry+json;version=2",
+         "application/vnd.iate.language-entry+json",
+         "application/vnd.iate.term-entry+json;version=1",
+         "application/vnd.iate.term-entry+json;version=2",
+         "application/vnd.iate.term-entry+json"
+        ]
+       },
+       "delete": {
+        "href": "https://test.iate2.eu/em-api/ws/entries/8279203F4300AE7CE053C3E4A79E4140/language-entries/en/term-entries/D8F0CB70F7C3434EB99EC046E2A00CD0",
+        "method": "DELETE",
+        "accept_media_types": [
+         "application/vnd.iate.entry+json;version=1",
+         "application/vnd.iate.entry+json;version=2",
+         "application/vnd.iate.entry+json",
+         "application/json",
+         "*/*",
+         "application/vnd.iate.language-entry+json;version=1",
+         "application/vnd.iate.language-entry+json;version=2",
+         "application/vnd.iate.language-entry+json",
+         "application/vnd.iate.term-entry+json;version=1",
+         "application/vnd.iate.term-entry+json;version=2",
+         "application/vnd.iate.term-entry+json"
+        ]
+       }
+      }
+     ],
+     "definition": {
+      "tooltip_value": "Greater number of votes cast on a piece of le...",
+      "value": "Greater number of votes cast on a piece of legislation, enough to ensure it is adopted when an absolute or qualified majority is not required",
+      "references": [
+       {
+        "text": "Council-EN",
+        "metadata": {
+         "confidentiality": {
+          "self": {
+           "href": "https://test.iate2.eu/em-api/ws/inventories/2253",
+           "method": "GET",
+           "accept_media_types": [
+            "application/json"
+           ]
+          },
+          "code": 0,
+          "name": "public"
+         }
+        },
+        "tooltip_text": "Council-EN",
+        "code": "F92848E2F2664F5AA2CB9A5A9BDE26ED",
+        "display_order": 0
+       }
+      ]
+     },
+     "metadata": {
+      "creation": {
+       "institution": {
+        "name": "Consilium",
+        "self": {
+         "href": "https://test.iate2.eu/uac-api/ws/institutions/8BA9662AF9D04F069072CB5230E3AFA0",
+         "method": "GET",
+         "accept_media_types": [
+          "application/json"
+         ]
+        },
+        "code": "8BA9662AF9D04F069072CB5230E3AFA0"
+       },
+       "division": {
+        "name": "EN",
+        "self": {
+         "href": "https://test.iate2.eu/uac-api/ws/divisions/FBD65C83BA3B4149B7BA75D5BA7014DB",
+         "method": "GET",
+         "accept_media_types": [
+          "application/json"
+         ]
+        },
+        "code": "FBD65C83BA3B4149B7BA75D5BA7014DB"
+       },
+       "timestamp": "1993-11-17T23:00:00.001Z"
+      },
+      "modification": {
+       "institution": {
+        "name": "IATE TMN",
+        "self": {
+         "href": "https://test.iate2.eu/uac-api/ws/institutions/9D7328A12B804A6BB7749398A5E67638",
+         "method": "GET",
+         "accept_media_types": [
+          "application/json"
+         ]
+        },
+        "code": "9D7328A12B804A6BB7749398A5E67638"
+       },
+       "division": {
+        "name": "Other",
+        "self": {
+         "href": "https://test.iate2.eu/uac-api/ws/divisions/D0C850C9D33E4A72A193E98A7F215B20",
+         "method": "GET",
+         "accept_media_types": [
+          "application/json"
+         ]
+        },
+        "code": "D0C850C9D33E4A72A193E98A7F215B20"
+       },
+       "timestamp": "2018-08-05T16:45:57.001Z"
+      },
+      "institution": {
+       "name": "Consilium",
+       "self": {
+        "href": "https://test.iate2.eu/uac-api/ws/institutions/8BA9662AF9D04F069072CB5230E3AFA0",
+        "method": "GET",
+        "accept_media_types": [
+         "application/json"
+        ]
+       },
+       "code": "8BA9662AF9D04F069072CB5230E3AFA0"
+      },
+      "owned_by_creator": true,
+      "validation_metadata": {
+       "institution": {
+        "name": "IATE TMN",
+        "self": {
+         "href": "https://test.iate2.eu/uac-api/ws/institutions/9D7328A12B804A6BB7749398A5E67638",
+         "method": "GET",
+         "accept_media_types": [
+          "application/json"
+         ]
+        },
+        "code": "9D7328A12B804A6BB7749398A5E67638"
+       },
+       "division": {
+        "name": "Other",
+        "self": {
+         "href": "https://test.iate2.eu/uac-api/ws/divisions/D0C850C9D33E4A72A193E98A7F215B20",
+         "method": "GET",
+         "accept_media_types": [
+          "application/json"
+         ]
+        },
+        "code": "D0C850C9D33E4A72A193E98A7F215B20"
+       },
+       "timestamp": "2018-08-05T16:45:57.001Z"
+      },
+      "confidentiality": {
+       "self": {
+        "href": "https://test.iate2.eu/em-api/ws/inventories/2253",
+        "method": "GET",
+        "accept_media_types": [
+         "application/json"
+        ]
+       },
+       "code": 0,
+       "name": "public"
+      },
+      "validation": {
+       "self": {
+        "href": "https://test.iate2.eu/em-api/ws/inventories/1949",
+        "method": "GET",
+        "accept_media_types": [
+         "application/json"
+        ]
+       },
+       "code": 1,
+       "name": "Valid"
+      }
+     },
+     "update": {
+      "href": "https://test.iate2.eu/em-api/ws/entries/8279203F4300AE7CE053C3E4A79E4140/language-entries/en",
+      "method": "PATCH",
+      "content_media_types": [
+       "application/vnd.iate.json-patch+json;version=1",
+       "application/vnd.iate.json-patch+json",
+       "application/json",
+       "*/*"
+      ],
+      "accept_media_types": [
+       "application/vnd.iate.entry+json;version=1",
+       "application/vnd.iate.entry+json;version=2",
+       "application/vnd.iate.entry+json",
+       "application/json",
+       "*/*",
+       "application/vnd.iate.language-entry+json;version=1",
+       "application/vnd.iate.language-entry+json;version=2",
+       "application/vnd.iate.language-entry+json"
+      ]
+     },
+     "delete": {
+      "href": "https://test.iate2.eu/em-api/ws/entries/8279203F4300AE7CE053C3E4A79E4140/language-entries/en",
+      "method": "DELETE",
+      "accept_media_types": [
+       "application/vnd.iate.entry+json;version=1",
+       "application/vnd.iate.entry+json;version=2",
+       "application/vnd.iate.entry+json",
+       "application/json",
+       "*/*",
+       "application/vnd.iate.language-entry+json;version=1",
+       "application/vnd.iate.language-entry+json;version=2",
+       "application/vnd.iate.language-entry+json"
+      ]
+     },
+     "create_term_entry": {
+      "href": "https://test.iate2.eu/em-api/ws/entries/8279203F4300AE7CE053C3E4A79E4140/language-entries/en/term-entries",
+      "method": "POST",
+      "content_media_types": [
+       "application/vnd.iate.term-entry-create+json;version=1",
+       "application/vnd.iate.term-entry-create+json",
+       "application/json",
+       "*/*"
+      ],
+      "accept_media_types": [
+       "application/vnd.iate.entry+json;version=1",
+       "application/vnd.iate.entry+json;version=2",
+       "application/vnd.iate.entry+json",
+       "application/json",
+       "*/*",
+       "application/vnd.iate.language-entry+json;version=1",
+       "application/vnd.iate.language-entry+json;version=2",
+       "application/vnd.iate.language-entry+json",
+       "application/vnd.iate.term-entry+json;version=1",
+       "application/vnd.iate.term-entry+json;version=2",
+       "application/vnd.iate.term-entry+json"
+      ]
+     }
+    }
+   },
+   "id": 878515,
+   "domains": [
+    {
+     "domain": {
+      "self": {
+       "href": "https://test.iate2.eu/em-api/ws/domains/B85148C515FC4F3CAA5976BBEB658074",
+       "method": "GET",
+       "accept_media_types": [
+        "application/json"
+       ]
+      },
+      "code": "B85148C515FC4F3CAA5976BBEB658074",
+      "eurovoc_code": "0416",
+      "path": [
+       "POLITICS"
+      ],
+      "name": "electoral procedure and voting",
+      "level": 2,
+      "parent": "86817304A07344BC8B544B390129ADDF"
+     }
+    },
+    {
+     "domain": {
+      "self": {
+       "href": "https://test.iate2.eu/em-api/ws/domains/3A33A41335E74CD2877C22282D095CA0",
+       "method": "GET",
+       "accept_media_types": [
+        "application/json"
+       ]
+      },
+      "code": "3A33A41335E74CD2877C22282D095CA0",
+      "eurovoc_code": "2702",
+      "path": [
+       "POLITICS",
+       "parliamentary proceedings"
+      ],
+      "name": "legislative procedure",
+      "level": 3,
+      "parent": "FC48970D48884B53926BD69550FC6C13",
+      "lookups": [
+       "legislative process",
+       "legislative technique"
+      ]
+     }
+    }
+   ],
+   "anchor_language": {
+    "self": {
+     "href": "https://test.iate2.eu/em-api/ws/inventories/1758",
+     "method": "GET",
+     "accept_media_types": [
+      "application/json"
+     ]
+    },
+    "code": "fr",
+    "name": "French",
+    "is_official": true
+   },
+   "crossrefs": [
+    {
+     "entry": {
+      "self": {
+       "href": "https://test.iate2.eu/em-api/ws/entries/8279203EFAC5AE7CE053C3E4A79E4140",
+       "method": "GET",
+       "accept_media_types": [
+        "application/vnd.iate.entry+json;version=1",
+        "application/vnd.iate.entry+json;version=2",
+        "application/vnd.iate.entry+json",
+        "application/json",
+        "*/*"
+       ]
+      },
+      "code": "8279203EFAC5AE7CE053C3E4A79E4140",
+      "language": {
+       "lv": {
+        "self": {
+         "href": "https://test.iate2.eu/em-api/ws/entries/8279203EFAC5AE7CE053C3E4A79E4140/language-entries/lv",
+         "method": "GET",
+         "accept_media_types": [
+          "application/vnd.iate.language-entry+json;version=1",
+          "application/vnd.iate.language-entry+json;version=2",
+          "application/vnd.iate.language-entry+json",
+          "application/json",
+          "*/*"
+         ]
+        },
+        "term_entries": [
+         {
+          "self": {
+           "href": "https://test.iate2.eu/em-api/ws/entries/8279203EFAC5AE7CE053C3E4A79E4140/language-entries/lv/term-entries/D98CD2AC4ED34C9093B4F68AB0009DFE",
+           "method": "GET",
+           "accept_media_types": [
+            "application/vnd.iate.term-entry+json;version=1",
+            "application/vnd.iate.term-entry+json;version=2",
+            "application/vnd.iate.term-entry+json",
+            "application/json",
+            "*/*"
+           ]
+          },
+          "code": "D98CD2AC4ED34C9093B4F68AB0009DFE",
+          "type": {
+           "self": {
+            "href": "https://test.iate2.eu/em-api/ws/inventories/2254",
+            "method": "GET",
+            "accept_media_types": [
+             "application/json"
+            ]
+           },
+           "code": 4,
+           "name": "term"
+          },
+          "term_value": "vairākums"
+         },
+         {
+          "self": {
+           "href": "https://test.iate2.eu/em-api/ws/entries/8279203EFAC5AE7CE053C3E4A79E4140/language-entries/lv/term-entries/07E717A6D9C04CAF84964B458A47B184",
+           "method": "GET",
+           "accept_media_types": [
+            "application/vnd.iate.term-entry+json;version=1",
+            "application/vnd.iate.term-entry+json;version=2",
+            "application/vnd.iate.term-entry+json",
+            "application/json",
+            "*/*"
+           ]
+          },
+          "code": "07E717A6D9C04CAF84964B458A47B184",
+          "type": {
+           "self": {
+            "href": "https://test.iate2.eu/em-api/ws/inventories/2254",
+            "method": "GET",
+            "accept_media_types": [
+             "application/json"
+            ]
+           },
+           "code": 4,
+           "name": "term"
+          },
+          "term_value": "balsu vairākums"
+         }
+        ]
+       },
+       "es": {
+        "self": {
+         "href": "https://test.iate2.eu/em-api/ws/entries/8279203EFAC5AE7CE053C3E4A79E4140/language-entries/es",
+         "method": "GET",
+         "accept_media_types": [
+          "application/vnd.iate.language-entry+json;version=1",
+          "application/vnd.iate.language-entry+json;version=2",
+          "application/vnd.iate.language-entry+json",
+          "application/json",
+          "*/*"
+         ]
+        },
+        "term_entries": [
+         {
+          "self": {
+           "href": "https://test.iate2.eu/em-api/ws/entries/8279203EFAC5AE7CE053C3E4A79E4140/language-entries/es/term-entries/071D9924036A4CCF8137CA436BC4CF31",
+           "method": "GET",
+           "accept_media_types": [
+            "application/vnd.iate.term-entry+json;version=1",
+            "application/vnd.iate.term-entry+json;version=2",
+            "application/vnd.iate.term-entry+json",
+            "application/json",
+            "*/*"
+           ]
+          },
+          "code": "071D9924036A4CCF8137CA436BC4CF31",
+          "type": {
+           "self": {
+            "href": "https://test.iate2.eu/em-api/ws/inventories/2254",
+            "method": "GET",
+            "accept_media_types": [
+             "application/json"
+            ]
+           },
+           "code": 4,
+           "name": "term"
+          },
+          "term_value": "mayoría"
+         }
+        ]
+       },
+       "nl": {
+        "self": {
+         "href": "https://test.iate2.eu/em-api/ws/entries/8279203EFAC5AE7CE053C3E4A79E4140/language-entries/nl",
+         "method": "GET",
+         "accept_media_types": [
+          "application/vnd.iate.language-entry+json;version=1",
+          "application/vnd.iate.language-entry+json;version=2",
+          "application/vnd.iate.language-entry+json",
+          "application/json",
+          "*/*"
+         ]
+        },
+        "term_entries": [
+         {
+          "self": {
+           "href": "https://test.iate2.eu/em-api/ws/entries/8279203EFAC5AE7CE053C3E4A79E4140/language-entries/nl/term-entries/09596884C6114C7492B150EB049B8B58",
+           "method": "GET",
+           "accept_media_types": [
+            "application/vnd.iate.term-entry+json;version=1",
+            "application/vnd.iate.term-entry+json;version=2",
+            "application/vnd.iate.term-entry+json",
+            "application/json",
+            "*/*"
+           ]
+          },
+          "code": "09596884C6114C7492B150EB049B8B58",
+          "type": {
+           "self": {
+            "href": "https://test.iate2.eu/em-api/ws/inventories/2254",
+            "method": "GET",
+            "accept_media_types": [
+             "application/json"
+            ]
+           },
+           "code": 4,
+           "name": "term"
+          },
+          "term_value": "meerderheid"
+         }
+        ]
+       },
+       "fi": {
+        "self": {
+         "href": "https://test.iate2.eu/em-api/ws/entries/8279203EFAC5AE7CE053C3E4A79E4140/language-entries/fi",
+         "method": "GET",
+         "accept_media_types": [
+          "application/vnd.iate.language-entry+json;version=1",
+          "application/vnd.iate.language-entry+json;version=2",
+          "application/vnd.iate.language-entry+json",
+          "application/json",
+          "*/*"
+         ]
+        },
+        "term_entries": [
+         {
+          "self": {
+           "href": "https://test.iate2.eu/em-api/ws/entries/8279203EFAC5AE7CE053C3E4A79E4140/language-entries/fi/term-entries/89352F9563AF461EBB7BAA79300396BA",
+           "method": "GET",
+           "accept_media_types": [
+            "application/vnd.iate.term-entry+json;version=1",
+            "application/vnd.iate.term-entry+json;version=2",
+            "application/vnd.iate.term-entry+json",
+            "application/json",
+            "*/*"
+           ]
+          },
+          "code": "89352F9563AF461EBB7BAA79300396BA",
+          "type": {
+           "self": {
+            "href": "https://test.iate2.eu/em-api/ws/inventories/2254",
+            "method": "GET",
+            "accept_media_types": [
+             "application/json"
+            ]
+           },
+           "code": 4,
+           "name": "term"
+          },
+          "term_value": "ääntenenemmistö"
+         }
+        ]
+       },
+       "ga": {
+        "self": {
+         "href": "https://test.iate2.eu/em-api/ws/entries/8279203EFAC5AE7CE053C3E4A79E4140/language-entries/ga",
+         "method": "GET",
+         "accept_media_types": [
+          "application/vnd.iate.language-entry+json;version=1",
+          "application/vnd.iate.language-entry+json;version=2",
+          "application/vnd.iate.language-entry+json",
+          "application/json",
+          "*/*"
+         ]
+        },
+        "term_entries": [
+         {
+          "self": {
+           "href": "https://test.iate2.eu/em-api/ws/entries/8279203EFAC5AE7CE053C3E4A79E4140/language-entries/ga/term-entries/23A4D555DD784D88A2006F2565CAA81B",
+           "method": "GET",
+           "accept_media_types": [
+            "application/vnd.iate.term-entry+json;version=1",
+            "application/vnd.iate.term-entry+json;version=2",
+            "application/vnd.iate.term-entry+json",
+            "application/json",
+            "*/*"
+           ]
+          },
+          "code": "23A4D555DD784D88A2006F2565CAA81B",
+          "type": {
+           "self": {
+            "href": "https://test.iate2.eu/em-api/ws/inventories/2254",
+            "method": "GET",
+            "accept_media_types": [
+             "application/json"
+            ]
+           },
+           "code": 4,
+           "name": "term"
+          },
+          "term_value": "tromlach"
+         }
+        ]
+       },
+       "hu": {
+        "self": {
+         "href": "https://test.iate2.eu/em-api/ws/entries/8279203EFAC5AE7CE053C3E4A79E4140/language-entries/hu",
+         "method": "GET",
+         "accept_media_types": [
+          "application/vnd.iate.language-entry+json;version=1",
+          "application/vnd.iate.language-entry+json;version=2",
+          "application/vnd.iate.language-entry+json",
+          "application/json",
+          "*/*"
+         ]
+        },
+        "term_entries": [
+         {
+          "self": {
+           "href": "https://test.iate2.eu/em-api/ws/entries/8279203EFAC5AE7CE053C3E4A79E4140/language-entries/hu/term-entries/4F37E456B36F45148543A3A7E1177570",
+           "method": "GET",
+           "accept_media_types": [
+            "application/vnd.iate.term-entry+json;version=1",
+            "application/vnd.iate.term-entry+json;version=2",
+            "application/vnd.iate.term-entry+json",
+            "application/json",
+            "*/*"
+           ]
+          },
+          "code": "4F37E456B36F45148543A3A7E1177570",
+          "type": {
+           "self": {
+            "href": "https://test.iate2.eu/em-api/ws/inventories/2254",
+            "method": "GET",
+            "accept_media_types": [
+             "application/json"
+            ]
+           },
+           "code": 4,
+           "name": "term"
+          },
+          "term_value": "többség"
+         }
+        ]
+       },
+       "en": {
+        "self": {
+         "href": "https://test.iate2.eu/em-api/ws/entries/8279203EFAC5AE7CE053C3E4A79E4140/language-entries/en",
+         "method": "GET",
+         "accept_media_types": [
+          "application/vnd.iate.language-entry+json;version=1",
+          "application/vnd.iate.language-entry+json;version=2",
+          "application/vnd.iate.language-entry+json",
+          "application/json",
+          "*/*"
+         ]
+        },
+        "term_entries": [
+         {
+          "self": {
+           "href": "https://test.iate2.eu/em-api/ws/entries/8279203EFAC5AE7CE053C3E4A79E4140/language-entries/en/term-entries/0B614CAE2E474B68B895EA59593A220D",
+           "method": "GET",
+           "accept_media_types": [
+            "application/vnd.iate.term-entry+json;version=1",
+            "application/vnd.iate.term-entry+json;version=2",
+            "application/vnd.iate.term-entry+json",
+            "application/json",
+            "*/*"
+           ]
+          },
+          "code": "0B614CAE2E474B68B895EA59593A220D",
+          "type": {
+           "self": {
+            "href": "https://test.iate2.eu/em-api/ws/inventories/2254",
+            "method": "GET",
+            "accept_media_types": [
+             "application/json"
+            ]
+           },
+           "code": 4,
+           "name": "term"
+          },
+          "term_value": "majority"
+         }
+        ]
+       },
+       "da": {
+        "self": {
+         "href": "https://test.iate2.eu/em-api/ws/entries/8279203EFAC5AE7CE053C3E4A79E4140/language-entries/da",
+         "method": "GET",
+         "accept_media_types": [
+          "application/vnd.iate.language-entry+json;version=1",
+          "application/vnd.iate.language-entry+json;version=2",
+          "application/vnd.iate.language-entry+json",
+          "application/json",
+          "*/*"
+         ]
+        },
+        "term_entries": [
+         {
+          "self": {
+           "href": "https://test.iate2.eu/em-api/ws/entries/8279203EFAC5AE7CE053C3E4A79E4140/language-entries/da/term-entries/8CC6DEC3CB7F4261942CB7DF224B6E60",
+           "method": "GET",
+           "accept_media_types": [
+            "application/vnd.iate.term-entry+json;version=1",
+            "application/vnd.iate.term-entry+json;version=2",
+            "application/vnd.iate.term-entry+json",
+            "application/json",
+            "*/*"
+           ]
+          },
+          "code": "8CC6DEC3CB7F4261942CB7DF224B6E60",
+          "type": {
+           "self": {
+            "href": "https://test.iate2.eu/em-api/ws/inventories/2254",
+            "method": "GET",
+            "accept_media_types": [
+             "application/json"
+            ]
+           },
+           "code": 4,
+           "name": "term"
+          },
+          "term_value": "flertal"
+         },
+         {
+          "self": {
+           "href": "https://test.iate2.eu/em-api/ws/entries/8279203EFAC5AE7CE053C3E4A79E4140/language-entries/da/term-entries/8010D6D99EAB4741A7653AF04B96DA79",
+           "method": "GET",
+           "accept_media_types": [
+            "application/vnd.iate.term-entry+json;version=1",
+            "application/vnd.iate.term-entry+json;version=2",
+            "application/vnd.iate.term-entry+json",
+            "application/json",
+            "*/*"
+           ]
+          },
+          "code": "8010D6D99EAB4741A7653AF04B96DA79",
+          "type": {
+           "self": {
+            "href": "https://test.iate2.eu/em-api/ws/inventories/2254",
+            "method": "GET",
+            "accept_media_types": [
+             "application/json"
+            ]
+           },
+           "code": 4,
+           "name": "term"
+          },
+          "term_value": "majoritet"
+         }
+        ]
+       },
+       "el": {
+        "self": {
+         "href": "https://test.iate2.eu/em-api/ws/entries/8279203EFAC5AE7CE053C3E4A79E4140/language-entries/el",
+         "method": "GET",
+         "accept_media_types": [
+          "application/vnd.iate.language-entry+json;version=1",
+          "application/vnd.iate.language-entry+json;version=2",
+          "application/vnd.iate.language-entry+json",
+          "application/json",
+          "*/*"
+         ]
+        },
+        "term_entries": [
+         {
+          "self": {
+           "href": "https://test.iate2.eu/em-api/ws/entries/8279203EFAC5AE7CE053C3E4A79E4140/language-entries/el/term-entries/D62A4DC6C5664FCDB51B9AD77FCDE9FC",
+           "method": "GET",
+           "accept_media_types": [
+            "application/vnd.iate.term-entry+json;version=1",
+            "application/vnd.iate.term-entry+json;version=2",
+            "application/vnd.iate.term-entry+json",
+            "application/json",
+            "*/*"
+           ]
+          },
+          "code": "D62A4DC6C5664FCDB51B9AD77FCDE9FC",
+          "type": {
+           "self": {
+            "href": "https://test.iate2.eu/em-api/ws/inventories/2254",
+            "method": "GET",
+            "accept_media_types": [
+             "application/json"
+            ]
+           },
+           "code": 4,
+           "name": "term"
+          },
+          "term_value": "πλειοψηφία"
+         }
+        ]
+       },
+       "mt": {
+        "self": {
+         "href": "https://test.iate2.eu/em-api/ws/entries/8279203EFAC5AE7CE053C3E4A79E4140/language-entries/mt",
+         "method": "GET",
+         "accept_media_types": [
+          "application/vnd.iate.language-entry+json;version=1",
+          "application/vnd.iate.language-entry+json;version=2",
+          "application/vnd.iate.language-entry+json",
+          "application/json",
+          "*/*"
+         ]
+        },
+        "term_entries": [
+         {
+          "self": {
+           "href": "https://test.iate2.eu/em-api/ws/entries/8279203EFAC5AE7CE053C3E4A79E4140/language-entries/mt/term-entries/C682E1E64ACF4D069F69301B6BC2B669",
+           "method": "GET",
+           "accept_media_types": [
+            "application/vnd.iate.term-entry+json;version=1",
+            "application/vnd.iate.term-entry+json;version=2",
+            "application/vnd.iate.term-entry+json",
+            "application/json",
+            "*/*"
+           ]
+          },
+          "code": "C682E1E64ACF4D069F69301B6BC2B669",
+          "type": {
+           "self": {
+            "href": "https://test.iate2.eu/em-api/ws/inventories/2254",
+            "method": "GET",
+            "accept_media_types": [
+             "application/json"
+            ]
+           },
+           "code": 4,
+           "name": "term"
+          },
+          "term_value": "maġġoranza"
+         }
+        ]
+       },
+       "pl": {
+        "self": {
+         "href": "https://test.iate2.eu/em-api/ws/entries/8279203EFAC5AE7CE053C3E4A79E4140/language-entries/pl",
+         "method": "GET",
+         "accept_media_types": [
+          "application/vnd.iate.language-entry+json;version=1",
+          "application/vnd.iate.language-entry+json;version=2",
+          "application/vnd.iate.language-entry+json",
+          "application/json",
+          "*/*"
+         ]
+        },
+        "term_entries": [
+         {
+          "self": {
+           "href": "https://test.iate2.eu/em-api/ws/entries/8279203EFAC5AE7CE053C3E4A79E4140/language-entries/pl/term-entries/C5EFFAEED31445D0B121FD76539987C0",
+           "method": "GET",
+           "accept_media_types": [
+            "application/vnd.iate.term-entry+json;version=1",
+            "application/vnd.iate.term-entry+json;version=2",
+            "application/vnd.iate.term-entry+json",
+            "application/json",
+            "*/*"
+           ]
+          },
+          "code": "C5EFFAEED31445D0B121FD76539987C0",
+          "type": {
+           "self": {
+            "href": "https://test.iate2.eu/em-api/ws/inventories/2254",
+            "method": "GET",
+            "accept_media_types": [
+             "application/json"
+            ]
+           },
+           "code": 4,
+           "name": "term"
+          },
+          "term_value": "większość"
+         }
+        ]
+       },
+       "it": {
+        "self": {
+         "href": "https://test.iate2.eu/em-api/ws/entries/8279203EFAC5AE7CE053C3E4A79E4140/language-entries/it",
+         "method": "GET",
+         "accept_media_types": [
+          "application/vnd.iate.language-entry+json;version=1",
+          "application/vnd.iate.language-entry+json;version=2",
+          "application/vnd.iate.language-entry+json",
+          "application/json",
+          "*/*"
+         ]
+        },
+        "term_entries": [
+         {
+          "self": {
+           "href": "https://test.iate2.eu/em-api/ws/entries/8279203EFAC5AE7CE053C3E4A79E4140/language-entries/it/term-entries/B9C31C1AAB204C1DBC2E697736307F45",
+           "method": "GET",
+           "accept_media_types": [
+            "application/vnd.iate.term-entry+json;version=1",
+            "application/vnd.iate.term-entry+json;version=2",
+            "application/vnd.iate.term-entry+json",
+            "application/json",
+            "*/*"
+           ]
+          },
+          "code": "B9C31C1AAB204C1DBC2E697736307F45",
+          "type": {
+           "self": {
+            "href": "https://test.iate2.eu/em-api/ws/inventories/2254",
+            "method": "GET",
+            "accept_media_types": [
+             "application/json"
+            ]
+           },
+           "code": 4,
+           "name": "term"
+          },
+          "term_value": "maggioranza"
+         }
+        ]
+       },
+       "sl": {
+        "self": {
+         "href": "https://test.iate2.eu/em-api/ws/entries/8279203EFAC5AE7CE053C3E4A79E4140/language-entries/sl",
+         "method": "GET",
+         "accept_media_types": [
+          "application/vnd.iate.language-entry+json;version=1",
+          "application/vnd.iate.language-entry+json;version=2",
+          "application/vnd.iate.language-entry+json",
+          "application/json",
+          "*/*"
+         ]
+        },
+        "term_entries": [
+         {
+          "self": {
+           "href": "https://test.iate2.eu/em-api/ws/entries/8279203EFAC5AE7CE053C3E4A79E4140/language-entries/sl/term-entries/FC89657F455E447ABEDAC81670324E0A",
+           "method": "GET",
+           "accept_media_types": [
+            "application/vnd.iate.term-entry+json;version=1",
+            "application/vnd.iate.term-entry+json;version=2",
+            "application/vnd.iate.term-entry+json",
+            "application/json",
+            "*/*"
+           ]
+          },
+          "code": "FC89657F455E447ABEDAC81670324E0A",
+          "type": {
+           "self": {
+            "href": "https://test.iate2.eu/em-api/ws/inventories/2254",
+            "method": "GET",
+            "accept_media_types": [
+             "application/json"
+            ]
+           },
+           "code": 4,
+           "name": "term"
+          },
+          "term_value": "večina"
+         }
+        ]
+       },
+       "de": {
+        "self": {
+         "href": "https://test.iate2.eu/em-api/ws/entries/8279203EFAC5AE7CE053C3E4A79E4140/language-entries/de",
+         "method": "GET",
+         "accept_media_types": [
+          "application/vnd.iate.language-entry+json;version=1",
+          "application/vnd.iate.language-entry+json;version=2",
+          "application/vnd.iate.language-entry+json",
+          "application/json",
+          "*/*"
+         ]
+        },
+        "term_entries": [
+         {
+          "self": {
+           "href": "https://test.iate2.eu/em-api/ws/entries/8279203EFAC5AE7CE053C3E4A79E4140/language-entries/de/term-entries/09BC5F8F5C184229BD904CAD89F1330D",
+           "method": "GET",
+           "accept_media_types": [
+            "application/vnd.iate.term-entry+json;version=1",
+            "application/vnd.iate.term-entry+json;version=2",
+            "application/vnd.iate.term-entry+json",
+            "application/json",
+            "*/*"
+           ]
+          },
+          "code": "09BC5F8F5C184229BD904CAD89F1330D",
+          "type": {
+           "self": {
+            "href": "https://test.iate2.eu/em-api/ws/inventories/2254",
+            "method": "GET",
+            "accept_media_types": [
+             "application/json"
+            ]
+           },
+           "code": 4,
+           "name": "term"
+          },
+          "term_value": "Mehrheit"
+         }
+        ]
+       },
+       "et": {
+        "self": {
+         "href": "https://test.iate2.eu/em-api/ws/entries/8279203EFAC5AE7CE053C3E4A79E4140/language-entries/et",
+         "method": "GET",
+         "accept_media_types": [
+          "application/vnd.iate.language-entry+json;version=1",
+          "application/vnd.iate.language-entry+json;version=2",
+          "application/vnd.iate.language-entry+json",
+          "application/json",
+          "*/*"
+         ]
+        },
+        "term_entries": [
+         {
+          "self": {
+           "href": "https://test.iate2.eu/em-api/ws/entries/8279203EFAC5AE7CE053C3E4A79E4140/language-entries/et/term-entries/37802BB78A7843B49D4B115EC4FF8381",
+           "method": "GET",
+           "accept_media_types": [
+            "application/vnd.iate.term-entry+json;version=1",
+            "application/vnd.iate.term-entry+json;version=2",
+            "application/vnd.iate.term-entry+json",
+            "application/json",
+            "*/*"
+           ]
+          },
+          "code": "37802BB78A7843B49D4B115EC4FF8381",
+          "type": {
+           "self": {
+            "href": "https://test.iate2.eu/em-api/ws/inventories/2254",
+            "method": "GET",
+            "accept_media_types": [
+             "application/json"
+            ]
+           },
+           "code": 4,
+           "name": "term"
+          },
+          "term_value": "häälteenamus"
+         }
+        ]
+       },
+       "fr": {
+        "self": {
+         "href": "https://test.iate2.eu/em-api/ws/entries/8279203EFAC5AE7CE053C3E4A79E4140/language-entries/fr",
+         "method": "GET",
+         "accept_media_types": [
+          "application/vnd.iate.language-entry+json;version=1",
+          "application/vnd.iate.language-entry+json;version=2",
+          "application/vnd.iate.language-entry+json",
+          "application/json",
+          "*/*"
+         ]
+        },
+        "term_entries": [
+         {
+          "self": {
+           "href": "https://test.iate2.eu/em-api/ws/entries/8279203EFAC5AE7CE053C3E4A79E4140/language-entries/fr/term-entries/B6D7A90FA9B94C03965F711430903748",
+           "method": "GET",
+           "accept_media_types": [
+            "application/vnd.iate.term-entry+json;version=1",
+            "application/vnd.iate.term-entry+json;version=2",
+            "application/vnd.iate.term-entry+json",
+            "application/json",
+            "*/*"
+           ]
+          },
+          "code": "B6D7A90FA9B94C03965F711430903748",
+          "type": {
+           "self": {
+            "href": "https://test.iate2.eu/em-api/ws/inventories/2254",
+            "method": "GET",
+            "accept_media_types": [
+             "application/json"
+            ]
+           },
+           "code": 4,
+           "name": "term"
+          },
+          "term_value": "majorité"
+         }
+        ]
+       },
+       "lt": {
+        "self": {
+         "href": "https://test.iate2.eu/em-api/ws/entries/8279203EFAC5AE7CE053C3E4A79E4140/language-entries/lt",
+         "method": "GET",
+         "accept_media_types": [
+          "application/vnd.iate.language-entry+json;version=1",
+          "application/vnd.iate.language-entry+json;version=2",
+          "application/vnd.iate.language-entry+json",
+          "application/json",
+          "*/*"
+         ]
+        },
+        "term_entries": [
+         {
+          "self": {
+           "href": "https://test.iate2.eu/em-api/ws/entries/8279203EFAC5AE7CE053C3E4A79E4140/language-entries/lt/term-entries/84062915941145A1AB6E6899BB6B91EB",
+           "method": "GET",
+           "accept_media_types": [
+            "application/vnd.iate.term-entry+json;version=1",
+            "application/vnd.iate.term-entry+json;version=2",
+            "application/vnd.iate.term-entry+json",
+            "application/json",
+            "*/*"
+           ]
+          },
+          "code": "84062915941145A1AB6E6899BB6B91EB",
+          "type": {
+           "self": {
+            "href": "https://test.iate2.eu/em-api/ws/inventories/2254",
+            "method": "GET",
+            "accept_media_types": [
+             "application/json"
+            ]
+           },
+           "code": 4,
+           "name": "term"
+          },
+          "term_value": "balsų dauguma"
+         }
+        ]
+       }
+      },
+      "id": 2224299,
+      "anchor_language": {
+       "self": {
+        "href": "https://test.iate2.eu/em-api/ws/inventories/1758",
+        "method": "GET",
+        "accept_media_types": [
+         "application/json"
+        ]
+       },
+       "code": "fr",
+       "name": "French",
+       "is_official": true
+      }
+     },
+     "type": {
+      "self": {
+       "href": "https://test.iate2.eu/em-api/ws/inventories/1789",
+       "method": "GET",
+       "accept_media_types": [
+        "application/json"
+       ]
+      },
+      "code": 1,
+      "name": "is narrower than"
+     }
+    },
+    {
+     "entry": {
+      "self": {
+       "href": "https://test.iate2.eu/em-api/ws/entries/8279203F5545AE7CE053C3E4A79E4140",
+       "method": "GET",
+       "accept_media_types": [
+        "application/vnd.iate.entry+json;version=1",
+        "application/vnd.iate.entry+json;version=2",
+        "application/vnd.iate.entry+json",
+        "application/json",
+        "*/*"
+       ]
+      },
+      "code": "8279203F5545AE7CE053C3E4A79E4140",
+      "language": {
+       "lv": {
+        "self": {
+         "href": "https://test.iate2.eu/em-api/ws/entries/8279203F5545AE7CE053C3E4A79E4140/language-entries/lv",
+         "method": "GET",
+         "accept_media_types": [
+          "application/vnd.iate.language-entry+json;version=1",
+          "application/vnd.iate.language-entry+json;version=2",
+          "application/vnd.iate.language-entry+json",
+          "application/json",
+          "*/*"
+         ]
+        },
+        "term_entries": [
+         {
+          "self": {
+           "href": "https://test.iate2.eu/em-api/ws/entries/8279203F5545AE7CE053C3E4A79E4140/language-entries/lv/term-entries/2A4A1771FEF449F889D5A934B5E8E98B",
+           "method": "GET",
+           "accept_media_types": [
+            "application/vnd.iate.term-entry+json;version=1",
+            "application/vnd.iate.term-entry+json;version=2",
+            "application/vnd.iate.term-entry+json",
+            "application/json",
+            "*/*"
+           ]
+          },
+          "code": "2A4A1771FEF449F889D5A934B5E8E98B",
+          "type": {
+           "self": {
+            "href": "https://test.iate2.eu/em-api/ws/inventories/2254",
+            "method": "GET",
+            "accept_media_types": [
+             "application/json"
+            ]
+           },
+           "code": 4,
+           "name": "term"
+          },
+          "term_value": "kvalificēts balsu vairākums"
+         }
+        ]
+       },
+       "pt": {
+        "self": {
+         "href": "https://test.iate2.eu/em-api/ws/entries/8279203F5545AE7CE053C3E4A79E4140/language-entries/pt",
+         "method": "GET",
+         "accept_media_types": [
+          "application/vnd.iate.language-entry+json;version=1",
+          "application/vnd.iate.language-entry+json;version=2",
+          "application/vnd.iate.language-entry+json",
+          "application/json",
+          "*/*"
+         ]
+        },
+        "term_entries": [
+         {
+          "self": {
+           "href": "https://test.iate2.eu/em-api/ws/entries/8279203F5545AE7CE053C3E4A79E4140/language-entries/pt/term-entries/971267D1317E47C3870661D8AE9C5677",
+           "method": "GET",
+           "accept_media_types": [
+            "application/vnd.iate.term-entry+json;version=1",
+            "application/vnd.iate.term-entry+json;version=2",
+            "application/vnd.iate.term-entry+json",
+            "application/json",
+            "*/*"
+           ]
+          },
+          "code": "971267D1317E47C3870661D8AE9C5677",
+          "type": {
+           "self": {
+            "href": "https://test.iate2.eu/em-api/ws/inventories/2254",
+            "method": "GET",
+            "accept_media_types": [
+             "application/json"
+            ]
+           },
+           "code": 4,
+           "name": "term"
+          },
+          "term_value": "maioria qualificada"
+         }
+        ]
+       },
+       "bg": {
+        "self": {
+         "href": "https://test.iate2.eu/em-api/ws/entries/8279203F5545AE7CE053C3E4A79E4140/language-entries/bg",
+         "method": "GET",
+         "accept_media_types": [
+          "application/vnd.iate.language-entry+json;version=1",
+          "application/vnd.iate.language-entry+json;version=2",
+          "application/vnd.iate.language-entry+json",
+          "application/json",
+          "*/*"
+         ]
+        },
+        "term_entries": [
+         {
+          "self": {
+           "href": "https://test.iate2.eu/em-api/ws/entries/8279203F5545AE7CE053C3E4A79E4140/language-entries/bg/term-entries/02DCE73B5BD0486AA3721333D59577A1",
+           "method": "GET",
+           "accept_media_types": [
+            "application/vnd.iate.term-entry+json;version=1",
+            "application/vnd.iate.term-entry+json;version=2",
+            "application/vnd.iate.term-entry+json",
+            "application/json",
+            "*/*"
+           ]
+          },
+          "code": "02DCE73B5BD0486AA3721333D59577A1",
+          "type": {
+           "self": {
+            "href": "https://test.iate2.eu/em-api/ws/inventories/2254",
+            "method": "GET",
+            "accept_media_types": [
+             "application/json"
+            ]
+           },
+           "code": 4,
+           "name": "term"
+          },
+          "term_value": "квалифицирано мнозинство"
+         }
+        ]
+       },
+       "cs": {
+        "self": {
+         "href": "https://test.iate2.eu/em-api/ws/entries/8279203F5545AE7CE053C3E4A79E4140/language-entries/cs",
+         "method": "GET",
+         "accept_media_types": [
+          "application/vnd.iate.language-entry+json;version=1",
+          "application/vnd.iate.language-entry+json;version=2",
+          "application/vnd.iate.language-entry+json",
+          "application/json",
+          "*/*"
+         ]
+        },
+        "term_entries": [
+         {
+          "self": {
+           "href": "https://test.iate2.eu/em-api/ws/entries/8279203F5545AE7CE053C3E4A79E4140/language-entries/cs/term-entries/4299955FE2EF40ACB4AD57EB4C339264",
+           "method": "GET",
+           "accept_media_types": [
+            "application/vnd.iate.term-entry+json;version=1",
+            "application/vnd.iate.term-entry+json;version=2",
+            "application/vnd.iate.term-entry+json",
+            "application/json",
+            "*/*"
+           ]
+          },
+          "code": "4299955FE2EF40ACB4AD57EB4C339264",
+          "type": {
+           "self": {
+            "href": "https://test.iate2.eu/em-api/ws/inventories/2254",
+            "method": "GET",
+            "accept_media_types": [
+             "application/json"
+            ]
+           },
+           "code": 4,
+           "name": "term"
+          },
+          "term_value": "kvalifikovaná většina"
+         }
+        ]
+       },
+       "es": {
+        "self": {
+         "href": "https://test.iate2.eu/em-api/ws/entries/8279203F5545AE7CE053C3E4A79E4140/language-entries/es",
+         "method": "GET",
+         "accept_media_types": [
+          "application/vnd.iate.language-entry+json;version=1",
+          "application/vnd.iate.language-entry+json;version=2",
+          "application/vnd.iate.language-entry+json",
+          "application/json",
+          "*/*"
+         ]
+        },
+        "term_entries": [
+         {
+          "self": {
+           "href": "https://test.iate2.eu/em-api/ws/entries/8279203F5545AE7CE053C3E4A79E4140/language-entries/es/term-entries/3771A69BDB5244E99CED9FE8250C9F43",
+           "method": "GET",
+           "accept_media_types": [
+            "application/vnd.iate.term-entry+json;version=1",
+            "application/vnd.iate.term-entry+json;version=2",
+            "application/vnd.iate.term-entry+json",
+            "application/json",
+            "*/*"
+           ]
+          },
+          "code": "3771A69BDB5244E99CED9FE8250C9F43",
+          "type": {
+           "self": {
+            "href": "https://test.iate2.eu/em-api/ws/inventories/2254",
+            "method": "GET",
+            "accept_media_types": [
+             "application/json"
+            ]
+           },
+           "code": 4,
+           "name": "term"
+          },
+          "term_value": "doble mayoría"
+         },
+         {
+          "self": {
+           "href": "https://test.iate2.eu/em-api/ws/entries/8279203F5545AE7CE053C3E4A79E4140/language-entries/es/term-entries/76D973C5F95646A9B0C308A120BE4A51",
+           "method": "GET",
+           "accept_media_types": [
+            "application/vnd.iate.term-entry+json;version=1",
+            "application/vnd.iate.term-entry+json;version=2",
+            "application/vnd.iate.term-entry+json",
+            "application/json",
+            "*/*"
+           ]
+          },
+          "code": "76D973C5F95646A9B0C308A120BE4A51",
+          "type": {
+           "self": {
+            "href": "https://test.iate2.eu/em-api/ws/inventories/1951",
+            "method": "GET",
+            "accept_media_types": [
+             "application/json"
+            ]
+           },
+           "code": 5,
+           "name": "lookup form"
+          },
+          "term_value": "mayoría calificada"
+         },
+         {
+          "self": {
+           "href": "https://test.iate2.eu/em-api/ws/entries/8279203F5545AE7CE053C3E4A79E4140/language-entries/es/term-entries/F6AF3A9A759648C9814AEA59B63CEFEA",
+           "method": "GET",
+           "accept_media_types": [
+            "application/vnd.iate.term-entry+json;version=1",
+            "application/vnd.iate.term-entry+json;version=2",
+            "application/vnd.iate.term-entry+json",
+            "application/json",
+            "*/*"
+           ]
+          },
+          "code": "F6AF3A9A759648C9814AEA59B63CEFEA",
+          "type": {
+           "self": {
+            "href": "https://test.iate2.eu/em-api/ws/inventories/2254",
+            "method": "GET",
+            "accept_media_types": [
+             "application/json"
+            ]
+           },
+           "code": 4,
+           "name": "term"
+          },
+          "term_value": "mayoría cualificada"
+         }
+        ]
+       },
+       "nl": {
+        "self": {
+         "href": "https://test.iate2.eu/em-api/ws/entries/8279203F5545AE7CE053C3E4A79E4140/language-entries/nl",
+         "method": "GET",
+         "accept_media_types": [
+          "application/vnd.iate.language-entry+json;version=1",
+          "application/vnd.iate.language-entry+json;version=2",
+          "application/vnd.iate.language-entry+json",
+          "application/json",
+          "*/*"
+         ]
+        },
+        "term_entries": [
+         {
+          "self": {
+           "href": "https://test.iate2.eu/em-api/ws/entries/8279203F5545AE7CE053C3E4A79E4140/language-entries/nl/term-entries/0D059B6C53B94AF384D309F38F2C2DCD",
+           "method": "GET",
+           "accept_media_types": [
+            "application/vnd.iate.term-entry+json;version=1",
+            "application/vnd.iate.term-entry+json;version=2",
+            "application/vnd.iate.term-entry+json",
+            "application/json",
+            "*/*"
+           ]
+          },
+          "code": "0D059B6C53B94AF384D309F38F2C2DCD",
+          "type": {
+           "self": {
+            "href": "https://test.iate2.eu/em-api/ws/inventories/2254",
+            "method": "GET",
+            "accept_media_types": [
+             "application/json"
+            ]
+           },
+           "code": 4,
+           "name": "term"
+          },
+          "term_value": "gekwalificeerde meerderheid"
+         }
+        ]
+       },
+       "fi": {
+        "self": {
+         "href": "https://test.iate2.eu/em-api/ws/entries/8279203F5545AE7CE053C3E4A79E4140/language-entries/fi",
+         "method": "GET",
+         "accept_media_types": [
+          "application/vnd.iate.language-entry+json;version=1",
+          "application/vnd.iate.language-entry+json;version=2",
+          "application/vnd.iate.language-entry+json",
+          "application/json",
+          "*/*"
+         ]
+        },
+        "term_entries": [
+         {
+          "self": {
+           "href": "https://test.iate2.eu/em-api/ws/entries/8279203F5545AE7CE053C3E4A79E4140/language-entries/fi/term-entries/EB4794C29F064879BB855AB3F7DBC637",
+           "method": "GET",
+           "accept_media_types": [
+            "application/vnd.iate.term-entry+json;version=1",
+            "application/vnd.iate.term-entry+json;version=2",
+            "application/vnd.iate.term-entry+json",
+            "application/json",
+            "*/*"
+           ]
+          },
+          "code": "EB4794C29F064879BB855AB3F7DBC637",
+          "type": {
+           "self": {
+            "href": "https://test.iate2.eu/em-api/ws/inventories/2254",
+            "method": "GET",
+            "accept_media_types": [
+             "application/json"
+            ]
+           },
+           "code": 4,
+           "name": "term"
+          },
+          "term_value": "määräenemmistö"
+         }
+        ]
+       },
+       "sk": {
+        "self": {
+         "href": "https://test.iate2.eu/em-api/ws/entries/8279203F5545AE7CE053C3E4A79E4140/language-entries/sk",
+         "method": "GET",
+         "accept_media_types": [
+          "application/vnd.iate.language-entry+json;version=1",
+          "application/vnd.iate.language-entry+json;version=2",
+          "application/vnd.iate.language-entry+json",
+          "application/json",
+          "*/*"
+         ]
+        },
+        "term_entries": [
+         {
+          "self": {
+           "href": "https://test.iate2.eu/em-api/ws/entries/8279203F5545AE7CE053C3E4A79E4140/language-entries/sk/term-entries/DE2363AF73D04610B355291A44C52542",
+           "method": "GET",
+           "accept_media_types": [
+            "application/vnd.iate.term-entry+json;version=1",
+            "application/vnd.iate.term-entry+json;version=2",
+            "application/vnd.iate.term-entry+json",
+            "application/json",
+            "*/*"
+           ]
+          },
+          "code": "DE2363AF73D04610B355291A44C52542",
+          "type": {
+           "self": {
+            "href": "https://test.iate2.eu/em-api/ws/inventories/2254",
+            "method": "GET",
+            "accept_media_types": [
+             "application/json"
+            ]
+           },
+           "code": 4,
+           "name": "term"
+          },
+          "term_value": "kvalifikovaná väčšina"
+         }
+        ]
+       },
+       "hu": {
+        "self": {
+         "href": "https://test.iate2.eu/em-api/ws/entries/8279203F5545AE7CE053C3E4A79E4140/language-entries/hu",
+         "method": "GET",
+         "accept_media_types": [
+          "application/vnd.iate.language-entry+json;version=1",
+          "application/vnd.iate.language-entry+json;version=2",
+          "application/vnd.iate.language-entry+json",
+          "application/json",
+          "*/*"
+         ]
+        },
+        "term_entries": [
+         {
+          "self": {
+           "href": "https://test.iate2.eu/em-api/ws/entries/8279203F5545AE7CE053C3E4A79E4140/language-entries/hu/term-entries/6B8F35FB6E404E1C9D83983A623CEAF4",
+           "method": "GET",
+           "accept_media_types": [
+            "application/vnd.iate.term-entry+json;version=1",
+            "application/vnd.iate.term-entry+json;version=2",
+            "application/vnd.iate.term-entry+json",
+            "application/json",
+            "*/*"
+           ]
+          },
+          "code": "6B8F35FB6E404E1C9D83983A623CEAF4",
+          "type": {
+           "self": {
+            "href": "https://test.iate2.eu/em-api/ws/inventories/2254",
+            "method": "GET",
+            "accept_media_types": [
+             "application/json"
+            ]
+           },
+           "code": 4,
+           "name": "term"
+          },
+          "term_value": "minősített többség"
+         }
+        ]
+       },
+       "ga": {
+        "self": {
+         "href": "https://test.iate2.eu/em-api/ws/entries/8279203F5545AE7CE053C3E4A79E4140/language-entries/ga",
+         "method": "GET",
+         "accept_media_types": [
+          "application/vnd.iate.language-entry+json;version=1",
+          "application/vnd.iate.language-entry+json;version=2",
+          "application/vnd.iate.language-entry+json",
+          "application/json",
+          "*/*"
+         ]
+        },
+        "term_entries": [
+         {
+          "self": {
+           "href": "https://test.iate2.eu/em-api/ws/entries/8279203F5545AE7CE053C3E4A79E4140/language-entries/ga/term-entries/EE9338D2C93740F0AB38AB554987B381",
+           "method": "GET",
+           "accept_media_types": [
+            "application/vnd.iate.term-entry+json;version=1",
+            "application/vnd.iate.term-entry+json;version=2",
+            "application/vnd.iate.term-entry+json",
+            "application/json",
+            "*/*"
+           ]
+          },
+          "code": "EE9338D2C93740F0AB38AB554987B381",
+          "type": {
+           "self": {
+            "href": "https://test.iate2.eu/em-api/ws/inventories/2254",
+            "method": "GET",
+            "accept_media_types": [
+             "application/json"
+            ]
+           },
+           "code": 4,
+           "name": "term"
+          },
+          "term_value": "tromlach cáilithe"
+         }
+        ]
+       },
+       "sv": {
+        "self": {
+         "href": "https://test.iate2.eu/em-api/ws/entries/8279203F5545AE7CE053C3E4A79E4140/language-entries/sv",
+         "method": "GET",
+         "accept_media_types": [
+          "application/vnd.iate.language-entry+json;version=1",
+          "application/vnd.iate.language-entry+json;version=2",
+          "application/vnd.iate.language-entry+json",
+          "application/json",
+          "*/*"
+         ]
+        },
+        "term_entries": [
+         {
+          "self": {
+           "href": "https://test.iate2.eu/em-api/ws/entries/8279203F5545AE7CE053C3E4A79E4140/language-entries/sv/term-entries/B4868CB6CD6E4F928823BDCD1305490E",
+           "method": "GET",
+           "accept_media_types": [
+            "application/vnd.iate.term-entry+json;version=1",
+            "application/vnd.iate.term-entry+json;version=2",
+            "application/vnd.iate.term-entry+json",
+            "application/json",
+            "*/*"
+           ]
+          },
+          "code": "B4868CB6CD6E4F928823BDCD1305490E",
+          "type": {
+           "self": {
+            "href": "https://test.iate2.eu/em-api/ws/inventories/2254",
+            "method": "GET",
+            "accept_media_types": [
+             "application/json"
+            ]
+           },
+           "code": 4,
+           "name": "term"
+          },
+          "term_value": "kvalificerad majoritet"
+         }
+        ]
+       },
+       "hr": {
+        "self": {
+         "href": "https://test.iate2.eu/em-api/ws/entries/8279203F5545AE7CE053C3E4A79E4140/language-entries/hr",
+         "method": "GET",
+         "accept_media_types": [
+          "application/vnd.iate.language-entry+json;version=1",
+          "application/vnd.iate.language-entry+json;version=2",
+          "application/vnd.iate.language-entry+json",
+          "application/json",
+          "*/*"
+         ]
+        },
+        "term_entries": [
+         {
+          "self": {
+           "href": "https://test.iate2.eu/em-api/ws/entries/8279203F5545AE7CE053C3E4A79E4140/language-entries/hr/term-entries/025018F0D91B492AB42E9CBCF92E8DEC",
+           "method": "GET",
+           "accept_media_types": [
+            "application/vnd.iate.term-entry+json;version=1",
+            "application/vnd.iate.term-entry+json;version=2",
+            "application/vnd.iate.term-entry+json",
+            "application/json",
+            "*/*"
+           ]
+          },
+          "code": "025018F0D91B492AB42E9CBCF92E8DEC",
+          "type": {
+           "self": {
+            "href": "https://test.iate2.eu/em-api/ws/inventories/2254",
+            "method": "GET",
+            "accept_media_types": [
+             "application/json"
+            ]
+           },
+           "code": 4,
+           "name": "term"
+          },
+          "term_value": "kvalificirana većina"
+         }
+        ]
+       },
+       "en": {
+        "self": {
+         "href": "https://test.iate2.eu/em-api/ws/entries/8279203F5545AE7CE053C3E4A79E4140/language-entries/en",
+         "method": "GET",
+         "accept_media_types": [
+          "application/vnd.iate.language-entry+json;version=1",
+          "application/vnd.iate.language-entry+json;version=2",
+          "application/vnd.iate.language-entry+json",
+          "application/json",
+          "*/*"
+         ]
+        },
+        "term_entries": [
+         {
+          "self": {
+           "href": "https://test.iate2.eu/em-api/ws/entries/8279203F5545AE7CE053C3E4A79E4140/language-entries/en/term-entries/256E7670D15D4E5A8F09C89760BD6A0F",
+           "method": "GET",
+           "accept_media_types": [
+            "application/vnd.iate.term-entry+json;version=1",
+            "application/vnd.iate.term-entry+json;version=2",
+            "application/vnd.iate.term-entry+json",
+            "application/json",
+            "*/*"
+           ]
+          },
+          "code": "256E7670D15D4E5A8F09C89760BD6A0F",
+          "type": {
+           "self": {
+            "href": "https://test.iate2.eu/em-api/ws/inventories/2254",
+            "method": "GET",
+            "accept_media_types": [
+             "application/json"
+            ]
+           },
+           "code": 4,
+           "name": "term"
+          },
+          "term_value": "qualified majority"
+         },
+         {
+          "self": {
+           "href": "https://test.iate2.eu/em-api/ws/entries/8279203F5545AE7CE053C3E4A79E4140/language-entries/en/term-entries/B86E83D5FCCF4D1CBA33A90EB4B9319D",
+           "method": "GET",
+           "accept_media_types": [
+            "application/vnd.iate.term-entry+json;version=1",
+            "application/vnd.iate.term-entry+json;version=2",
+            "application/vnd.iate.term-entry+json",
+            "application/json",
+            "*/*"
+           ]
+          },
+          "code": "B86E83D5FCCF4D1CBA33A90EB4B9319D",
+          "type": {
+           "self": {
+            "href": "https://test.iate2.eu/em-api/ws/inventories/1951",
+            "method": "GET",
+            "accept_media_types": [
+             "application/json"
+            ]
+           },
+           "code": 5,
+           "name": "lookup form"
+          },
+          "term_value": "supermajority"
+         },
+         {
+          "self": {
+           "href": "https://test.iate2.eu/em-api/ws/entries/8279203F5545AE7CE053C3E4A79E4140/language-entries/en/term-entries/4B3405DF8F1D4296812D3035B95F6EE8",
+           "method": "GET",
+           "accept_media_types": [
+            "application/vnd.iate.term-entry+json;version=1",
+            "application/vnd.iate.term-entry+json;version=2",
+            "application/vnd.iate.term-entry+json",
+            "application/json",
+            "*/*"
+           ]
+          },
+          "code": "4B3405DF8F1D4296812D3035B95F6EE8",
+          "type": {
+           "self": {
+            "href": "https://test.iate2.eu/em-api/ws/inventories/1951",
+            "method": "GET",
+            "accept_media_types": [
+             "application/json"
+            ]
+           },
+           "code": 5,
+           "name": "lookup form"
+          },
+          "term_value": "QM"
+         }
+        ]
+       },
+       "ro": {
+        "self": {
+         "href": "https://test.iate2.eu/em-api/ws/entries/8279203F5545AE7CE053C3E4A79E4140/language-entries/ro",
+         "method": "GET",
+         "accept_media_types": [
+          "application/vnd.iate.language-entry+json;version=1",
+          "application/vnd.iate.language-entry+json;version=2",
+          "application/vnd.iate.language-entry+json",
+          "application/json",
+          "*/*"
+         ]
+        },
+        "term_entries": [
+         {
+          "self": {
+           "href": "https://test.iate2.eu/em-api/ws/entries/8279203F5545AE7CE053C3E4A79E4140/language-entries/ro/term-entries/DA01D5CBC2CE4542ABAAB92AE2BB624A",
+           "method": "GET",
+           "accept_media_types": [
+            "application/vnd.iate.term-entry+json;version=1",
+            "application/vnd.iate.term-entry+json;version=2",
+            "application/vnd.iate.term-entry+json",
+            "application/json",
+            "*/*"
+           ]
+          },
+          "code": "DA01D5CBC2CE4542ABAAB92AE2BB624A",
+          "type": {
+           "self": {
+            "href": "https://test.iate2.eu/em-api/ws/inventories/2254",
+            "method": "GET",
+            "accept_media_types": [
+             "application/json"
+            ]
+           },
+           "code": 4,
+           "name": "term"
+          },
+          "term_value": "majoritate calificată"
+         }
+        ]
+       },
+       "da": {
+        "self": {
+         "href": "https://test.iate2.eu/em-api/ws/entries/8279203F5545AE7CE053C3E4A79E4140/language-entries/da",
+         "method": "GET",
+         "accept_media_types": [
+          "application/vnd.iate.language-entry+json;version=1",
+          "application/vnd.iate.language-entry+json;version=2",
+          "application/vnd.iate.language-entry+json",
+          "application/json",
+          "*/*"
+         ]
+        },
+        "term_entries": [
+         {
+          "self": {
+           "href": "https://test.iate2.eu/em-api/ws/entries/8279203F5545AE7CE053C3E4A79E4140/language-entries/da/term-entries/D18C76CBA16D47B1954E9B5365D34D0C",
+           "method": "GET",
+           "accept_media_types": [
+            "application/vnd.iate.term-entry+json;version=1",
+            "application/vnd.iate.term-entry+json;version=2",
+            "application/vnd.iate.term-entry+json",
+            "application/json",
+            "*/*"
+           ]
+          },
+          "code": "D18C76CBA16D47B1954E9B5365D34D0C",
+          "type": {
+           "self": {
+            "href": "https://test.iate2.eu/em-api/ws/inventories/2254",
+            "method": "GET",
+            "accept_media_types": [
+             "application/json"
+            ]
+           },
+           "code": 4,
+           "name": "term"
+          },
+          "term_value": "kvalificeret flertal"
+         }
+        ]
+       },
+       "mt": {
+        "self": {
+         "href": "https://test.iate2.eu/em-api/ws/entries/8279203F5545AE7CE053C3E4A79E4140/language-entries/mt",
+         "method": "GET",
+         "accept_media_types": [
+          "application/vnd.iate.language-entry+json;version=1",
+          "application/vnd.iate.language-entry+json;version=2",
+          "application/vnd.iate.language-entry+json",
+          "application/json",
+          "*/*"
+         ]
+        },
+        "term_entries": [
+         {
+          "self": {
+           "href": "https://test.iate2.eu/em-api/ws/entries/8279203F5545AE7CE053C3E4A79E4140/language-entries/mt/term-entries/7747175381EB4A798B5A1F8675C2F690",
+           "method": "GET",
+           "accept_media_types": [
+            "application/vnd.iate.term-entry+json;version=1",
+            "application/vnd.iate.term-entry+json;version=2",
+            "application/vnd.iate.term-entry+json",
+            "application/json",
+            "*/*"
+           ]
+          },
+          "code": "7747175381EB4A798B5A1F8675C2F690",
+          "type": {
+           "self": {
+            "href": "https://test.iate2.eu/em-api/ws/inventories/2254",
+            "method": "GET",
+            "accept_media_types": [
+             "application/json"
+            ]
+           },
+           "code": 4,
+           "name": "term"
+          },
+          "term_value": "maġġoranza kwalifikata"
+         }
+        ]
+       },
+       "el": {
+        "self": {
+         "href": "https://test.iate2.eu/em-api/ws/entries/8279203F5545AE7CE053C3E4A79E4140/language-entries/el",
+         "method": "GET",
+         "accept_media_types": [
+          "application/vnd.iate.language-entry+json;version=1",
+          "application/vnd.iate.language-entry+json;version=2",
+          "application/vnd.iate.language-entry+json",
+          "application/json",
+          "*/*"
+         ]
+        },
+        "term_entries": [
+         {
+          "self": {
+           "href": "https://test.iate2.eu/em-api/ws/entries/8279203F5545AE7CE053C3E4A79E4140/language-entries/el/term-entries/14E2D19F15654E30B1F85067B670A08F",
+           "method": "GET",
+           "accept_media_types": [
+            "application/vnd.iate.term-entry+json;version=1",
+            "application/vnd.iate.term-entry+json;version=2",
+            "application/vnd.iate.term-entry+json",
+            "application/json",
+            "*/*"
+           ]
+          },
+          "code": "14E2D19F15654E30B1F85067B670A08F",
+          "type": {
+           "self": {
+            "href": "https://test.iate2.eu/em-api/ws/inventories/2254",
+            "method": "GET",
+            "accept_media_types": [
+             "application/json"
+            ]
+           },
+           "code": 4,
+           "name": "term"
+          },
+          "term_value": "ειδική πλειοψηφία"
+         }
+        ]
+       },
+       "pl": {
+        "self": {
+         "href": "https://test.iate2.eu/em-api/ws/entries/8279203F5545AE7CE053C3E4A79E4140/language-entries/pl",
+         "method": "GET",
+         "accept_media_types": [
+          "application/vnd.iate.language-entry+json;version=1",
+          "application/vnd.iate.language-entry+json;version=2",
+          "application/vnd.iate.language-entry+json",
+          "application/json",
+          "*/*"
+         ]
+        },
+        "term_entries": [
+         {
+          "self": {
+           "href": "https://test.iate2.eu/em-api/ws/entries/8279203F5545AE7CE053C3E4A79E4140/language-entries/pl/term-entries/EA81928F3491415AB75D18AD31A52007",
+           "method": "GET",
+           "accept_media_types": [
+            "application/vnd.iate.term-entry+json;version=1",
+            "application/vnd.iate.term-entry+json;version=2",
+            "application/vnd.iate.term-entry+json",
+            "application/json",
+            "*/*"
+           ]
+          },
+          "code": "EA81928F3491415AB75D18AD31A52007",
+          "type": {
+           "self": {
+            "href": "https://test.iate2.eu/em-api/ws/inventories/2254",
+            "method": "GET",
+            "accept_media_types": [
+             "application/json"
+            ]
+           },
+           "code": 4,
+           "name": "term"
+          },
+          "term_value": "większość kwalifikowana"
+         }
+        ]
+       },
+       "it": {
+        "self": {
+         "href": "https://test.iate2.eu/em-api/ws/entries/8279203F5545AE7CE053C3E4A79E4140/language-entries/it",
+         "method": "GET",
+         "accept_media_types": [
+          "application/vnd.iate.language-entry+json;version=1",
+          "application/vnd.iate.language-entry+json;version=2",
+          "application/vnd.iate.language-entry+json",
+          "application/json",
+          "*/*"
+         ]
+        },
+        "term_entries": [
+         {
+          "self": {
+           "href": "https://test.iate2.eu/em-api/ws/entries/8279203F5545AE7CE053C3E4A79E4140/language-entries/it/term-entries/76FE4377A76948E493D844ED16FD903E",
+           "method": "GET",
+           "accept_media_types": [
+            "application/vnd.iate.term-entry+json;version=1",
+            "application/vnd.iate.term-entry+json;version=2",
+            "application/vnd.iate.term-entry+json",
+            "application/json",
+            "*/*"
+           ]
+          },
+          "code": "76FE4377A76948E493D844ED16FD903E",
+          "type": {
+           "self": {
+            "href": "https://test.iate2.eu/em-api/ws/inventories/2254",
+            "method": "GET",
+            "accept_media_types": [
+             "application/json"
+            ]
+           },
+           "code": 4,
+           "name": "term"
+          },
+          "term_value": "maggioranza qualificata"
+         }
+        ]
+       },
+       "sl": {
+        "self": {
+         "href": "https://test.iate2.eu/em-api/ws/entries/8279203F5545AE7CE053C3E4A79E4140/language-entries/sl",
+         "method": "GET",
+         "accept_media_types": [
+          "application/vnd.iate.language-entry+json;version=1",
+          "application/vnd.iate.language-entry+json;version=2",
+          "application/vnd.iate.language-entry+json",
+          "application/json",
+          "*/*"
+         ]
+        },
+        "term_entries": [
+         {
+          "self": {
+           "href": "https://test.iate2.eu/em-api/ws/entries/8279203F5545AE7CE053C3E4A79E4140/language-entries/sl/term-entries/48B6DC60253241E6AE4519BB0CA79FA9",
+           "method": "GET",
+           "accept_media_types": [
+            "application/vnd.iate.term-entry+json;version=1",
+            "application/vnd.iate.term-entry+json;version=2",
+            "application/vnd.iate.term-entry+json",
+            "application/json",
+            "*/*"
+           ]
+          },
+          "code": "48B6DC60253241E6AE4519BB0CA79FA9",
+          "type": {
+           "self": {
+            "href": "https://test.iate2.eu/em-api/ws/inventories/2254",
+            "method": "GET",
+            "accept_media_types": [
+             "application/json"
+            ]
+           },
+           "code": 4,
+           "name": "term"
+          },
+          "term_value": "kvalificirana večina"
+         }
+        ]
+       },
+       "de": {
+        "self": {
+         "href": "https://test.iate2.eu/em-api/ws/entries/8279203F5545AE7CE053C3E4A79E4140/language-entries/de",
+         "method": "GET",
+         "accept_media_types": [
+          "application/vnd.iate.language-entry+json;version=1",
+          "application/vnd.iate.language-entry+json;version=2",
+          "application/vnd.iate.language-entry+json",
+          "application/json",
+          "*/*"
+         ]
+        },
+        "term_entries": [
+         {
+          "self": {
+           "href": "https://test.iate2.eu/em-api/ws/entries/8279203F5545AE7CE053C3E4A79E4140/language-entries/de/term-entries/F3603FD357504F6599009D2BC5DBCDBD",
+           "method": "GET",
+           "accept_media_types": [
+            "application/vnd.iate.term-entry+json;version=1",
+            "application/vnd.iate.term-entry+json;version=2",
+            "application/vnd.iate.term-entry+json",
+            "application/json",
+            "*/*"
+           ]
+          },
+          "code": "F3603FD357504F6599009D2BC5DBCDBD",
+          "type": {
+           "self": {
+            "href": "https://test.iate2.eu/em-api/ws/inventories/2254",
+            "method": "GET",
+            "accept_media_types": [
+             "application/json"
+            ]
+           },
+           "code": 4,
+           "name": "term"
+          },
+          "term_value": "qualifizierte Mehrheit"
+         }
+        ]
+       },
+       "fr": {
+        "self": {
+         "href": "https://test.iate2.eu/em-api/ws/entries/8279203F5545AE7CE053C3E4A79E4140/language-entries/fr",
+         "method": "GET",
+         "accept_media_types": [
+          "application/vnd.iate.language-entry+json;version=1",
+          "application/vnd.iate.language-entry+json;version=2",
+          "application/vnd.iate.language-entry+json",
+          "application/json",
+          "*/*"
+         ]
+        },
+        "term_entries": [
+         {
+          "self": {
+           "href": "https://test.iate2.eu/em-api/ws/entries/8279203F5545AE7CE053C3E4A79E4140/language-entries/fr/term-entries/B25AB8902AD444E4813B9A85CB6BC945",
+           "method": "GET",
+           "accept_media_types": [
+            "application/vnd.iate.term-entry+json;version=1",
+            "application/vnd.iate.term-entry+json;version=2",
+            "application/vnd.iate.term-entry+json",
+            "application/json",
+            "*/*"
+           ]
+          },
+          "code": "B25AB8902AD444E4813B9A85CB6BC945",
+          "type": {
+           "self": {
+            "href": "https://test.iate2.eu/em-api/ws/inventories/2254",
+            "method": "GET",
+            "accept_media_types": [
+             "application/json"
+            ]
+           },
+           "code": 4,
+           "name": "term"
+          },
+          "term_value": "majorité qualifiée"
+         }
+        ]
+       },
+       "et": {
+        "self": {
+         "href": "https://test.iate2.eu/em-api/ws/entries/8279203F5545AE7CE053C3E4A79E4140/language-entries/et",
+         "method": "GET",
+         "accept_media_types": [
+          "application/vnd.iate.language-entry+json;version=1",
+          "application/vnd.iate.language-entry+json;version=2",
+          "application/vnd.iate.language-entry+json",
+          "application/json",
+          "*/*"
+         ]
+        },
+        "term_entries": [
+         {
+          "self": {
+           "href": "https://test.iate2.eu/em-api/ws/entries/8279203F5545AE7CE053C3E4A79E4140/language-entries/et/term-entries/9B3EB06A513D4F928DF145F54A4BFCF1",
+           "method": "GET",
+           "accept_media_types": [
+            "application/vnd.iate.term-entry+json;version=1",
+            "application/vnd.iate.term-entry+json;version=2",
+            "application/vnd.iate.term-entry+json",
+            "application/json",
+            "*/*"
+           ]
+          },
+          "code": "9B3EB06A513D4F928DF145F54A4BFCF1",
+          "type": {
+           "self": {
+            "href": "https://test.iate2.eu/em-api/ws/inventories/2254",
+            "method": "GET",
+            "accept_media_types": [
+             "application/json"
+            ]
+           },
+           "code": 4,
+           "name": "term"
+          },
+          "term_value": "kvalifitseeritud häälteenamus"
+         }
+        ]
+       },
+       "lt": {
+        "self": {
+         "href": "https://test.iate2.eu/em-api/ws/entries/8279203F5545AE7CE053C3E4A79E4140/language-entries/lt",
+         "method": "GET",
+         "accept_media_types": [
+          "application/vnd.iate.language-entry+json;version=1",
+          "application/vnd.iate.language-entry+json;version=2",
+          "application/vnd.iate.language-entry+json",
+          "application/json",
+          "*/*"
+         ]
+        },
+        "term_entries": [
+         {
+          "self": {
+           "href": "https://test.iate2.eu/em-api/ws/entries/8279203F5545AE7CE053C3E4A79E4140/language-entries/lt/term-entries/CD9179DDC15B4AC6ACAE8C613167E691",
+           "method": "GET",
+           "accept_media_types": [
+            "application/vnd.iate.term-entry+json;version=1",
+            "application/vnd.iate.term-entry+json;version=2",
+            "application/vnd.iate.term-entry+json",
+            "application/json",
+            "*/*"
+           ]
+          },
+          "code": "CD9179DDC15B4AC6ACAE8C613167E691",
+          "type": {
+           "self": {
+            "href": "https://test.iate2.eu/em-api/ws/inventories/2254",
+            "method": "GET",
+            "accept_media_types": [
+             "application/json"
+            ]
+           },
+           "code": 4,
+           "name": "term"
+          },
+          "term_value": "kvalifikuota balsų dauguma"
+         }
+        ]
+       }
+      },
+      "id": 773005,
+      "anchor_language": {
+       "self": {
+        "href": "https://test.iate2.eu/em-api/ws/inventories/1758",
+        "method": "GET",
+        "accept_media_types": [
+         "application/json"
+        ]
+       },
+       "code": "fr",
+       "name": "French",
+       "is_official": true
+      }
+     },
+     "type": {
+      "self": {
+       "href": "https://test.iate2.eu/em-api/ws/inventories/1795",
+       "method": "GET",
+       "accept_media_types": [
+        "application/json"
+       ]
+      },
+      "code": 14,
+      "name": "is related to"
+     }
+    }
+   ],
+   "metadata": {
+    "creation": {
+     "institution": {
+      "name": "Consilium",
+      "self": {
+       "href": "https://test.iate2.eu/uac-api/ws/institutions/8BA9662AF9D04F069072CB5230E3AFA0",
+       "method": "GET",
+       "accept_media_types": [
+        "application/json"
+       ]
+      },
+      "code": "8BA9662AF9D04F069072CB5230E3AFA0"
+     },
+     "division": {
+      "name": "DA",
+      "self": {
+       "href": "https://test.iate2.eu/uac-api/ws/divisions/A1705AAAA3234BA0ADFB4010B8FFB3C6",
+       "method": "GET",
+       "accept_media_types": [
+        "application/json"
+       ]
+      },
+      "code": "A1705AAAA3234BA0ADFB4010B8FFB3C6"
+     },
+     "timestamp": "1993-11-17T23:00:00.001Z"
+    },
+    "modification": {
+     "institution": {
+      "name": "Consilium",
+      "self": {
+       "href": "https://test.iate2.eu/uac-api/ws/institutions/8BA9662AF9D04F069072CB5230E3AFA0",
+       "method": "GET",
+       "accept_media_types": [
+        "application/json"
+       ]
+      },
+      "code": "8BA9662AF9D04F069072CB5230E3AFA0"
+     },
+     "division": {
+      "name": "FI",
+      "self": {
+       "href": "https://test.iate2.eu/uac-api/ws/divisions/CAA7C0A5D94C452DB1FBBB680365DB38",
+       "method": "GET",
+       "accept_media_types": [
+        "application/json"
+       ]
+      },
+      "code": "CAA7C0A5D94C452DB1FBBB680365DB38"
+     },
+     "timestamp": "2022-01-27T10:31:29.288Z"
+    },
+    "institution": {
+     "name": "Consilium",
+     "self": {
+      "href": "https://test.iate2.eu/uac-api/ws/institutions/8BA9662AF9D04F069072CB5230E3AFA0",
+      "method": "GET",
+      "accept_media_types": [
+       "application/json"
+      ]
+     },
+     "code": "8BA9662AF9D04F069072CB5230E3AFA0"
+    },
+    "owned_by_creator": true,
+    "confidentiality": {
+     "self": {
+      "href": "https://test.iate2.eu/em-api/ws/inventories/2253",
+      "method": "GET",
+      "accept_media_types": [
+       "application/json"
+      ]
+     },
+     "code": 0,
+     "name": "public"
+    },
+    "primarity": {
+     "self": {
+      "href": "https://test.iate2.eu/em-api/ws/inventories/1778",
+      "method": "GET",
+      "accept_media_types": [
+       "application/json"
+      ]
+     },
+     "code": 1,
+     "name": "primary"
+    },
+    "status": {
+     "self": {
+      "href": "https://test.iate2.eu/em-api/ws/inventories/1734",
+      "method": "GET",
+      "accept_media_types": [
+       "application/json"
+      ]
+     },
+     "code": 1,
+     "name": "not raw"
+    },
+    "locking": {
+     "lock": {
+      "href": "https://test.iate2.eu/em-api/ws/entries/8279203F4300AE7CE053C3E4A79E4140/_lock",
+      "method": "GET",
+      "accept_media_types": [
+       "application/vnd.iate.entry+json;version=1",
+       "application/vnd.iate.entry+json;version=2",
+       "application/vnd.iate.entry+json",
+       "application/json",
+       "*/*"
+      ]
+     }
+    }
+   },
+   "score": 10.0,
+   "update": {
+    "href": "https://test.iate2.eu/em-api/ws/entries/8279203F4300AE7CE053C3E4A79E4140",
+    "method": "PATCH",
+    "content_media_types": [
+     "application/vnd.iate.json-patch+json;version=1",
+     "application/vnd.iate.json-patch+json",
+     "application/json",
+     "*/*"
+    ],
+    "accept_media_types": [
+     "application/vnd.iate.entry+json;version=1",
+     "application/vnd.iate.entry+json;version=2",
+     "application/vnd.iate.entry+json",
+     "application/json",
+     "*/*"
+    ]
+   },
+   "delete": {
+    "href": "https://test.iate2.eu/em-api/ws/entries/8279203F4300AE7CE053C3E4A79E4140",
+    "method": "DELETE"
+   },
+   "create_language_entry": {
+    "href": "https://test.iate2.eu/em-api/ws/entries/8279203F4300AE7CE053C3E4A79E4140/language-entries/language-code",
+    "method": "POST",
+    "content_media_types": [
+     "application/vnd.iate.language-entry-create+json;version=1",
+     "application/vnd.iate.language-entry-create+json",
+     "application/json",
+     "*/*"
+    ],
+    "accept_media_types": [
+     "application/vnd.iate.entry+json;version=1",
+     "application/vnd.iate.entry+json;version=2",
+     "application/vnd.iate.entry+json",
+     "application/json",
+     "*/*",
+     "application/vnd.iate.language-entry+json;version=1",
+     "application/vnd.iate.language-entry+json;version=2",
+     "application/vnd.iate.language-entry+json"
+    ]
+   }
+  }
+ ],
+ "offset": 0,
+ "limit": 1,
+ "size": 12,
+ "self": {
+  "href": "https://test.iate2.eu/em-api/ws/entries/_search?expand=true&limit=1&offset=0",
+  "method": "POST",
+  "content_media_types": [
+   "application/vnd.iate.entry-search+json;version=1",
+   "application/vnd.iate.entry-search+json",
+   "application/json",
+   "*/*"
+  ],
+  "accept_media_types": [
+   "application/vnd.iate.entry+json;version=1",
+   "application/vnd.iate.entry+json;version=2",
+   "application/vnd.iate.entry+json",
+   "application/json",
+   "*/*"
+  ]
+ },
+ "create": {
+  "href": "https://test.iate2.eu/em-api/ws/entries",
+  "method": "POST",
+  "content_media_types": [
+   "application/vnd.iate.entry-create+json;version=1",
+   "application/vnd.iate.entry-create+json",
+   "application/json",
+   "*/*"
+  ],
+  "accept_media_types": [
+   "application/vnd.iate.entry+json;version=1",
+   "application/vnd.iate.entry+json;version=2",
+   "application/vnd.iate.entry+json",
+   "application/json",
+   "*/*"
+  ]
+ },
+ "search": {
+  "href": "https://test.iate2.eu/em-api/ws/entries/_search",
+  "method": "POST",
+  "content_media_types": [
+   "application/vnd.iate.entry-search+json;version=1",
+   "application/vnd.iate.entry-search+json",
+   "application/json",
+   "*/*"
+  ],
+  "accept_media_types": [
+   "application/vnd.iate.entry+json;version=1",
+   "application/vnd.iate.entry+json;version=2",
+   "application/vnd.iate.entry+json",
+   "application/json",
+   "*/*"
+  ]
+ },
+ "next": {
+  "href": "https://test.iate2.eu/em-api/ws/entries/_search?expand=true&offset=1&limit=1",
+  "method": "POST",
+  "content_media_types": [
+   "application/vnd.iate.entry-search+json;version=1",
+   "application/vnd.iate.entry-search+json",
+   "application/json",
+   "*/*"
+  ],
+  "accept_media_types": [
+   "application/vnd.iate.entry+json;version=1",
+   "application/vnd.iate.entry+json;version=2",
+   "application/vnd.iate.entry+json",
+   "application/json",
+   "*/*"
+  ]
+ },
+ "bulk_creation_from_tem_monolingual": {
+  "href": "https://test.iate2.eu/em-api/ws/entries/_bulk_creation_from_tem_monolingual",
+  "method": "POST",
+  "content_media_types": [
+   "application/vnd.iate.entry-bulk-creation-from-tem-monolingual+json;version=1",
+   "application/vnd.iate.entry-bulk-creation-from-tem-monolingual+json",
+   "application/json",
+   "*/*"
+  ],
+  "accept_media_types": [
+   "application/vnd.iate.entry-bulk-creation-from-tem-monolingual-response+json;entry_version=V1;version=1_1",
+   "application/vnd.iate.entry-bulk-creation-from-tem-monolingual-response+json;entry_version=V2;version=1_2",
+   "application/vnd.iate.entry-bulk-creation-from-tem-monolingual-response+json",
+   "application/json",
+   "*/*"
+  ]
+ },
+ "bulk_creation_from_tem_bilingual": {
+  "href": "https://test.iate2.eu/em-api/ws/entries/_bulk_creation_from_tem_bilingual",
+  "method": "POST",
+  "content_media_types": [
+   "application/vnd.iate.entry-bulk-creation-from-tem-bilingual+json;version=1",
+   "application/vnd.iate.entry-bulk-creation-from-tem-bilingual+json",
+   "application/json",
+   "*/*"
+  ],
+  "accept_media_types": [
+   "application/vnd.iate.entry-bulk-creation-from-tem-bilingual-response+json;entry_version=V1;tem_alignment_version=V1;version=1_1",
+   "application/vnd.iate.entry-bulk-creation-from-tem-bilingual-response+json;entry_version=V2;tem_alignment_version=V1;version=1_2",
+   "application/vnd.iate.entry-bulk-creation-from-tem-bilingual-response+json",
+   "application/json",
+   "*/*"
+  ]
+ },
+ "advanced_search": {
+  "href": "https://test.iate2.eu/em-api/ws/entries/_advanced_search",
+  "method": "POST",
+  "content_media_types": [
+   "application/vnd.iate.entry-advanced-search+json;version=1",
+   "application/vnd.iate.entry-advanced-search+json",
+   "application/json",
+   "*/*"
+  ],
+  "accept_media_types": [
+   "application/vnd.iate.entry+json;version=1",
+   "application/vnd.iate.entry+json;version=2",
+   "application/vnd.iate.entry+json",
+   "application/json",
+   "*/*"
+  ]
+ },
+ "merge": {
+  "href": "https://test.iate2.eu/em-api/ws/entries/_merge",
+  "method": "POST",
+  "content_media_types": [
+   "application/vnd.iate.entry-merge+json;version=1",
+   "application/vnd.iate.entry-merge+json",
+   "application/json",
+   "*/*"
+  ],
+  "accept_media_types": [
+   "application/vnd.iate.entry+json;version=1",
+   "application/vnd.iate.entry+json;version=2",
+   "application/vnd.iate.entry+json",
+   "application/json",
+   "*/*"
+  ]
+ },
+ "automatic_merge": {
+  "href": "https://test.iate2.eu/em-api/ws/entries/_automatic_merge",
+  "method": "POST",
+  "content_media_types": [
+   "application/vnd.iate.entry-automatic-merge+json;version=1",
+   "application/vnd.iate.entry-automatic-merge+json",
+   "application/json",
+   "*/*"
+  ],
+  "accept_media_types": [
+   "application/vnd.iate.entry+json;version=1",
+   "application/vnd.iate.entry+json;version=2",
+   "application/vnd.iate.entry+json",
+   "application/json",
+   "*/*"
+  ]
+ },
+ "dry_automatic_merge": {
+  "href": "https://test.iate2.eu/em-api/ws/entries/_dry_automatic_merge",
+  "method": "POST",
+  "content_media_types": [
+   "application/vnd.iate.entry-automatic-merge+json;version=1",
+   "application/vnd.iate.entry-automatic-merge+json",
+   "application/json",
+   "*/*"
+  ],
+  "accept_media_types": [
+   "application/vnd.iate.entry+json;version=1",
+   "application/vnd.iate.entry+json;version=2",
+   "application/vnd.iate.entry+json",
+   "application/json",
+   "*/*"
+  ]
+ },
+ "suggest": {
+  "href": "https://test.iate2.eu/em-api/ws/entries/_suggest",
+  "method": "POST",
+  "content_media_types": [
+   "application/vnd.iate.entry-suggest-create+json;version=1",
+   "application/vnd.iate.entry-suggest-create+json",
+   "application/json",
+   "*/*"
+  ],
+  "accept_media_types": [
+   "application/vnd.iate.entry-suggest+json;version=1",
+   "application/vnd.iate.entry-suggest+json",
+   "application/json",
+   "*/*"
+  ]
+ },
+ "search_request": {
+  "sources": [
+   "es",
+   "la",
+   "mul"
+  ],
+  "targets": [
+   "en",
+   "la",
+   "mul"
+  ],
+  "query_operator": 5,
+  "query": "mayoría simple",
+  "search_in_fields": [
+   0,
+   2
+  ]
+ }
+}

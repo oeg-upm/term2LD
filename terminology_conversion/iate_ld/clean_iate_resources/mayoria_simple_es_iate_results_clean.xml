@@ -1,0 +1,1473 @@
+<root>
+	<iate_concept conceptID="878515">
+		<domains>
+			<domain>
+				<topic type="topDomain" eurovocID="" uriID="politics" narrower="electoral_procedure_and_voting" broader="">POLITICS</topic>
+				<topic type="subDomain" eurovocID="0416" uriID="electoral_procedure_and_voting" narrower="" broader="politics">electoral procedure and voting</topic>
+			</domain>
+			<domain>
+				<topic type="topDomain" eurovocID="" uriID="politics" narrower="parliamentary_proceedings" broader="">POLITICS</topic>
+				<topic type="subDomain" eurovocID="" uriID="parliamentary_proceedings" broader="politics" narrower="legislative_procedure">parliamentary proceedings</topic>
+				<topic type="subDomain" eurovocID="2702" uriID="legislative_procedure" narrower="" broader="parliamentary_proceedings">legislative procedure</topic>
+			</domain>
+		</domains>
+		<crossreferences>
+			<is_narrower_than target="concept_2224299" />
+			<is_related_to target="concept_773005" />
+		</crossreferences>
+		<definitionsNotes>
+			<definition of="878515" language="es">
+				<value>Conjunto uniforme de pareceres o de votos que predomina en una discusión o votación, sin llegar a más de la mitad de los emitidos.</value>
+				<reference of="878515_definition_es">Cabanellas, G.: Diccionario Enciclopédico de Derecho Usual, Heliasta, Buenos Aires, 1981</reference>
+			</definition>
+			<note of="878515" language="es">
+				<value>Véanse asimismo:&lt;p&gt;- «mayoría» &lt;a href="/entry/result/2224299/all" id="ENTRY_TO_ENTRY_CONVERTER" target="_blank"&gt;IATE:2224299&lt;/a&gt; &lt;/p&gt;&lt;p&gt;- «mayoría absoluta» &lt;a href="/entry/result/1133882/all" id="ENTRY_TO_ENTRY_CONVERTER" target="_blank"&gt;IATE:1133882&lt;/a&gt; &lt;/p&gt;&lt;p&gt;- «mayoría cualificada» &lt;a href="/entry/result/773005/all" id="ENTRY_TO_ENTRY_CONVERTER" target="_blank"&gt;IATE:773005&lt;/a&gt; &lt;/p&gt;&lt;p&gt;- «mayoría política» &lt;a href="/entry/result/2224778/all" id="ENTRY_TO_ENTRY_CONVERTER" target="_blank"&gt;IATE:2224778&lt;/a&gt; &lt;/p&gt;&lt;p&gt;- «mayoría especial» &lt;a href="/entry/result/1880882/all" id="ENTRY_TO_ENTRY_CONVERTER" target="_blank"&gt;IATE:1880882&lt;/a&gt; &lt;/p&gt;&lt;p&gt;- «mayoría inversa» &lt;a href="/entry/result/3527705/all" id="ENTRY_TO_ENTRY_CONVERTER" target="_blank"&gt;IATE:3527705&lt;/a&gt; &lt;/p&gt;</value>
+			</note>
+			<definition of="878515" language="en">
+				<value>Greater number of votes cast on a piece of legislation, enough to ensure it is adopted when an absolute or qualified majority is not required</value>
+				<reference of="878515_definition_en">Council-EN</reference>
+			</definition>
+		</definitionsNotes>
+		<terms termsOf="878515">
+			<iate_term language="es" entryID="concept_878515_mayoria_simple_es">
+				<form>mayoría simple</form>
+				<sense reliability_code="4" reliability_name="very reliable">
+					<synonymRel with="concept_878515_mayoria_relativa_es" />
+					<translationRel with="concept_878515_simple_majority_en" />
+					<translationRel with="concept_878515_relative_majority_en" />
+				</sense>
+				<termType iateType="term" iateCode="4">entryTerm</termType>
+				<term_refs refOf="concept_878515_mayoria_simple_es">
+					<term_ref refNum="1">Tratado de Funcionamiento de la Unión Europea, art. 238 &lt;a href="http://eur-lex.europa.eu/legal-content/ES/TXT/?uri=uriserv:OJ.C_.2016.202.01.0001.01.SPA&amp;amp;toc=OJ:C:2016:202:TOC" target="_blank"&gt;http://eur-lex.europa.eu/legal-content/ES/TXT/?uri=uriserv:OJ.C_.2016.202.01.0001.01.SPA&amp;amp;toc=OJ:C:2016:202:TOC&lt;/a&gt; [4.4.2017]</term_ref>
+				</term_refs>
+			</iate_term>
+			<iate_term language="es" entryID="concept_878515_mayoria_relativa_es">
+				<form>mayoría relativa</form>
+				<sense reliability_code="4" reliability_name="very reliable">
+					<synonymRel with="concept_878515_mayoria_simple_es" />
+					<translationRel with="concept_878515_simple_majority_en" />
+					<translationRel with="concept_878515_relative_majority_en" />
+				</sense>
+				<termType iateType="term" iateCode="4">entryTerm</termType>
+				<term_refs refOf="concept_878515_mayoria_relativa_es">
+					<term_ref refNum="1">&lt;p&gt;Reglamento del Parlamento Europeo (ed. provisional de enero de 2017), art. 17.1 &lt;a href="http://www.europarl.europa.eu/sides/getLastRules.do;jsessionid=520DEC7042C8D73366C233E820C64BE5.node1?language=ES&amp;amp;reference=TOC" target="_blank"&gt;http://www.europarl.europa.eu/sides/getLastRules.do;jsessionid=520DEC7042C8D73366C233E820C64BE5.node1?language=ES&amp;amp;reference=TOC&lt;/a&gt; [4.4.2017]&lt;/p&gt;Real Academia Española y Asociación de Academias de la Lengua Española, Diccionario de la lengua española, Edición del Tricentenario, voz «mayoría» &lt;a href="http://dle.rae.es/?id=OgHvXOA" target="_blank"&gt;http://dle.rae.es/?id=OgHvXOA&lt;/a&gt; [4.4.2017]</term_ref>
+				</term_refs>
+			</iate_term>
+			<iate_term language="en" entryID="concept_878515_simple_majority_en">
+				<form>simple majority</form>
+				<sense reliability_code="4" reliability_name="very reliable">
+					<translationRel with="concept_878515_mayoria_simple_es" />
+					<translationRel with="concept_878515_mayoria_relativa_es" />
+					<synonymRel with="concept_878515_relative_majority_en" />
+				</sense>
+				<termType iateType="term" iateCode="4">entryTerm</termType>
+				<term_refs refOf="concept_878515_simple_majority_en">
+					<term_ref refNum="1">Consolidated version of the Treaty on the Functioning of the European Union, Art. 238 (ex Article 205(1) and (2) &lt;a href="http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:12008E238" target="_blank"&gt;CELEX:12008E238&lt;/a&gt;</term_ref>
+				</term_refs>
+				<contexts>
+					<context example_num="1">
+						<example>"This means that a decision is taken when there are more votes for than against. Each Member of the Council has one vote. The simple majority is applicable when the Treaty does not provide otherwise (Article 205(1) EC). It is thus the decision-making process found in ordinary law. In practice it applies to only a small number of decisions: internal Council rules, organisation of the Council secretariat, and the rules governing committees provided for in the Treaty."</example>
+						<context_ref of="concept_878515_simple_majority_en_example1">How the European Union Works &lt;a href="http://www.europarl.europa.eu/parliament/expert/displayFtu.do?language=en&amp;amp;id=74&amp;amp;ftuId=FTU_1.3.6.html" target="_blank"&gt;http://www.europarl.europa.eu/parliament/expert/displayFtu.do?language=en&amp;amp;id=74&amp;amp;ftuId=FTU_1.3.6.html&lt;/a&gt; (27.11.2009)</context_ref>
+					</context>
+				</contexts>
+			</iate_term>
+			<iate_term language="en" entryID="concept_878515_relative_majority_en">
+				<form>relative majority</form>
+				<sense reliability_code="1" reliability_name="reliability not verified">
+					<translationRel with="concept_878515_mayoria_simple_es" />
+					<translationRel with="concept_878515_mayoria_relativa_es" />
+					<synonymRel with="concept_878515_simple_majority_en" />
+				</sense>
+				<termType iateType="lookup form" iateCode="5" />
+			</iate_term>
+		</terms>
+	</iate_concept>
+	<iate_concept conceptID="2224299">
+		<terms termsOf="2224299">
+			<iate_term language="lv" entryID="concept_2224299_vairakums_lv">
+				<form>vairākums</form>
+				<sense>
+					<synonymRel with="concept_2224299_balsu_vairakums_lv" />
+					<translationRel with="concept_2224299_mayoria_es" />
+					<translationRel with="concept_2224299_meerderheid_nl" />
+					<translationRel with="concept_2224299_aantenenemmisto_fi" />
+					<translationRel with="concept_2224299_tromlach_ga" />
+					<translationRel with="concept_2224299_tobbseg_hu" />
+					<translationRel with="concept_2224299_majority_en" />
+					<translationRel with="concept_2224299_flertal_da" />
+					<translationRel with="concept_2224299_majoritet_da" />
+					<translationRel with="concept_2224299_pleiopsephia_el" />
+					<translationRel with="concept_2224299_maggoranza_mt" />
+					<translationRel with="concept_2224299_wiekszosc_pl" />
+					<translationRel with="concept_2224299_maggioranza_it" />
+					<translationRel with="concept_2224299_vecina_sl" />
+					<translationRel with="concept_2224299_mehrheit_de" />
+					<translationRel with="concept_2224299_haalteenamus_et" />
+					<translationRel with="concept_2224299_majorite_fr" />
+					<translationRel with="concept_2224299_balsu_dauguma_lt" />
+				</sense>
+				<termType iateType="term" iateCode="4">entryTerm</termType>
+			</iate_term>
+			<iate_term language="lv" entryID="concept_2224299_balsu_vairakums_lv">
+				<form>balsu vairākums</form>
+				<sense>
+					<synonymRel with="concept_2224299_vairakums_lv" />
+					<translationRel with="concept_2224299_mayoria_es" />
+					<translationRel with="concept_2224299_meerderheid_nl" />
+					<translationRel with="concept_2224299_aantenenemmisto_fi" />
+					<translationRel with="concept_2224299_tromlach_ga" />
+					<translationRel with="concept_2224299_tobbseg_hu" />
+					<translationRel with="concept_2224299_majority_en" />
+					<translationRel with="concept_2224299_flertal_da" />
+					<translationRel with="concept_2224299_majoritet_da" />
+					<translationRel with="concept_2224299_pleiopsephia_el" />
+					<translationRel with="concept_2224299_maggoranza_mt" />
+					<translationRel with="concept_2224299_wiekszosc_pl" />
+					<translationRel with="concept_2224299_maggioranza_it" />
+					<translationRel with="concept_2224299_vecina_sl" />
+					<translationRel with="concept_2224299_mehrheit_de" />
+					<translationRel with="concept_2224299_haalteenamus_et" />
+					<translationRel with="concept_2224299_majorite_fr" />
+					<translationRel with="concept_2224299_balsu_dauguma_lt" />
+				</sense>
+				<termType iateType="term" iateCode="4">entryTerm</termType>
+			</iate_term>
+			<iate_term language="es" entryID="concept_2224299_mayoria_es">
+				<form>mayoría</form>
+				<sense>
+					<translationRel with="concept_2224299_vairakums_lv" />
+					<translationRel with="concept_2224299_balsu_vairakums_lv" />
+					<translationRel with="concept_2224299_meerderheid_nl" />
+					<translationRel with="concept_2224299_aantenenemmisto_fi" />
+					<translationRel with="concept_2224299_tromlach_ga" />
+					<translationRel with="concept_2224299_tobbseg_hu" />
+					<translationRel with="concept_2224299_majority_en" />
+					<translationRel with="concept_2224299_flertal_da" />
+					<translationRel with="concept_2224299_majoritet_da" />
+					<translationRel with="concept_2224299_pleiopsephia_el" />
+					<translationRel with="concept_2224299_maggoranza_mt" />
+					<translationRel with="concept_2224299_wiekszosc_pl" />
+					<translationRel with="concept_2224299_maggioranza_it" />
+					<translationRel with="concept_2224299_vecina_sl" />
+					<translationRel with="concept_2224299_mehrheit_de" />
+					<translationRel with="concept_2224299_haalteenamus_et" />
+					<translationRel with="concept_2224299_majorite_fr" />
+					<translationRel with="concept_2224299_balsu_dauguma_lt" />
+				</sense>
+				<termType iateType="term" iateCode="4">entryTerm</termType>
+			</iate_term>
+			<iate_term language="nl" entryID="concept_2224299_meerderheid_nl">
+				<form>meerderheid</form>
+				<sense>
+					<translationRel with="concept_2224299_vairakums_lv" />
+					<translationRel with="concept_2224299_balsu_vairakums_lv" />
+					<translationRel with="concept_2224299_mayoria_es" />
+					<translationRel with="concept_2224299_aantenenemmisto_fi" />
+					<translationRel with="concept_2224299_tromlach_ga" />
+					<translationRel with="concept_2224299_tobbseg_hu" />
+					<translationRel with="concept_2224299_majority_en" />
+					<translationRel with="concept_2224299_flertal_da" />
+					<translationRel with="concept_2224299_majoritet_da" />
+					<translationRel with="concept_2224299_pleiopsephia_el" />
+					<translationRel with="concept_2224299_maggoranza_mt" />
+					<translationRel with="concept_2224299_wiekszosc_pl" />
+					<translationRel with="concept_2224299_maggioranza_it" />
+					<translationRel with="concept_2224299_vecina_sl" />
+					<translationRel with="concept_2224299_mehrheit_de" />
+					<translationRel with="concept_2224299_haalteenamus_et" />
+					<translationRel with="concept_2224299_majorite_fr" />
+					<translationRel with="concept_2224299_balsu_dauguma_lt" />
+				</sense>
+				<termType iateType="term" iateCode="4">entryTerm</termType>
+			</iate_term>
+			<iate_term language="fi" entryID="concept_2224299_aantenenemmisto_fi">
+				<form>ääntenenemmistö</form>
+				<sense>
+					<translationRel with="concept_2224299_vairakums_lv" />
+					<translationRel with="concept_2224299_balsu_vairakums_lv" />
+					<translationRel with="concept_2224299_mayoria_es" />
+					<translationRel with="concept_2224299_meerderheid_nl" />
+					<translationRel with="concept_2224299_tromlach_ga" />
+					<translationRel with="concept_2224299_tobbseg_hu" />
+					<translationRel with="concept_2224299_majority_en" />
+					<translationRel with="concept_2224299_flertal_da" />
+					<translationRel with="concept_2224299_majoritet_da" />
+					<translationRel with="concept_2224299_pleiopsephia_el" />
+					<translationRel with="concept_2224299_maggoranza_mt" />
+					<translationRel with="concept_2224299_wiekszosc_pl" />
+					<translationRel with="concept_2224299_maggioranza_it" />
+					<translationRel with="concept_2224299_vecina_sl" />
+					<translationRel with="concept_2224299_mehrheit_de" />
+					<translationRel with="concept_2224299_haalteenamus_et" />
+					<translationRel with="concept_2224299_majorite_fr" />
+					<translationRel with="concept_2224299_balsu_dauguma_lt" />
+				</sense>
+				<termType iateType="term" iateCode="4">entryTerm</termType>
+			</iate_term>
+			<iate_term language="ga" entryID="concept_2224299_tromlach_ga">
+				<form>tromlach</form>
+				<sense>
+					<translationRel with="concept_2224299_vairakums_lv" />
+					<translationRel with="concept_2224299_balsu_vairakums_lv" />
+					<translationRel with="concept_2224299_mayoria_es" />
+					<translationRel with="concept_2224299_meerderheid_nl" />
+					<translationRel with="concept_2224299_aantenenemmisto_fi" />
+					<translationRel with="concept_2224299_tobbseg_hu" />
+					<translationRel with="concept_2224299_majority_en" />
+					<translationRel with="concept_2224299_flertal_da" />
+					<translationRel with="concept_2224299_majoritet_da" />
+					<translationRel with="concept_2224299_pleiopsephia_el" />
+					<translationRel with="concept_2224299_maggoranza_mt" />
+					<translationRel with="concept_2224299_wiekszosc_pl" />
+					<translationRel with="concept_2224299_maggioranza_it" />
+					<translationRel with="concept_2224299_vecina_sl" />
+					<translationRel with="concept_2224299_mehrheit_de" />
+					<translationRel with="concept_2224299_haalteenamus_et" />
+					<translationRel with="concept_2224299_majorite_fr" />
+					<translationRel with="concept_2224299_balsu_dauguma_lt" />
+				</sense>
+				<termType iateType="term" iateCode="4">entryTerm</termType>
+			</iate_term>
+			<iate_term language="hu" entryID="concept_2224299_tobbseg_hu">
+				<form>többség</form>
+				<sense>
+					<translationRel with="concept_2224299_vairakums_lv" />
+					<translationRel with="concept_2224299_balsu_vairakums_lv" />
+					<translationRel with="concept_2224299_mayoria_es" />
+					<translationRel with="concept_2224299_meerderheid_nl" />
+					<translationRel with="concept_2224299_aantenenemmisto_fi" />
+					<translationRel with="concept_2224299_tromlach_ga" />
+					<translationRel with="concept_2224299_majority_en" />
+					<translationRel with="concept_2224299_flertal_da" />
+					<translationRel with="concept_2224299_majoritet_da" />
+					<translationRel with="concept_2224299_pleiopsephia_el" />
+					<translationRel with="concept_2224299_maggoranza_mt" />
+					<translationRel with="concept_2224299_wiekszosc_pl" />
+					<translationRel with="concept_2224299_maggioranza_it" />
+					<translationRel with="concept_2224299_vecina_sl" />
+					<translationRel with="concept_2224299_mehrheit_de" />
+					<translationRel with="concept_2224299_haalteenamus_et" />
+					<translationRel with="concept_2224299_majorite_fr" />
+					<translationRel with="concept_2224299_balsu_dauguma_lt" />
+				</sense>
+				<termType iateType="term" iateCode="4">entryTerm</termType>
+			</iate_term>
+			<iate_term language="en" entryID="concept_2224299_majority_en">
+				<form>majority</form>
+				<sense>
+					<translationRel with="concept_2224299_vairakums_lv" />
+					<translationRel with="concept_2224299_balsu_vairakums_lv" />
+					<translationRel with="concept_2224299_mayoria_es" />
+					<translationRel with="concept_2224299_meerderheid_nl" />
+					<translationRel with="concept_2224299_aantenenemmisto_fi" />
+					<translationRel with="concept_2224299_tromlach_ga" />
+					<translationRel with="concept_2224299_tobbseg_hu" />
+					<translationRel with="concept_2224299_flertal_da" />
+					<translationRel with="concept_2224299_majoritet_da" />
+					<translationRel with="concept_2224299_pleiopsephia_el" />
+					<translationRel with="concept_2224299_maggoranza_mt" />
+					<translationRel with="concept_2224299_wiekszosc_pl" />
+					<translationRel with="concept_2224299_maggioranza_it" />
+					<translationRel with="concept_2224299_vecina_sl" />
+					<translationRel with="concept_2224299_mehrheit_de" />
+					<translationRel with="concept_2224299_haalteenamus_et" />
+					<translationRel with="concept_2224299_majorite_fr" />
+					<translationRel with="concept_2224299_balsu_dauguma_lt" />
+				</sense>
+				<termType iateType="term" iateCode="4">entryTerm</termType>
+			</iate_term>
+			<iate_term language="da" entryID="concept_2224299_flertal_da">
+				<form>flertal</form>
+				<sense>
+					<translationRel with="concept_2224299_vairakums_lv" />
+					<translationRel with="concept_2224299_balsu_vairakums_lv" />
+					<translationRel with="concept_2224299_mayoria_es" />
+					<translationRel with="concept_2224299_meerderheid_nl" />
+					<translationRel with="concept_2224299_aantenenemmisto_fi" />
+					<translationRel with="concept_2224299_tromlach_ga" />
+					<translationRel with="concept_2224299_tobbseg_hu" />
+					<translationRel with="concept_2224299_majority_en" />
+					<synonymRel with="concept_2224299_majoritet_da" />
+					<translationRel with="concept_2224299_pleiopsephia_el" />
+					<translationRel with="concept_2224299_maggoranza_mt" />
+					<translationRel with="concept_2224299_wiekszosc_pl" />
+					<translationRel with="concept_2224299_maggioranza_it" />
+					<translationRel with="concept_2224299_vecina_sl" />
+					<translationRel with="concept_2224299_mehrheit_de" />
+					<translationRel with="concept_2224299_haalteenamus_et" />
+					<translationRel with="concept_2224299_majorite_fr" />
+					<translationRel with="concept_2224299_balsu_dauguma_lt" />
+				</sense>
+				<termType iateType="term" iateCode="4">entryTerm</termType>
+			</iate_term>
+			<iate_term language="da" entryID="concept_2224299_majoritet_da">
+				<form>majoritet</form>
+				<sense>
+					<translationRel with="concept_2224299_vairakums_lv" />
+					<translationRel with="concept_2224299_balsu_vairakums_lv" />
+					<translationRel with="concept_2224299_mayoria_es" />
+					<translationRel with="concept_2224299_meerderheid_nl" />
+					<translationRel with="concept_2224299_aantenenemmisto_fi" />
+					<translationRel with="concept_2224299_tromlach_ga" />
+					<translationRel with="concept_2224299_tobbseg_hu" />
+					<translationRel with="concept_2224299_majority_en" />
+					<synonymRel with="concept_2224299_flertal_da" />
+					<translationRel with="concept_2224299_pleiopsephia_el" />
+					<translationRel with="concept_2224299_maggoranza_mt" />
+					<translationRel with="concept_2224299_wiekszosc_pl" />
+					<translationRel with="concept_2224299_maggioranza_it" />
+					<translationRel with="concept_2224299_vecina_sl" />
+					<translationRel with="concept_2224299_mehrheit_de" />
+					<translationRel with="concept_2224299_haalteenamus_et" />
+					<translationRel with="concept_2224299_majorite_fr" />
+					<translationRel with="concept_2224299_balsu_dauguma_lt" />
+				</sense>
+				<termType iateType="term" iateCode="4">entryTerm</termType>
+			</iate_term>
+			<iate_term language="el" entryID="concept_2224299_pleiopsephia_el">
+				<form>πλειοψηφία</form>
+				<sense>
+					<translationRel with="concept_2224299_vairakums_lv" />
+					<translationRel with="concept_2224299_balsu_vairakums_lv" />
+					<translationRel with="concept_2224299_mayoria_es" />
+					<translationRel with="concept_2224299_meerderheid_nl" />
+					<translationRel with="concept_2224299_aantenenemmisto_fi" />
+					<translationRel with="concept_2224299_tromlach_ga" />
+					<translationRel with="concept_2224299_tobbseg_hu" />
+					<translationRel with="concept_2224299_majority_en" />
+					<translationRel with="concept_2224299_flertal_da" />
+					<translationRel with="concept_2224299_majoritet_da" />
+					<translationRel with="concept_2224299_maggoranza_mt" />
+					<translationRel with="concept_2224299_wiekszosc_pl" />
+					<translationRel with="concept_2224299_maggioranza_it" />
+					<translationRel with="concept_2224299_vecina_sl" />
+					<translationRel with="concept_2224299_mehrheit_de" />
+					<translationRel with="concept_2224299_haalteenamus_et" />
+					<translationRel with="concept_2224299_majorite_fr" />
+					<translationRel with="concept_2224299_balsu_dauguma_lt" />
+				</sense>
+				<termType iateType="term" iateCode="4">entryTerm</termType>
+			</iate_term>
+			<iate_term language="mt" entryID="concept_2224299_maggoranza_mt">
+				<form>maġġoranza</form>
+				<sense>
+					<translationRel with="concept_2224299_vairakums_lv" />
+					<translationRel with="concept_2224299_balsu_vairakums_lv" />
+					<translationRel with="concept_2224299_mayoria_es" />
+					<translationRel with="concept_2224299_meerderheid_nl" />
+					<translationRel with="concept_2224299_aantenenemmisto_fi" />
+					<translationRel with="concept_2224299_tromlach_ga" />
+					<translationRel with="concept_2224299_tobbseg_hu" />
+					<translationRel with="concept_2224299_majority_en" />
+					<translationRel with="concept_2224299_flertal_da" />
+					<translationRel with="concept_2224299_majoritet_da" />
+					<translationRel with="concept_2224299_pleiopsephia_el" />
+					<translationRel with="concept_2224299_wiekszosc_pl" />
+					<translationRel with="concept_2224299_maggioranza_it" />
+					<translationRel with="concept_2224299_vecina_sl" />
+					<translationRel with="concept_2224299_mehrheit_de" />
+					<translationRel with="concept_2224299_haalteenamus_et" />
+					<translationRel with="concept_2224299_majorite_fr" />
+					<translationRel with="concept_2224299_balsu_dauguma_lt" />
+				</sense>
+				<termType iateType="term" iateCode="4">entryTerm</termType>
+			</iate_term>
+			<iate_term language="pl" entryID="concept_2224299_wiekszosc_pl">
+				<form>większość</form>
+				<sense>
+					<translationRel with="concept_2224299_vairakums_lv" />
+					<translationRel with="concept_2224299_balsu_vairakums_lv" />
+					<translationRel with="concept_2224299_mayoria_es" />
+					<translationRel with="concept_2224299_meerderheid_nl" />
+					<translationRel with="concept_2224299_aantenenemmisto_fi" />
+					<translationRel with="concept_2224299_tromlach_ga" />
+					<translationRel with="concept_2224299_tobbseg_hu" />
+					<translationRel with="concept_2224299_majority_en" />
+					<translationRel with="concept_2224299_flertal_da" />
+					<translationRel with="concept_2224299_majoritet_da" />
+					<translationRel with="concept_2224299_pleiopsephia_el" />
+					<translationRel with="concept_2224299_maggoranza_mt" />
+					<translationRel with="concept_2224299_maggioranza_it" />
+					<translationRel with="concept_2224299_vecina_sl" />
+					<translationRel with="concept_2224299_mehrheit_de" />
+					<translationRel with="concept_2224299_haalteenamus_et" />
+					<translationRel with="concept_2224299_majorite_fr" />
+					<translationRel with="concept_2224299_balsu_dauguma_lt" />
+				</sense>
+				<termType iateType="term" iateCode="4">entryTerm</termType>
+			</iate_term>
+			<iate_term language="it" entryID="concept_2224299_maggioranza_it">
+				<form>maggioranza</form>
+				<sense>
+					<translationRel with="concept_2224299_vairakums_lv" />
+					<translationRel with="concept_2224299_balsu_vairakums_lv" />
+					<translationRel with="concept_2224299_mayoria_es" />
+					<translationRel with="concept_2224299_meerderheid_nl" />
+					<translationRel with="concept_2224299_aantenenemmisto_fi" />
+					<translationRel with="concept_2224299_tromlach_ga" />
+					<translationRel with="concept_2224299_tobbseg_hu" />
+					<translationRel with="concept_2224299_majority_en" />
+					<translationRel with="concept_2224299_flertal_da" />
+					<translationRel with="concept_2224299_majoritet_da" />
+					<translationRel with="concept_2224299_pleiopsephia_el" />
+					<translationRel with="concept_2224299_maggoranza_mt" />
+					<translationRel with="concept_2224299_wiekszosc_pl" />
+					<translationRel with="concept_2224299_vecina_sl" />
+					<translationRel with="concept_2224299_mehrheit_de" />
+					<translationRel with="concept_2224299_haalteenamus_et" />
+					<translationRel with="concept_2224299_majorite_fr" />
+					<translationRel with="concept_2224299_balsu_dauguma_lt" />
+				</sense>
+				<termType iateType="term" iateCode="4">entryTerm</termType>
+			</iate_term>
+			<iate_term language="sl" entryID="concept_2224299_vecina_sl">
+				<form>večina</form>
+				<sense>
+					<translationRel with="concept_2224299_vairakums_lv" />
+					<translationRel with="concept_2224299_balsu_vairakums_lv" />
+					<translationRel with="concept_2224299_mayoria_es" />
+					<translationRel with="concept_2224299_meerderheid_nl" />
+					<translationRel with="concept_2224299_aantenenemmisto_fi" />
+					<translationRel with="concept_2224299_tromlach_ga" />
+					<translationRel with="concept_2224299_tobbseg_hu" />
+					<translationRel with="concept_2224299_majority_en" />
+					<translationRel with="concept_2224299_flertal_da" />
+					<translationRel with="concept_2224299_majoritet_da" />
+					<translationRel with="concept_2224299_pleiopsephia_el" />
+					<translationRel with="concept_2224299_maggoranza_mt" />
+					<translationRel with="concept_2224299_wiekszosc_pl" />
+					<translationRel with="concept_2224299_maggioranza_it" />
+					<translationRel with="concept_2224299_mehrheit_de" />
+					<translationRel with="concept_2224299_haalteenamus_et" />
+					<translationRel with="concept_2224299_majorite_fr" />
+					<translationRel with="concept_2224299_balsu_dauguma_lt" />
+				</sense>
+				<termType iateType="term" iateCode="4">entryTerm</termType>
+			</iate_term>
+			<iate_term language="de" entryID="concept_2224299_mehrheit_de">
+				<form>Mehrheit</form>
+				<sense>
+					<translationRel with="concept_2224299_vairakums_lv" />
+					<translationRel with="concept_2224299_balsu_vairakums_lv" />
+					<translationRel with="concept_2224299_mayoria_es" />
+					<translationRel with="concept_2224299_meerderheid_nl" />
+					<translationRel with="concept_2224299_aantenenemmisto_fi" />
+					<translationRel with="concept_2224299_tromlach_ga" />
+					<translationRel with="concept_2224299_tobbseg_hu" />
+					<translationRel with="concept_2224299_majority_en" />
+					<translationRel with="concept_2224299_flertal_da" />
+					<translationRel with="concept_2224299_majoritet_da" />
+					<translationRel with="concept_2224299_pleiopsephia_el" />
+					<translationRel with="concept_2224299_maggoranza_mt" />
+					<translationRel with="concept_2224299_wiekszosc_pl" />
+					<translationRel with="concept_2224299_maggioranza_it" />
+					<translationRel with="concept_2224299_vecina_sl" />
+					<translationRel with="concept_2224299_haalteenamus_et" />
+					<translationRel with="concept_2224299_majorite_fr" />
+					<translationRel with="concept_2224299_balsu_dauguma_lt" />
+				</sense>
+				<termType iateType="term" iateCode="4">entryTerm</termType>
+			</iate_term>
+			<iate_term language="et" entryID="concept_2224299_haalteenamus_et">
+				<form>häälteenamus</form>
+				<sense>
+					<translationRel with="concept_2224299_vairakums_lv" />
+					<translationRel with="concept_2224299_balsu_vairakums_lv" />
+					<translationRel with="concept_2224299_mayoria_es" />
+					<translationRel with="concept_2224299_meerderheid_nl" />
+					<translationRel with="concept_2224299_aantenenemmisto_fi" />
+					<translationRel with="concept_2224299_tromlach_ga" />
+					<translationRel with="concept_2224299_tobbseg_hu" />
+					<translationRel with="concept_2224299_majority_en" />
+					<translationRel with="concept_2224299_flertal_da" />
+					<translationRel with="concept_2224299_majoritet_da" />
+					<translationRel with="concept_2224299_pleiopsephia_el" />
+					<translationRel with="concept_2224299_maggoranza_mt" />
+					<translationRel with="concept_2224299_wiekszosc_pl" />
+					<translationRel with="concept_2224299_maggioranza_it" />
+					<translationRel with="concept_2224299_vecina_sl" />
+					<translationRel with="concept_2224299_mehrheit_de" />
+					<translationRel with="concept_2224299_majorite_fr" />
+					<translationRel with="concept_2224299_balsu_dauguma_lt" />
+				</sense>
+				<termType iateType="term" iateCode="4">entryTerm</termType>
+			</iate_term>
+			<iate_term language="fr" entryID="concept_2224299_majorite_fr">
+				<form>majorité</form>
+				<sense>
+					<translationRel with="concept_2224299_vairakums_lv" />
+					<translationRel with="concept_2224299_balsu_vairakums_lv" />
+					<translationRel with="concept_2224299_mayoria_es" />
+					<translationRel with="concept_2224299_meerderheid_nl" />
+					<translationRel with="concept_2224299_aantenenemmisto_fi" />
+					<translationRel with="concept_2224299_tromlach_ga" />
+					<translationRel with="concept_2224299_tobbseg_hu" />
+					<translationRel with="concept_2224299_majority_en" />
+					<translationRel with="concept_2224299_flertal_da" />
+					<translationRel with="concept_2224299_majoritet_da" />
+					<translationRel with="concept_2224299_pleiopsephia_el" />
+					<translationRel with="concept_2224299_maggoranza_mt" />
+					<translationRel with="concept_2224299_wiekszosc_pl" />
+					<translationRel with="concept_2224299_maggioranza_it" />
+					<translationRel with="concept_2224299_vecina_sl" />
+					<translationRel with="concept_2224299_mehrheit_de" />
+					<translationRel with="concept_2224299_haalteenamus_et" />
+					<translationRel with="concept_2224299_balsu_dauguma_lt" />
+				</sense>
+				<termType iateType="term" iateCode="4">entryTerm</termType>
+			</iate_term>
+			<iate_term language="lt" entryID="concept_2224299_balsu_dauguma_lt">
+				<form>balsų dauguma</form>
+				<sense>
+					<translationRel with="concept_2224299_vairakums_lv" />
+					<translationRel with="concept_2224299_balsu_vairakums_lv" />
+					<translationRel with="concept_2224299_mayoria_es" />
+					<translationRel with="concept_2224299_meerderheid_nl" />
+					<translationRel with="concept_2224299_aantenenemmisto_fi" />
+					<translationRel with="concept_2224299_tromlach_ga" />
+					<translationRel with="concept_2224299_tobbseg_hu" />
+					<translationRel with="concept_2224299_majority_en" />
+					<translationRel with="concept_2224299_flertal_da" />
+					<translationRel with="concept_2224299_majoritet_da" />
+					<translationRel with="concept_2224299_pleiopsephia_el" />
+					<translationRel with="concept_2224299_maggoranza_mt" />
+					<translationRel with="concept_2224299_wiekszosc_pl" />
+					<translationRel with="concept_2224299_maggioranza_it" />
+					<translationRel with="concept_2224299_vecina_sl" />
+					<translationRel with="concept_2224299_mehrheit_de" />
+					<translationRel with="concept_2224299_haalteenamus_et" />
+					<translationRel with="concept_2224299_majorite_fr" />
+				</sense>
+				<termType iateType="term" iateCode="4">entryTerm</termType>
+			</iate_term>
+		</terms>
+	</iate_concept>
+	<iate_concept conceptID="773005">
+		<terms termsOf="773005">
+			<iate_term language="lv" entryID="concept_773005_kvalificets_balsu_vairakums_lv">
+				<form>kvalificēts balsu vairākums</form>
+				<sense>
+					<translationRel with="concept_773005_maioria_qualificada_pt" />
+					<translationRel with="concept_773005_kvalifitsirano_mnozinstvo_bg" />
+					<translationRel with="concept_773005_kvalifikovana_vetsina_cs" />
+					<translationRel with="concept_773005_doble_mayoria_es" />
+					<translationRel with="concept_773005_mayoria_calificada_es" />
+					<translationRel with="concept_773005_mayoria_cualificada_es" />
+					<translationRel with="concept_773005_gekwalificeerde_meerderheid_nl" />
+					<translationRel with="concept_773005_maaraenemmisto_fi" />
+					<translationRel with="concept_773005_kvalifikovana_vacsina_sk" />
+					<translationRel with="concept_773005_minositett_tobbseg_hu" />
+					<translationRel with="concept_773005_tromlach_cailithe_ga" />
+					<translationRel with="concept_773005_kvalificerad_majoritet_sv" />
+					<translationRel with="concept_773005_kvalificirana_vecina_hr" />
+					<translationRel with="concept_773005_qualified_majority_en" />
+					<translationRel with="concept_773005_supermajority_en" />
+					<translationRel with="concept_773005_qm_en" />
+					<translationRel with="concept_773005_majoritate_calificata_ro" />
+					<translationRel with="concept_773005_kvalificeret_flertal_da" />
+					<translationRel with="concept_773005_maggoranza_kwalifikata_mt" />
+					<translationRel with="concept_773005_eidike_pleiopsephia_el" />
+					<translationRel with="concept_773005_wiekszosc_kwalifikowana_pl" />
+					<translationRel with="concept_773005_maggioranza_qualificata_it" />
+					<translationRel with="concept_773005_kvalificirana_vecina_sl" />
+					<translationRel with="concept_773005_qualifizierte_mehrheit_de" />
+					<translationRel with="concept_773005_majorite_qualifiee_fr" />
+					<translationRel with="concept_773005_kvalifitseeritud_haalteenamus_et" />
+					<translationRel with="concept_773005_kvalifikuota_balsu_dauguma_lt" />
+				</sense>
+				<termType iateType="term" iateCode="4">entryTerm</termType>
+			</iate_term>
+			<iate_term language="pt" entryID="concept_773005_maioria_qualificada_pt">
+				<form>maioria qualificada</form>
+				<sense>
+					<translationRel with="concept_773005_kvalificets_balsu_vairakums_lv" />
+					<translationRel with="concept_773005_kvalifitsirano_mnozinstvo_bg" />
+					<translationRel with="concept_773005_kvalifikovana_vetsina_cs" />
+					<translationRel with="concept_773005_doble_mayoria_es" />
+					<translationRel with="concept_773005_mayoria_calificada_es" />
+					<translationRel with="concept_773005_mayoria_cualificada_es" />
+					<translationRel with="concept_773005_gekwalificeerde_meerderheid_nl" />
+					<translationRel with="concept_773005_maaraenemmisto_fi" />
+					<translationRel with="concept_773005_kvalifikovana_vacsina_sk" />
+					<translationRel with="concept_773005_minositett_tobbseg_hu" />
+					<translationRel with="concept_773005_tromlach_cailithe_ga" />
+					<translationRel with="concept_773005_kvalificerad_majoritet_sv" />
+					<translationRel with="concept_773005_kvalificirana_vecina_hr" />
+					<translationRel with="concept_773005_qualified_majority_en" />
+					<translationRel with="concept_773005_supermajority_en" />
+					<translationRel with="concept_773005_qm_en" />
+					<translationRel with="concept_773005_majoritate_calificata_ro" />
+					<translationRel with="concept_773005_kvalificeret_flertal_da" />
+					<translationRel with="concept_773005_maggoranza_kwalifikata_mt" />
+					<translationRel with="concept_773005_eidike_pleiopsephia_el" />
+					<translationRel with="concept_773005_wiekszosc_kwalifikowana_pl" />
+					<translationRel with="concept_773005_maggioranza_qualificata_it" />
+					<translationRel with="concept_773005_kvalificirana_vecina_sl" />
+					<translationRel with="concept_773005_qualifizierte_mehrheit_de" />
+					<translationRel with="concept_773005_majorite_qualifiee_fr" />
+					<translationRel with="concept_773005_kvalifitseeritud_haalteenamus_et" />
+					<translationRel with="concept_773005_kvalifikuota_balsu_dauguma_lt" />
+				</sense>
+				<termType iateType="term" iateCode="4">entryTerm</termType>
+			</iate_term>
+			<iate_term language="bg" entryID="concept_773005_kvalifitsirano_mnozinstvo_bg">
+				<form>квалифицирано мнозинство</form>
+				<sense>
+					<translationRel with="concept_773005_kvalificets_balsu_vairakums_lv" />
+					<translationRel with="concept_773005_maioria_qualificada_pt" />
+					<translationRel with="concept_773005_kvalifikovana_vetsina_cs" />
+					<translationRel with="concept_773005_doble_mayoria_es" />
+					<translationRel with="concept_773005_mayoria_calificada_es" />
+					<translationRel with="concept_773005_mayoria_cualificada_es" />
+					<translationRel with="concept_773005_gekwalificeerde_meerderheid_nl" />
+					<translationRel with="concept_773005_maaraenemmisto_fi" />
+					<translationRel with="concept_773005_kvalifikovana_vacsina_sk" />
+					<translationRel with="concept_773005_minositett_tobbseg_hu" />
+					<translationRel with="concept_773005_tromlach_cailithe_ga" />
+					<translationRel with="concept_773005_kvalificerad_majoritet_sv" />
+					<translationRel with="concept_773005_kvalificirana_vecina_hr" />
+					<translationRel with="concept_773005_qualified_majority_en" />
+					<translationRel with="concept_773005_supermajority_en" />
+					<translationRel with="concept_773005_qm_en" />
+					<translationRel with="concept_773005_majoritate_calificata_ro" />
+					<translationRel with="concept_773005_kvalificeret_flertal_da" />
+					<translationRel with="concept_773005_maggoranza_kwalifikata_mt" />
+					<translationRel with="concept_773005_eidike_pleiopsephia_el" />
+					<translationRel with="concept_773005_wiekszosc_kwalifikowana_pl" />
+					<translationRel with="concept_773005_maggioranza_qualificata_it" />
+					<translationRel with="concept_773005_kvalificirana_vecina_sl" />
+					<translationRel with="concept_773005_qualifizierte_mehrheit_de" />
+					<translationRel with="concept_773005_majorite_qualifiee_fr" />
+					<translationRel with="concept_773005_kvalifitseeritud_haalteenamus_et" />
+					<translationRel with="concept_773005_kvalifikuota_balsu_dauguma_lt" />
+				</sense>
+				<termType iateType="term" iateCode="4">entryTerm</termType>
+			</iate_term>
+			<iate_term language="cs" entryID="concept_773005_kvalifikovana_vetsina_cs">
+				<form>kvalifikovaná většina</form>
+				<sense>
+					<translationRel with="concept_773005_kvalificets_balsu_vairakums_lv" />
+					<translationRel with="concept_773005_maioria_qualificada_pt" />
+					<translationRel with="concept_773005_kvalifitsirano_mnozinstvo_bg" />
+					<translationRel with="concept_773005_doble_mayoria_es" />
+					<translationRel with="concept_773005_mayoria_calificada_es" />
+					<translationRel with="concept_773005_mayoria_cualificada_es" />
+					<translationRel with="concept_773005_gekwalificeerde_meerderheid_nl" />
+					<translationRel with="concept_773005_maaraenemmisto_fi" />
+					<translationRel with="concept_773005_kvalifikovana_vacsina_sk" />
+					<translationRel with="concept_773005_minositett_tobbseg_hu" />
+					<translationRel with="concept_773005_tromlach_cailithe_ga" />
+					<translationRel with="concept_773005_kvalificerad_majoritet_sv" />
+					<translationRel with="concept_773005_kvalificirana_vecina_hr" />
+					<translationRel with="concept_773005_qualified_majority_en" />
+					<translationRel with="concept_773005_supermajority_en" />
+					<translationRel with="concept_773005_qm_en" />
+					<translationRel with="concept_773005_majoritate_calificata_ro" />
+					<translationRel with="concept_773005_kvalificeret_flertal_da" />
+					<translationRel with="concept_773005_maggoranza_kwalifikata_mt" />
+					<translationRel with="concept_773005_eidike_pleiopsephia_el" />
+					<translationRel with="concept_773005_wiekszosc_kwalifikowana_pl" />
+					<translationRel with="concept_773005_maggioranza_qualificata_it" />
+					<translationRel with="concept_773005_kvalificirana_vecina_sl" />
+					<translationRel with="concept_773005_qualifizierte_mehrheit_de" />
+					<translationRel with="concept_773005_majorite_qualifiee_fr" />
+					<translationRel with="concept_773005_kvalifitseeritud_haalteenamus_et" />
+					<translationRel with="concept_773005_kvalifikuota_balsu_dauguma_lt" />
+				</sense>
+				<termType iateType="term" iateCode="4">entryTerm</termType>
+			</iate_term>
+			<iate_term language="es" entryID="concept_773005_doble_mayoria_es">
+				<form>doble mayoría</form>
+				<sense>
+					<translationRel with="concept_773005_kvalificets_balsu_vairakums_lv" />
+					<translationRel with="concept_773005_maioria_qualificada_pt" />
+					<translationRel with="concept_773005_kvalifitsirano_mnozinstvo_bg" />
+					<translationRel with="concept_773005_kvalifikovana_vetsina_cs" />
+					<synonymRel with="concept_773005_mayoria_calificada_es" />
+					<synonymRel with="concept_773005_mayoria_cualificada_es" />
+					<translationRel with="concept_773005_gekwalificeerde_meerderheid_nl" />
+					<translationRel with="concept_773005_maaraenemmisto_fi" />
+					<translationRel with="concept_773005_kvalifikovana_vacsina_sk" />
+					<translationRel with="concept_773005_minositett_tobbseg_hu" />
+					<translationRel with="concept_773005_tromlach_cailithe_ga" />
+					<translationRel with="concept_773005_kvalificerad_majoritet_sv" />
+					<translationRel with="concept_773005_kvalificirana_vecina_hr" />
+					<translationRel with="concept_773005_qualified_majority_en" />
+					<translationRel with="concept_773005_supermajority_en" />
+					<translationRel with="concept_773005_qm_en" />
+					<translationRel with="concept_773005_majoritate_calificata_ro" />
+					<translationRel with="concept_773005_kvalificeret_flertal_da" />
+					<translationRel with="concept_773005_maggoranza_kwalifikata_mt" />
+					<translationRel with="concept_773005_eidike_pleiopsephia_el" />
+					<translationRel with="concept_773005_wiekszosc_kwalifikowana_pl" />
+					<translationRel with="concept_773005_maggioranza_qualificata_it" />
+					<translationRel with="concept_773005_kvalificirana_vecina_sl" />
+					<translationRel with="concept_773005_qualifizierte_mehrheit_de" />
+					<translationRel with="concept_773005_majorite_qualifiee_fr" />
+					<translationRel with="concept_773005_kvalifitseeritud_haalteenamus_et" />
+					<translationRel with="concept_773005_kvalifikuota_balsu_dauguma_lt" />
+				</sense>
+				<termType iateType="term" iateCode="4">entryTerm</termType>
+			</iate_term>
+			<iate_term language="es" entryID="concept_773005_mayoria_calificada_es">
+				<form>mayoría calificada</form>
+				<sense>
+					<translationRel with="concept_773005_kvalificets_balsu_vairakums_lv" />
+					<translationRel with="concept_773005_maioria_qualificada_pt" />
+					<translationRel with="concept_773005_kvalifitsirano_mnozinstvo_bg" />
+					<translationRel with="concept_773005_kvalifikovana_vetsina_cs" />
+					<synonymRel with="concept_773005_doble_mayoria_es" />
+					<synonymRel with="concept_773005_mayoria_cualificada_es" />
+					<translationRel with="concept_773005_gekwalificeerde_meerderheid_nl" />
+					<translationRel with="concept_773005_maaraenemmisto_fi" />
+					<translationRel with="concept_773005_kvalifikovana_vacsina_sk" />
+					<translationRel with="concept_773005_minositett_tobbseg_hu" />
+					<translationRel with="concept_773005_tromlach_cailithe_ga" />
+					<translationRel with="concept_773005_kvalificerad_majoritet_sv" />
+					<translationRel with="concept_773005_kvalificirana_vecina_hr" />
+					<translationRel with="concept_773005_qualified_majority_en" />
+					<translationRel with="concept_773005_supermajority_en" />
+					<translationRel with="concept_773005_qm_en" />
+					<translationRel with="concept_773005_majoritate_calificata_ro" />
+					<translationRel with="concept_773005_kvalificeret_flertal_da" />
+					<translationRel with="concept_773005_maggoranza_kwalifikata_mt" />
+					<translationRel with="concept_773005_eidike_pleiopsephia_el" />
+					<translationRel with="concept_773005_wiekszosc_kwalifikowana_pl" />
+					<translationRel with="concept_773005_maggioranza_qualificata_it" />
+					<translationRel with="concept_773005_kvalificirana_vecina_sl" />
+					<translationRel with="concept_773005_qualifizierte_mehrheit_de" />
+					<translationRel with="concept_773005_majorite_qualifiee_fr" />
+					<translationRel with="concept_773005_kvalifitseeritud_haalteenamus_et" />
+					<translationRel with="concept_773005_kvalifikuota_balsu_dauguma_lt" />
+				</sense>
+				<termType iateType="lookup form" iateCode="5" />
+			</iate_term>
+			<iate_term language="es" entryID="concept_773005_mayoria_cualificada_es">
+				<form>mayoría cualificada</form>
+				<sense>
+					<translationRel with="concept_773005_kvalificets_balsu_vairakums_lv" />
+					<translationRel with="concept_773005_maioria_qualificada_pt" />
+					<translationRel with="concept_773005_kvalifitsirano_mnozinstvo_bg" />
+					<translationRel with="concept_773005_kvalifikovana_vetsina_cs" />
+					<synonymRel with="concept_773005_doble_mayoria_es" />
+					<synonymRel with="concept_773005_mayoria_calificada_es" />
+					<translationRel with="concept_773005_gekwalificeerde_meerderheid_nl" />
+					<translationRel with="concept_773005_maaraenemmisto_fi" />
+					<translationRel with="concept_773005_kvalifikovana_vacsina_sk" />
+					<translationRel with="concept_773005_minositett_tobbseg_hu" />
+					<translationRel with="concept_773005_tromlach_cailithe_ga" />
+					<translationRel with="concept_773005_kvalificerad_majoritet_sv" />
+					<translationRel with="concept_773005_kvalificirana_vecina_hr" />
+					<translationRel with="concept_773005_qualified_majority_en" />
+					<translationRel with="concept_773005_supermajority_en" />
+					<translationRel with="concept_773005_qm_en" />
+					<translationRel with="concept_773005_majoritate_calificata_ro" />
+					<translationRel with="concept_773005_kvalificeret_flertal_da" />
+					<translationRel with="concept_773005_maggoranza_kwalifikata_mt" />
+					<translationRel with="concept_773005_eidike_pleiopsephia_el" />
+					<translationRel with="concept_773005_wiekszosc_kwalifikowana_pl" />
+					<translationRel with="concept_773005_maggioranza_qualificata_it" />
+					<translationRel with="concept_773005_kvalificirana_vecina_sl" />
+					<translationRel with="concept_773005_qualifizierte_mehrheit_de" />
+					<translationRel with="concept_773005_majorite_qualifiee_fr" />
+					<translationRel with="concept_773005_kvalifitseeritud_haalteenamus_et" />
+					<translationRel with="concept_773005_kvalifikuota_balsu_dauguma_lt" />
+				</sense>
+				<termType iateType="term" iateCode="4">entryTerm</termType>
+			</iate_term>
+			<iate_term language="nl" entryID="concept_773005_gekwalificeerde_meerderheid_nl">
+				<form>gekwalificeerde meerderheid</form>
+				<sense>
+					<translationRel with="concept_773005_kvalificets_balsu_vairakums_lv" />
+					<translationRel with="concept_773005_maioria_qualificada_pt" />
+					<translationRel with="concept_773005_kvalifitsirano_mnozinstvo_bg" />
+					<translationRel with="concept_773005_kvalifikovana_vetsina_cs" />
+					<translationRel with="concept_773005_doble_mayoria_es" />
+					<translationRel with="concept_773005_mayoria_calificada_es" />
+					<translationRel with="concept_773005_mayoria_cualificada_es" />
+					<translationRel with="concept_773005_maaraenemmisto_fi" />
+					<translationRel with="concept_773005_kvalifikovana_vacsina_sk" />
+					<translationRel with="concept_773005_minositett_tobbseg_hu" />
+					<translationRel with="concept_773005_tromlach_cailithe_ga" />
+					<translationRel with="concept_773005_kvalificerad_majoritet_sv" />
+					<translationRel with="concept_773005_kvalificirana_vecina_hr" />
+					<translationRel with="concept_773005_qualified_majority_en" />
+					<translationRel with="concept_773005_supermajority_en" />
+					<translationRel with="concept_773005_qm_en" />
+					<translationRel with="concept_773005_majoritate_calificata_ro" />
+					<translationRel with="concept_773005_kvalificeret_flertal_da" />
+					<translationRel with="concept_773005_maggoranza_kwalifikata_mt" />
+					<translationRel with="concept_773005_eidike_pleiopsephia_el" />
+					<translationRel with="concept_773005_wiekszosc_kwalifikowana_pl" />
+					<translationRel with="concept_773005_maggioranza_qualificata_it" />
+					<translationRel with="concept_773005_kvalificirana_vecina_sl" />
+					<translationRel with="concept_773005_qualifizierte_mehrheit_de" />
+					<translationRel with="concept_773005_majorite_qualifiee_fr" />
+					<translationRel with="concept_773005_kvalifitseeritud_haalteenamus_et" />
+					<translationRel with="concept_773005_kvalifikuota_balsu_dauguma_lt" />
+				</sense>
+				<termType iateType="term" iateCode="4">entryTerm</termType>
+			</iate_term>
+			<iate_term language="fi" entryID="concept_773005_maaraenemmisto_fi">
+				<form>määräenemmistö</form>
+				<sense>
+					<translationRel with="concept_773005_kvalificets_balsu_vairakums_lv" />
+					<translationRel with="concept_773005_maioria_qualificada_pt" />
+					<translationRel with="concept_773005_kvalifitsirano_mnozinstvo_bg" />
+					<translationRel with="concept_773005_kvalifikovana_vetsina_cs" />
+					<translationRel with="concept_773005_doble_mayoria_es" />
+					<translationRel with="concept_773005_mayoria_calificada_es" />
+					<translationRel with="concept_773005_mayoria_cualificada_es" />
+					<translationRel with="concept_773005_gekwalificeerde_meerderheid_nl" />
+					<translationRel with="concept_773005_kvalifikovana_vacsina_sk" />
+					<translationRel with="concept_773005_minositett_tobbseg_hu" />
+					<translationRel with="concept_773005_tromlach_cailithe_ga" />
+					<translationRel with="concept_773005_kvalificerad_majoritet_sv" />
+					<translationRel with="concept_773005_kvalificirana_vecina_hr" />
+					<translationRel with="concept_773005_qualified_majority_en" />
+					<translationRel with="concept_773005_supermajority_en" />
+					<translationRel with="concept_773005_qm_en" />
+					<translationRel with="concept_773005_majoritate_calificata_ro" />
+					<translationRel with="concept_773005_kvalificeret_flertal_da" />
+					<translationRel with="concept_773005_maggoranza_kwalifikata_mt" />
+					<translationRel with="concept_773005_eidike_pleiopsephia_el" />
+					<translationRel with="concept_773005_wiekszosc_kwalifikowana_pl" />
+					<translationRel with="concept_773005_maggioranza_qualificata_it" />
+					<translationRel with="concept_773005_kvalificirana_vecina_sl" />
+					<translationRel with="concept_773005_qualifizierte_mehrheit_de" />
+					<translationRel with="concept_773005_majorite_qualifiee_fr" />
+					<translationRel with="concept_773005_kvalifitseeritud_haalteenamus_et" />
+					<translationRel with="concept_773005_kvalifikuota_balsu_dauguma_lt" />
+				</sense>
+				<termType iateType="term" iateCode="4">entryTerm</termType>
+			</iate_term>
+			<iate_term language="sk" entryID="concept_773005_kvalifikovana_vacsina_sk">
+				<form>kvalifikovaná väčšina</form>
+				<sense>
+					<translationRel with="concept_773005_kvalificets_balsu_vairakums_lv" />
+					<translationRel with="concept_773005_maioria_qualificada_pt" />
+					<translationRel with="concept_773005_kvalifitsirano_mnozinstvo_bg" />
+					<translationRel with="concept_773005_kvalifikovana_vetsina_cs" />
+					<translationRel with="concept_773005_doble_mayoria_es" />
+					<translationRel with="concept_773005_mayoria_calificada_es" />
+					<translationRel with="concept_773005_mayoria_cualificada_es" />
+					<translationRel with="concept_773005_gekwalificeerde_meerderheid_nl" />
+					<translationRel with="concept_773005_maaraenemmisto_fi" />
+					<translationRel with="concept_773005_minositett_tobbseg_hu" />
+					<translationRel with="concept_773005_tromlach_cailithe_ga" />
+					<translationRel with="concept_773005_kvalificerad_majoritet_sv" />
+					<translationRel with="concept_773005_kvalificirana_vecina_hr" />
+					<translationRel with="concept_773005_qualified_majority_en" />
+					<translationRel with="concept_773005_supermajority_en" />
+					<translationRel with="concept_773005_qm_en" />
+					<translationRel with="concept_773005_majoritate_calificata_ro" />
+					<translationRel with="concept_773005_kvalificeret_flertal_da" />
+					<translationRel with="concept_773005_maggoranza_kwalifikata_mt" />
+					<translationRel with="concept_773005_eidike_pleiopsephia_el" />
+					<translationRel with="concept_773005_wiekszosc_kwalifikowana_pl" />
+					<translationRel with="concept_773005_maggioranza_qualificata_it" />
+					<translationRel with="concept_773005_kvalificirana_vecina_sl" />
+					<translationRel with="concept_773005_qualifizierte_mehrheit_de" />
+					<translationRel with="concept_773005_majorite_qualifiee_fr" />
+					<translationRel with="concept_773005_kvalifitseeritud_haalteenamus_et" />
+					<translationRel with="concept_773005_kvalifikuota_balsu_dauguma_lt" />
+				</sense>
+				<termType iateType="term" iateCode="4">entryTerm</termType>
+			</iate_term>
+			<iate_term language="hu" entryID="concept_773005_minositett_tobbseg_hu">
+				<form>minősített többség</form>
+				<sense>
+					<translationRel with="concept_773005_kvalificets_balsu_vairakums_lv" />
+					<translationRel with="concept_773005_maioria_qualificada_pt" />
+					<translationRel with="concept_773005_kvalifitsirano_mnozinstvo_bg" />
+					<translationRel with="concept_773005_kvalifikovana_vetsina_cs" />
+					<translationRel with="concept_773005_doble_mayoria_es" />
+					<translationRel with="concept_773005_mayoria_calificada_es" />
+					<translationRel with="concept_773005_mayoria_cualificada_es" />
+					<translationRel with="concept_773005_gekwalificeerde_meerderheid_nl" />
+					<translationRel with="concept_773005_maaraenemmisto_fi" />
+					<translationRel with="concept_773005_kvalifikovana_vacsina_sk" />
+					<translationRel with="concept_773005_tromlach_cailithe_ga" />
+					<translationRel with="concept_773005_kvalificerad_majoritet_sv" />
+					<translationRel with="concept_773005_kvalificirana_vecina_hr" />
+					<translationRel with="concept_773005_qualified_majority_en" />
+					<translationRel with="concept_773005_supermajority_en" />
+					<translationRel with="concept_773005_qm_en" />
+					<translationRel with="concept_773005_majoritate_calificata_ro" />
+					<translationRel with="concept_773005_kvalificeret_flertal_da" />
+					<translationRel with="concept_773005_maggoranza_kwalifikata_mt" />
+					<translationRel with="concept_773005_eidike_pleiopsephia_el" />
+					<translationRel with="concept_773005_wiekszosc_kwalifikowana_pl" />
+					<translationRel with="concept_773005_maggioranza_qualificata_it" />
+					<translationRel with="concept_773005_kvalificirana_vecina_sl" />
+					<translationRel with="concept_773005_qualifizierte_mehrheit_de" />
+					<translationRel with="concept_773005_majorite_qualifiee_fr" />
+					<translationRel with="concept_773005_kvalifitseeritud_haalteenamus_et" />
+					<translationRel with="concept_773005_kvalifikuota_balsu_dauguma_lt" />
+				</sense>
+				<termType iateType="term" iateCode="4">entryTerm</termType>
+			</iate_term>
+			<iate_term language="ga" entryID="concept_773005_tromlach_cailithe_ga">
+				<form>tromlach cáilithe</form>
+				<sense>
+					<translationRel with="concept_773005_kvalificets_balsu_vairakums_lv" />
+					<translationRel with="concept_773005_maioria_qualificada_pt" />
+					<translationRel with="concept_773005_kvalifitsirano_mnozinstvo_bg" />
+					<translationRel with="concept_773005_kvalifikovana_vetsina_cs" />
+					<translationRel with="concept_773005_doble_mayoria_es" />
+					<translationRel with="concept_773005_mayoria_calificada_es" />
+					<translationRel with="concept_773005_mayoria_cualificada_es" />
+					<translationRel with="concept_773005_gekwalificeerde_meerderheid_nl" />
+					<translationRel with="concept_773005_maaraenemmisto_fi" />
+					<translationRel with="concept_773005_kvalifikovana_vacsina_sk" />
+					<translationRel with="concept_773005_minositett_tobbseg_hu" />
+					<translationRel with="concept_773005_kvalificerad_majoritet_sv" />
+					<translationRel with="concept_773005_kvalificirana_vecina_hr" />
+					<translationRel with="concept_773005_qualified_majority_en" />
+					<translationRel with="concept_773005_supermajority_en" />
+					<translationRel with="concept_773005_qm_en" />
+					<translationRel with="concept_773005_majoritate_calificata_ro" />
+					<translationRel with="concept_773005_kvalificeret_flertal_da" />
+					<translationRel with="concept_773005_maggoranza_kwalifikata_mt" />
+					<translationRel with="concept_773005_eidike_pleiopsephia_el" />
+					<translationRel with="concept_773005_wiekszosc_kwalifikowana_pl" />
+					<translationRel with="concept_773005_maggioranza_qualificata_it" />
+					<translationRel with="concept_773005_kvalificirana_vecina_sl" />
+					<translationRel with="concept_773005_qualifizierte_mehrheit_de" />
+					<translationRel with="concept_773005_majorite_qualifiee_fr" />
+					<translationRel with="concept_773005_kvalifitseeritud_haalteenamus_et" />
+					<translationRel with="concept_773005_kvalifikuota_balsu_dauguma_lt" />
+				</sense>
+				<termType iateType="term" iateCode="4">entryTerm</termType>
+			</iate_term>
+			<iate_term language="sv" entryID="concept_773005_kvalificerad_majoritet_sv">
+				<form>kvalificerad majoritet</form>
+				<sense>
+					<translationRel with="concept_773005_kvalificets_balsu_vairakums_lv" />
+					<translationRel with="concept_773005_maioria_qualificada_pt" />
+					<translationRel with="concept_773005_kvalifitsirano_mnozinstvo_bg" />
+					<translationRel with="concept_773005_kvalifikovana_vetsina_cs" />
+					<translationRel with="concept_773005_doble_mayoria_es" />
+					<translationRel with="concept_773005_mayoria_calificada_es" />
+					<translationRel with="concept_773005_mayoria_cualificada_es" />
+					<translationRel with="concept_773005_gekwalificeerde_meerderheid_nl" />
+					<translationRel with="concept_773005_maaraenemmisto_fi" />
+					<translationRel with="concept_773005_kvalifikovana_vacsina_sk" />
+					<translationRel with="concept_773005_minositett_tobbseg_hu" />
+					<translationRel with="concept_773005_tromlach_cailithe_ga" />
+					<translationRel with="concept_773005_kvalificirana_vecina_hr" />
+					<translationRel with="concept_773005_qualified_majority_en" />
+					<translationRel with="concept_773005_supermajority_en" />
+					<translationRel with="concept_773005_qm_en" />
+					<translationRel with="concept_773005_majoritate_calificata_ro" />
+					<translationRel with="concept_773005_kvalificeret_flertal_da" />
+					<translationRel with="concept_773005_maggoranza_kwalifikata_mt" />
+					<translationRel with="concept_773005_eidike_pleiopsephia_el" />
+					<translationRel with="concept_773005_wiekszosc_kwalifikowana_pl" />
+					<translationRel with="concept_773005_maggioranza_qualificata_it" />
+					<translationRel with="concept_773005_kvalificirana_vecina_sl" />
+					<translationRel with="concept_773005_qualifizierte_mehrheit_de" />
+					<translationRel with="concept_773005_majorite_qualifiee_fr" />
+					<translationRel with="concept_773005_kvalifitseeritud_haalteenamus_et" />
+					<translationRel with="concept_773005_kvalifikuota_balsu_dauguma_lt" />
+				</sense>
+				<termType iateType="term" iateCode="4">entryTerm</termType>
+			</iate_term>
+			<iate_term language="hr" entryID="concept_773005_kvalificirana_vecina_hr">
+				<form>kvalificirana većina</form>
+				<sense>
+					<translationRel with="concept_773005_kvalificets_balsu_vairakums_lv" />
+					<translationRel with="concept_773005_maioria_qualificada_pt" />
+					<translationRel with="concept_773005_kvalifitsirano_mnozinstvo_bg" />
+					<translationRel with="concept_773005_kvalifikovana_vetsina_cs" />
+					<translationRel with="concept_773005_doble_mayoria_es" />
+					<translationRel with="concept_773005_mayoria_calificada_es" />
+					<translationRel with="concept_773005_mayoria_cualificada_es" />
+					<translationRel with="concept_773005_gekwalificeerde_meerderheid_nl" />
+					<translationRel with="concept_773005_maaraenemmisto_fi" />
+					<translationRel with="concept_773005_kvalifikovana_vacsina_sk" />
+					<translationRel with="concept_773005_minositett_tobbseg_hu" />
+					<translationRel with="concept_773005_tromlach_cailithe_ga" />
+					<translationRel with="concept_773005_kvalificerad_majoritet_sv" />
+					<translationRel with="concept_773005_qualified_majority_en" />
+					<translationRel with="concept_773005_supermajority_en" />
+					<translationRel with="concept_773005_qm_en" />
+					<translationRel with="concept_773005_majoritate_calificata_ro" />
+					<translationRel with="concept_773005_kvalificeret_flertal_da" />
+					<translationRel with="concept_773005_maggoranza_kwalifikata_mt" />
+					<translationRel with="concept_773005_eidike_pleiopsephia_el" />
+					<translationRel with="concept_773005_wiekszosc_kwalifikowana_pl" />
+					<translationRel with="concept_773005_maggioranza_qualificata_it" />
+					<translationRel with="concept_773005_kvalificirana_vecina_sl" />
+					<translationRel with="concept_773005_qualifizierte_mehrheit_de" />
+					<translationRel with="concept_773005_majorite_qualifiee_fr" />
+					<translationRel with="concept_773005_kvalifitseeritud_haalteenamus_et" />
+					<translationRel with="concept_773005_kvalifikuota_balsu_dauguma_lt" />
+				</sense>
+				<termType iateType="term" iateCode="4">entryTerm</termType>
+			</iate_term>
+			<iate_term language="en" entryID="concept_773005_qualified_majority_en">
+				<form>qualified majority</form>
+				<sense>
+					<translationRel with="concept_773005_kvalificets_balsu_vairakums_lv" />
+					<translationRel with="concept_773005_maioria_qualificada_pt" />
+					<translationRel with="concept_773005_kvalifitsirano_mnozinstvo_bg" />
+					<translationRel with="concept_773005_kvalifikovana_vetsina_cs" />
+					<translationRel with="concept_773005_doble_mayoria_es" />
+					<translationRel with="concept_773005_mayoria_calificada_es" />
+					<translationRel with="concept_773005_mayoria_cualificada_es" />
+					<translationRel with="concept_773005_gekwalificeerde_meerderheid_nl" />
+					<translationRel with="concept_773005_maaraenemmisto_fi" />
+					<translationRel with="concept_773005_kvalifikovana_vacsina_sk" />
+					<translationRel with="concept_773005_minositett_tobbseg_hu" />
+					<translationRel with="concept_773005_tromlach_cailithe_ga" />
+					<translationRel with="concept_773005_kvalificerad_majoritet_sv" />
+					<translationRel with="concept_773005_kvalificirana_vecina_hr" />
+					<synonymRel with="concept_773005_supermajority_en" />
+					<synonymRel with="concept_773005_qm_en" />
+					<translationRel with="concept_773005_majoritate_calificata_ro" />
+					<translationRel with="concept_773005_kvalificeret_flertal_da" />
+					<translationRel with="concept_773005_maggoranza_kwalifikata_mt" />
+					<translationRel with="concept_773005_eidike_pleiopsephia_el" />
+					<translationRel with="concept_773005_wiekszosc_kwalifikowana_pl" />
+					<translationRel with="concept_773005_maggioranza_qualificata_it" />
+					<translationRel with="concept_773005_kvalificirana_vecina_sl" />
+					<translationRel with="concept_773005_qualifizierte_mehrheit_de" />
+					<translationRel with="concept_773005_majorite_qualifiee_fr" />
+					<translationRel with="concept_773005_kvalifitseeritud_haalteenamus_et" />
+					<translationRel with="concept_773005_kvalifikuota_balsu_dauguma_lt" />
+				</sense>
+				<termType iateType="term" iateCode="4">entryTerm</termType>
+			</iate_term>
+			<iate_term language="en" entryID="concept_773005_supermajority_en">
+				<form>supermajority</form>
+				<sense>
+					<translationRel with="concept_773005_kvalificets_balsu_vairakums_lv" />
+					<translationRel with="concept_773005_maioria_qualificada_pt" />
+					<translationRel with="concept_773005_kvalifitsirano_mnozinstvo_bg" />
+					<translationRel with="concept_773005_kvalifikovana_vetsina_cs" />
+					<translationRel with="concept_773005_doble_mayoria_es" />
+					<translationRel with="concept_773005_mayoria_calificada_es" />
+					<translationRel with="concept_773005_mayoria_cualificada_es" />
+					<translationRel with="concept_773005_gekwalificeerde_meerderheid_nl" />
+					<translationRel with="concept_773005_maaraenemmisto_fi" />
+					<translationRel with="concept_773005_kvalifikovana_vacsina_sk" />
+					<translationRel with="concept_773005_minositett_tobbseg_hu" />
+					<translationRel with="concept_773005_tromlach_cailithe_ga" />
+					<translationRel with="concept_773005_kvalificerad_majoritet_sv" />
+					<translationRel with="concept_773005_kvalificirana_vecina_hr" />
+					<synonymRel with="concept_773005_qualified_majority_en" />
+					<synonymRel with="concept_773005_qm_en" />
+					<translationRel with="concept_773005_majoritate_calificata_ro" />
+					<translationRel with="concept_773005_kvalificeret_flertal_da" />
+					<translationRel with="concept_773005_maggoranza_kwalifikata_mt" />
+					<translationRel with="concept_773005_eidike_pleiopsephia_el" />
+					<translationRel with="concept_773005_wiekszosc_kwalifikowana_pl" />
+					<translationRel with="concept_773005_maggioranza_qualificata_it" />
+					<translationRel with="concept_773005_kvalificirana_vecina_sl" />
+					<translationRel with="concept_773005_qualifizierte_mehrheit_de" />
+					<translationRel with="concept_773005_majorite_qualifiee_fr" />
+					<translationRel with="concept_773005_kvalifitseeritud_haalteenamus_et" />
+					<translationRel with="concept_773005_kvalifikuota_balsu_dauguma_lt" />
+				</sense>
+				<termType iateType="lookup form" iateCode="5" />
+			</iate_term>
+			<iate_term language="en" entryID="concept_773005_qm_en">
+				<form>QM</form>
+				<sense>
+					<translationRel with="concept_773005_kvalificets_balsu_vairakums_lv" />
+					<translationRel with="concept_773005_maioria_qualificada_pt" />
+					<translationRel with="concept_773005_kvalifitsirano_mnozinstvo_bg" />
+					<translationRel with="concept_773005_kvalifikovana_vetsina_cs" />
+					<translationRel with="concept_773005_doble_mayoria_es" />
+					<translationRel with="concept_773005_mayoria_calificada_es" />
+					<translationRel with="concept_773005_mayoria_cualificada_es" />
+					<translationRel with="concept_773005_gekwalificeerde_meerderheid_nl" />
+					<translationRel with="concept_773005_maaraenemmisto_fi" />
+					<translationRel with="concept_773005_kvalifikovana_vacsina_sk" />
+					<translationRel with="concept_773005_minositett_tobbseg_hu" />
+					<translationRel with="concept_773005_tromlach_cailithe_ga" />
+					<translationRel with="concept_773005_kvalificerad_majoritet_sv" />
+					<translationRel with="concept_773005_kvalificirana_vecina_hr" />
+					<synonymRel with="concept_773005_qualified_majority_en" />
+					<synonymRel with="concept_773005_supermajority_en" />
+					<translationRel with="concept_773005_majoritate_calificata_ro" />
+					<translationRel with="concept_773005_kvalificeret_flertal_da" />
+					<translationRel with="concept_773005_maggoranza_kwalifikata_mt" />
+					<translationRel with="concept_773005_eidike_pleiopsephia_el" />
+					<translationRel with="concept_773005_wiekszosc_kwalifikowana_pl" />
+					<translationRel with="concept_773005_maggioranza_qualificata_it" />
+					<translationRel with="concept_773005_kvalificirana_vecina_sl" />
+					<translationRel with="concept_773005_qualifizierte_mehrheit_de" />
+					<translationRel with="concept_773005_majorite_qualifiee_fr" />
+					<translationRel with="concept_773005_kvalifitseeritud_haalteenamus_et" />
+					<translationRel with="concept_773005_kvalifikuota_balsu_dauguma_lt" />
+				</sense>
+				<termType iateType="lookup form" iateCode="5" />
+			</iate_term>
+			<iate_term language="ro" entryID="concept_773005_majoritate_calificata_ro">
+				<form>majoritate calificată</form>
+				<sense>
+					<translationRel with="concept_773005_kvalificets_balsu_vairakums_lv" />
+					<translationRel with="concept_773005_maioria_qualificada_pt" />
+					<translationRel with="concept_773005_kvalifitsirano_mnozinstvo_bg" />
+					<translationRel with="concept_773005_kvalifikovana_vetsina_cs" />
+					<translationRel with="concept_773005_doble_mayoria_es" />
+					<translationRel with="concept_773005_mayoria_calificada_es" />
+					<translationRel with="concept_773005_mayoria_cualificada_es" />
+					<translationRel with="concept_773005_gekwalificeerde_meerderheid_nl" />
+					<translationRel with="concept_773005_maaraenemmisto_fi" />
+					<translationRel with="concept_773005_kvalifikovana_vacsina_sk" />
+					<translationRel with="concept_773005_minositett_tobbseg_hu" />
+					<translationRel with="concept_773005_tromlach_cailithe_ga" />
+					<translationRel with="concept_773005_kvalificerad_majoritet_sv" />
+					<translationRel with="concept_773005_kvalificirana_vecina_hr" />
+					<translationRel with="concept_773005_qualified_majority_en" />
+					<translationRel with="concept_773005_supermajority_en" />
+					<translationRel with="concept_773005_qm_en" />
+					<translationRel with="concept_773005_kvalificeret_flertal_da" />
+					<translationRel with="concept_773005_maggoranza_kwalifikata_mt" />
+					<translationRel with="concept_773005_eidike_pleiopsephia_el" />
+					<translationRel with="concept_773005_wiekszosc_kwalifikowana_pl" />
+					<translationRel with="concept_773005_maggioranza_qualificata_it" />
+					<translationRel with="concept_773005_kvalificirana_vecina_sl" />
+					<translationRel with="concept_773005_qualifizierte_mehrheit_de" />
+					<translationRel with="concept_773005_majorite_qualifiee_fr" />
+					<translationRel with="concept_773005_kvalifitseeritud_haalteenamus_et" />
+					<translationRel with="concept_773005_kvalifikuota_balsu_dauguma_lt" />
+				</sense>
+				<termType iateType="term" iateCode="4">entryTerm</termType>
+			</iate_term>
+			<iate_term language="da" entryID="concept_773005_kvalificeret_flertal_da">
+				<form>kvalificeret flertal</form>
+				<sense>
+					<translationRel with="concept_773005_kvalificets_balsu_vairakums_lv" />
+					<translationRel with="concept_773005_maioria_qualificada_pt" />
+					<translationRel with="concept_773005_kvalifitsirano_mnozinstvo_bg" />
+					<translationRel with="concept_773005_kvalifikovana_vetsina_cs" />
+					<translationRel with="concept_773005_doble_mayoria_es" />
+					<translationRel with="concept_773005_mayoria_calificada_es" />
+					<translationRel with="concept_773005_mayoria_cualificada_es" />
+					<translationRel with="concept_773005_gekwalificeerde_meerderheid_nl" />
+					<translationRel with="concept_773005_maaraenemmisto_fi" />
+					<translationRel with="concept_773005_kvalifikovana_vacsina_sk" />
+					<translationRel with="concept_773005_minositett_tobbseg_hu" />
+					<translationRel with="concept_773005_tromlach_cailithe_ga" />
+					<translationRel with="concept_773005_kvalificerad_majoritet_sv" />
+					<translationRel with="concept_773005_kvalificirana_vecina_hr" />
+					<translationRel with="concept_773005_qualified_majority_en" />
+					<translationRel with="concept_773005_supermajority_en" />
+					<translationRel with="concept_773005_qm_en" />
+					<translationRel with="concept_773005_majoritate_calificata_ro" />
+					<translationRel with="concept_773005_maggoranza_kwalifikata_mt" />
+					<translationRel with="concept_773005_eidike_pleiopsephia_el" />
+					<translationRel with="concept_773005_wiekszosc_kwalifikowana_pl" />
+					<translationRel with="concept_773005_maggioranza_qualificata_it" />
+					<translationRel with="concept_773005_kvalificirana_vecina_sl" />
+					<translationRel with="concept_773005_qualifizierte_mehrheit_de" />
+					<translationRel with="concept_773005_majorite_qualifiee_fr" />
+					<translationRel with="concept_773005_kvalifitseeritud_haalteenamus_et" />
+					<translationRel with="concept_773005_kvalifikuota_balsu_dauguma_lt" />
+				</sense>
+				<termType iateType="term" iateCode="4">entryTerm</termType>
+			</iate_term>
+			<iate_term language="mt" entryID="concept_773005_maggoranza_kwalifikata_mt">
+				<form>maġġoranza kwalifikata</form>
+				<sense>
+					<translationRel with="concept_773005_kvalificets_balsu_vairakums_lv" />
+					<translationRel with="concept_773005_maioria_qualificada_pt" />
+					<translationRel with="concept_773005_kvalifitsirano_mnozinstvo_bg" />
+					<translationRel with="concept_773005_kvalifikovana_vetsina_cs" />
+					<translationRel with="concept_773005_doble_mayoria_es" />
+					<translationRel with="concept_773005_mayoria_calificada_es" />
+					<translationRel with="concept_773005_mayoria_cualificada_es" />
+					<translationRel with="concept_773005_gekwalificeerde_meerderheid_nl" />
+					<translationRel with="concept_773005_maaraenemmisto_fi" />
+					<translationRel with="concept_773005_kvalifikovana_vacsina_sk" />
+					<translationRel with="concept_773005_minositett_tobbseg_hu" />
+					<translationRel with="concept_773005_tromlach_cailithe_ga" />
+					<translationRel with="concept_773005_kvalificerad_majoritet_sv" />
+					<translationRel with="concept_773005_kvalificirana_vecina_hr" />
+					<translationRel with="concept_773005_qualified_majority_en" />
+					<translationRel with="concept_773005_supermajority_en" />
+					<translationRel with="concept_773005_qm_en" />
+					<translationRel with="concept_773005_majoritate_calificata_ro" />
+					<translationRel with="concept_773005_kvalificeret_flertal_da" />
+					<translationRel with="concept_773005_eidike_pleiopsephia_el" />
+					<translationRel with="concept_773005_wiekszosc_kwalifikowana_pl" />
+					<translationRel with="concept_773005_maggioranza_qualificata_it" />
+					<translationRel with="concept_773005_kvalificirana_vecina_sl" />
+					<translationRel with="concept_773005_qualifizierte_mehrheit_de" />
+					<translationRel with="concept_773005_majorite_qualifiee_fr" />
+					<translationRel with="concept_773005_kvalifitseeritud_haalteenamus_et" />
+					<translationRel with="concept_773005_kvalifikuota_balsu_dauguma_lt" />
+				</sense>
+				<termType iateType="term" iateCode="4">entryTerm</termType>
+			</iate_term>
+			<iate_term language="el" entryID="concept_773005_eidike_pleiopsephia_el">
+				<form>ειδική πλειοψηφία</form>
+				<sense>
+					<translationRel with="concept_773005_kvalificets_balsu_vairakums_lv" />
+					<translationRel with="concept_773005_maioria_qualificada_pt" />
+					<translationRel with="concept_773005_kvalifitsirano_mnozinstvo_bg" />
+					<translationRel with="concept_773005_kvalifikovana_vetsina_cs" />
+					<translationRel with="concept_773005_doble_mayoria_es" />
+					<translationRel with="concept_773005_mayoria_calificada_es" />
+					<translationRel with="concept_773005_mayoria_cualificada_es" />
+					<translationRel with="concept_773005_gekwalificeerde_meerderheid_nl" />
+					<translationRel with="concept_773005_maaraenemmisto_fi" />
+					<translationRel with="concept_773005_kvalifikovana_vacsina_sk" />
+					<translationRel with="concept_773005_minositett_tobbseg_hu" />
+					<translationRel with="concept_773005_tromlach_cailithe_ga" />
+					<translationRel with="concept_773005_kvalificerad_majoritet_sv" />
+					<translationRel with="concept_773005_kvalificirana_vecina_hr" />
+					<translationRel with="concept_773005_qualified_majority_en" />
+					<translationRel with="concept_773005_supermajority_en" />
+					<translationRel with="concept_773005_qm_en" />
+					<translationRel with="concept_773005_majoritate_calificata_ro" />
+					<translationRel with="concept_773005_kvalificeret_flertal_da" />
+					<translationRel with="concept_773005_maggoranza_kwalifikata_mt" />
+					<translationRel with="concept_773005_wiekszosc_kwalifikowana_pl" />
+					<translationRel with="concept_773005_maggioranza_qualificata_it" />
+					<translationRel with="concept_773005_kvalificirana_vecina_sl" />
+					<translationRel with="concept_773005_qualifizierte_mehrheit_de" />
+					<translationRel with="concept_773005_majorite_qualifiee_fr" />
+					<translationRel with="concept_773005_kvalifitseeritud_haalteenamus_et" />
+					<translationRel with="concept_773005_kvalifikuota_balsu_dauguma_lt" />
+				</sense>
+				<termType iateType="term" iateCode="4">entryTerm</termType>
+			</iate_term>
+			<iate_term language="pl" entryID="concept_773005_wiekszosc_kwalifikowana_pl">
+				<form>większość kwalifikowana</form>
+				<sense>
+					<translationRel with="concept_773005_kvalificets_balsu_vairakums_lv" />
+					<translationRel with="concept_773005_maioria_qualificada_pt" />
+					<translationRel with="concept_773005_kvalifitsirano_mnozinstvo_bg" />
+					<translationRel with="concept_773005_kvalifikovana_vetsina_cs" />
+					<translationRel with="concept_773005_doble_mayoria_es" />
+					<translationRel with="concept_773005_mayoria_calificada_es" />
+					<translationRel with="concept_773005_mayoria_cualificada_es" />
+					<translationRel with="concept_773005_gekwalificeerde_meerderheid_nl" />
+					<translationRel with="concept_773005_maaraenemmisto_fi" />
+					<translationRel with="concept_773005_kvalifikovana_vacsina_sk" />
+					<translationRel with="concept_773005_minositett_tobbseg_hu" />
+					<translationRel with="concept_773005_tromlach_cailithe_ga" />
+					<translationRel with="concept_773005_kvalificerad_majoritet_sv" />
+					<translationRel with="concept_773005_kvalificirana_vecina_hr" />
+					<translationRel with="concept_773005_qualified_majority_en" />
+					<translationRel with="concept_773005_supermajority_en" />
+					<translationRel with="concept_773005_qm_en" />
+					<translationRel with="concept_773005_majoritate_calificata_ro" />
+					<translationRel with="concept_773005_kvalificeret_flertal_da" />
+					<translationRel with="concept_773005_maggoranza_kwalifikata_mt" />
+					<translationRel with="concept_773005_eidike_pleiopsephia_el" />
+					<translationRel with="concept_773005_maggioranza_qualificata_it" />
+					<translationRel with="concept_773005_kvalificirana_vecina_sl" />
+					<translationRel with="concept_773005_qualifizierte_mehrheit_de" />
+					<translationRel with="concept_773005_majorite_qualifiee_fr" />
+					<translationRel with="concept_773005_kvalifitseeritud_haalteenamus_et" />
+					<translationRel with="concept_773005_kvalifikuota_balsu_dauguma_lt" />
+				</sense>
+				<termType iateType="term" iateCode="4">entryTerm</termType>
+			</iate_term>
+			<iate_term language="it" entryID="concept_773005_maggioranza_qualificata_it">
+				<form>maggioranza qualificata</form>
+				<sense>
+					<translationRel with="concept_773005_kvalificets_balsu_vairakums_lv" />
+					<translationRel with="concept_773005_maioria_qualificada_pt" />
+					<translationRel with="concept_773005_kvalifitsirano_mnozinstvo_bg" />
+					<translationRel with="concept_773005_kvalifikovana_vetsina_cs" />
+					<translationRel with="concept_773005_doble_mayoria_es" />
+					<translationRel with="concept_773005_mayoria_calificada_es" />
+					<translationRel with="concept_773005_mayoria_cualificada_es" />
+					<translationRel with="concept_773005_gekwalificeerde_meerderheid_nl" />
+					<translationRel with="concept_773005_maaraenemmisto_fi" />
+					<translationRel with="concept_773005_kvalifikovana_vacsina_sk" />
+					<translationRel with="concept_773005_minositett_tobbseg_hu" />
+					<translationRel with="concept_773005_tromlach_cailithe_ga" />
+					<translationRel with="concept_773005_kvalificerad_majoritet_sv" />
+					<translationRel with="concept_773005_kvalificirana_vecina_hr" />
+					<translationRel with="concept_773005_qualified_majority_en" />
+					<translationRel with="concept_773005_supermajority_en" />
+					<translationRel with="concept_773005_qm_en" />
+					<translationRel with="concept_773005_majoritate_calificata_ro" />
+					<translationRel with="concept_773005_kvalificeret_flertal_da" />
+					<translationRel with="concept_773005_maggoranza_kwalifikata_mt" />
+					<translationRel with="concept_773005_eidike_pleiopsephia_el" />
+					<translationRel with="concept_773005_wiekszosc_kwalifikowana_pl" />
+					<translationRel with="concept_773005_kvalificirana_vecina_sl" />
+					<translationRel with="concept_773005_qualifizierte_mehrheit_de" />
+					<translationRel with="concept_773005_majorite_qualifiee_fr" />
+					<translationRel with="concept_773005_kvalifitseeritud_haalteenamus_et" />
+					<translationRel with="concept_773005_kvalifikuota_balsu_dauguma_lt" />
+				</sense>
+				<termType iateType="term" iateCode="4">entryTerm</termType>
+			</iate_term>
+			<iate_term language="sl" entryID="concept_773005_kvalificirana_vecina_sl">
+				<form>kvalificirana večina</form>
+				<sense>
+					<translationRel with="concept_773005_kvalificets_balsu_vairakums_lv" />
+					<translationRel with="concept_773005_maioria_qualificada_pt" />
+					<translationRel with="concept_773005_kvalifitsirano_mnozinstvo_bg" />
+					<translationRel with="concept_773005_kvalifikovana_vetsina_cs" />
+					<translationRel with="concept_773005_doble_mayoria_es" />
+					<translationRel with="concept_773005_mayoria_calificada_es" />
+					<translationRel with="concept_773005_mayoria_cualificada_es" />
+					<translationRel with="concept_773005_gekwalificeerde_meerderheid_nl" />
+					<translationRel with="concept_773005_maaraenemmisto_fi" />
+					<translationRel with="concept_773005_kvalifikovana_vacsina_sk" />
+					<translationRel with="concept_773005_minositett_tobbseg_hu" />
+					<translationRel with="concept_773005_tromlach_cailithe_ga" />
+					<translationRel with="concept_773005_kvalificerad_majoritet_sv" />
+					<translationRel with="concept_773005_kvalificirana_vecina_hr" />
+					<translationRel with="concept_773005_qualified_majority_en" />
+					<translationRel with="concept_773005_supermajority_en" />
+					<translationRel with="concept_773005_qm_en" />
+					<translationRel with="concept_773005_majoritate_calificata_ro" />
+					<translationRel with="concept_773005_kvalificeret_flertal_da" />
+					<translationRel with="concept_773005_maggoranza_kwalifikata_mt" />
+					<translationRel with="concept_773005_eidike_pleiopsephia_el" />
+					<translationRel with="concept_773005_wiekszosc_kwalifikowana_pl" />
+					<translationRel with="concept_773005_maggioranza_qualificata_it" />
+					<translationRel with="concept_773005_qualifizierte_mehrheit_de" />
+					<translationRel with="concept_773005_majorite_qualifiee_fr" />
+					<translationRel with="concept_773005_kvalifitseeritud_haalteenamus_et" />
+					<translationRel with="concept_773005_kvalifikuota_balsu_dauguma_lt" />
+				</sense>
+				<termType iateType="term" iateCode="4">entryTerm</termType>
+			</iate_term>
+			<iate_term language="de" entryID="concept_773005_qualifizierte_mehrheit_de">
+				<form>qualifizierte Mehrheit</form>
+				<sense>
+					<translationRel with="concept_773005_kvalificets_balsu_vairakums_lv" />
+					<translationRel with="concept_773005_maioria_qualificada_pt" />
+					<translationRel with="concept_773005_kvalifitsirano_mnozinstvo_bg" />
+					<translationRel with="concept_773005_kvalifikovana_vetsina_cs" />
+					<translationRel with="concept_773005_doble_mayoria_es" />
+					<translationRel with="concept_773005_mayoria_calificada_es" />
+					<translationRel with="concept_773005_mayoria_cualificada_es" />
+					<translationRel with="concept_773005_gekwalificeerde_meerderheid_nl" />
+					<translationRel with="concept_773005_maaraenemmisto_fi" />
+					<translationRel with="concept_773005_kvalifikovana_vacsina_sk" />
+					<translationRel with="concept_773005_minositett_tobbseg_hu" />
+					<translationRel with="concept_773005_tromlach_cailithe_ga" />
+					<translationRel with="concept_773005_kvalificerad_majoritet_sv" />
+					<translationRel with="concept_773005_kvalificirana_vecina_hr" />
+					<translationRel with="concept_773005_qualified_majority_en" />
+					<translationRel with="concept_773005_supermajority_en" />
+					<translationRel with="concept_773005_qm_en" />
+					<translationRel with="concept_773005_majoritate_calificata_ro" />
+					<translationRel with="concept_773005_kvalificeret_flertal_da" />
+					<translationRel with="concept_773005_maggoranza_kwalifikata_mt" />
+					<translationRel with="concept_773005_eidike_pleiopsephia_el" />
+					<translationRel with="concept_773005_wiekszosc_kwalifikowana_pl" />
+					<translationRel with="concept_773005_maggioranza_qualificata_it" />
+					<translationRel with="concept_773005_kvalificirana_vecina_sl" />
+					<translationRel with="concept_773005_majorite_qualifiee_fr" />
+					<translationRel with="concept_773005_kvalifitseeritud_haalteenamus_et" />
+					<translationRel with="concept_773005_kvalifikuota_balsu_dauguma_lt" />
+				</sense>
+				<termType iateType="term" iateCode="4">entryTerm</termType>
+			</iate_term>
+			<iate_term language="fr" entryID="concept_773005_majorite_qualifiee_fr">
+				<form>majorité qualifiée</form>
+				<sense>
+					<translationRel with="concept_773005_kvalificets_balsu_vairakums_lv" />
+					<translationRel with="concept_773005_maioria_qualificada_pt" />
+					<translationRel with="concept_773005_kvalifitsirano_mnozinstvo_bg" />
+					<translationRel with="concept_773005_kvalifikovana_vetsina_cs" />
+					<translationRel with="concept_773005_doble_mayoria_es" />
+					<translationRel with="concept_773005_mayoria_calificada_es" />
+					<translationRel with="concept_773005_mayoria_cualificada_es" />
+					<translationRel with="concept_773005_gekwalificeerde_meerderheid_nl" />
+					<translationRel with="concept_773005_maaraenemmisto_fi" />
+					<translationRel with="concept_773005_kvalifikovana_vacsina_sk" />
+					<translationRel with="concept_773005_minositett_tobbseg_hu" />
+					<translationRel with="concept_773005_tromlach_cailithe_ga" />
+					<translationRel with="concept_773005_kvalificerad_majoritet_sv" />
+					<translationRel with="concept_773005_kvalificirana_vecina_hr" />
+					<translationRel with="concept_773005_qualified_majority_en" />
+					<translationRel with="concept_773005_supermajority_en" />
+					<translationRel with="concept_773005_qm_en" />
+					<translationRel with="concept_773005_majoritate_calificata_ro" />
+					<translationRel with="concept_773005_kvalificeret_flertal_da" />
+					<translationRel with="concept_773005_maggoranza_kwalifikata_mt" />
+					<translationRel with="concept_773005_eidike_pleiopsephia_el" />
+					<translationRel with="concept_773005_wiekszosc_kwalifikowana_pl" />
+					<translationRel with="concept_773005_maggioranza_qualificata_it" />
+					<translationRel with="concept_773005_kvalificirana_vecina_sl" />
+					<translationRel with="concept_773005_qualifizierte_mehrheit_de" />
+					<translationRel with="concept_773005_kvalifitseeritud_haalteenamus_et" />
+					<translationRel with="concept_773005_kvalifikuota_balsu_dauguma_lt" />
+				</sense>
+				<termType iateType="term" iateCode="4">entryTerm</termType>
+			</iate_term>
+			<iate_term language="et" entryID="concept_773005_kvalifitseeritud_haalteenamus_et">
+				<form>kvalifitseeritud häälteenamus</form>
+				<sense>
+					<translationRel with="concept_773005_kvalificets_balsu_vairakums_lv" />
+					<translationRel with="concept_773005_maioria_qualificada_pt" />
+					<translationRel with="concept_773005_kvalifitsirano_mnozinstvo_bg" />
+					<translationRel with="concept_773005_kvalifikovana_vetsina_cs" />
+					<translationRel with="concept_773005_doble_mayoria_es" />
+					<translationRel with="concept_773005_mayoria_calificada_es" />
+					<translationRel with="concept_773005_mayoria_cualificada_es" />
+					<translationRel with="concept_773005_gekwalificeerde_meerderheid_nl" />
+					<translationRel with="concept_773005_maaraenemmisto_fi" />
+					<translationRel with="concept_773005_kvalifikovana_vacsina_sk" />
+					<translationRel with="concept_773005_minositett_tobbseg_hu" />
+					<translationRel with="concept_773005_tromlach_cailithe_ga" />
+					<translationRel with="concept_773005_kvalificerad_majoritet_sv" />
+					<translationRel with="concept_773005_kvalificirana_vecina_hr" />
+					<translationRel with="concept_773005_qualified_majority_en" />
+					<translationRel with="concept_773005_supermajority_en" />
+					<translationRel with="concept_773005_qm_en" />
+					<translationRel with="concept_773005_majoritate_calificata_ro" />
+					<translationRel with="concept_773005_kvalificeret_flertal_da" />
+					<translationRel with="concept_773005_maggoranza_kwalifikata_mt" />
+					<translationRel with="concept_773005_eidike_pleiopsephia_el" />
+					<translationRel with="concept_773005_wiekszosc_kwalifikowana_pl" />
+					<translationRel with="concept_773005_maggioranza_qualificata_it" />
+					<translationRel with="concept_773005_kvalificirana_vecina_sl" />
+					<translationRel with="concept_773005_qualifizierte_mehrheit_de" />
+					<translationRel with="concept_773005_majorite_qualifiee_fr" />
+					<translationRel with="concept_773005_kvalifikuota_balsu_dauguma_lt" />
+				</sense>
+				<termType iateType="term" iateCode="4">entryTerm</termType>
+			</iate_term>
+			<iate_term language="lt" entryID="concept_773005_kvalifikuota_balsu_dauguma_lt">
+				<form>kvalifikuota balsų dauguma</form>
+				<sense>
+					<translationRel with="concept_773005_kvalificets_balsu_vairakums_lv" />
+					<translationRel with="concept_773005_maioria_qualificada_pt" />
+					<translationRel with="concept_773005_kvalifitsirano_mnozinstvo_bg" />
+					<translationRel with="concept_773005_kvalifikovana_vetsina_cs" />
+					<translationRel with="concept_773005_doble_mayoria_es" />
+					<translationRel with="concept_773005_mayoria_calificada_es" />
+					<translationRel with="concept_773005_mayoria_cualificada_es" />
+					<translationRel with="concept_773005_gekwalificeerde_meerderheid_nl" />
+					<translationRel with="concept_773005_maaraenemmisto_fi" />
+					<translationRel with="concept_773005_kvalifikovana_vacsina_sk" />
+					<translationRel with="concept_773005_minositett_tobbseg_hu" />
+					<translationRel with="concept_773005_tromlach_cailithe_ga" />
+					<translationRel with="concept_773005_kvalificerad_majoritet_sv" />
+					<translationRel with="concept_773005_kvalificirana_vecina_hr" />
+					<translationRel with="concept_773005_qualified_majority_en" />
+					<translationRel with="concept_773005_supermajority_en" />
+					<translationRel with="concept_773005_qm_en" />
+					<translationRel with="concept_773005_majoritate_calificata_ro" />
+					<translationRel with="concept_773005_kvalificeret_flertal_da" />
+					<translationRel with="concept_773005_maggoranza_kwalifikata_mt" />
+					<translationRel with="concept_773005_eidike_pleiopsephia_el" />
+					<translationRel with="concept_773005_wiekszosc_kwalifikowana_pl" />
+					<translationRel with="concept_773005_maggioranza_qualificata_it" />
+					<translationRel with="concept_773005_kvalificirana_vecina_sl" />
+					<translationRel with="concept_773005_qualifizierte_mehrheit_de" />
+					<translationRel with="concept_773005_majorite_qualifiee_fr" />
+					<translationRel with="concept_773005_kvalifitseeritud_haalteenamus_et" />
+				</sense>
+				<termType iateType="term" iateCode="4">entryTerm</termType>
+			</iate_term>
+		</terms>
+	</iate_concept>
+</root>

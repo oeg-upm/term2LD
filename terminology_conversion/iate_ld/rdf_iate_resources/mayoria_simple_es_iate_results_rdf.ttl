@@ -1,0 +1,1426 @@
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix etv: <https://w3id.org/def/easytv#> .
+@prefix iate: <http://w3id.org/iate-ld/> .
+@prefix lexicog: <http://www.w3.org/ns/lemon/lexicog#> .
+@prefix lexinfo: <http://www.lexinfo.net/ontology/3.0/lexinfo#> .
+@prefix olia: <http://purl.org/olia/olia.owl#> .
+@prefix ontolex: <https://www.w3.org/2016/05/ontolex#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix ql: <http://semweb.mmlab.be/ns/ql#> .
+@prefix rdf: <https://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rml: <http://semweb.mmlab.be/ns/rml#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix termlex: <https://termlex.oeg.fi.upm.es/termlex/> .
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
+@prefix wdt: <https://www.wikidata.org/wiki/Property:> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+iate:IATE_ConceptSet a ontolex:ConceptSet;
+  dct:title "IATE" .
+
+iate:concept_2224299 a ontolex:LexicalConcept;
+  dct:identifier "IATE-2224299";
+  skos:inScheme iate:IATE_ConceptSet;
+  ontolex:isEvokedBy iate:concept_2224299_aantenenemmisto_fi_entry, iate:concept_2224299_balsu_dauguma_lt_entry,
+    iate:concept_2224299_balsu_vairakums_lv_entry, iate:concept_2224299_flertal_da_entry,
+    iate:concept_2224299_haalteenamus_et_entry, iate:concept_2224299_maggioranza_it_entry,
+    iate:concept_2224299_maggoranza_mt_entry, iate:concept_2224299_majorite_fr_entry,
+    iate:concept_2224299_majoritet_da_entry, iate:concept_2224299_majority_en_entry, iate:concept_2224299_mayoria_es_entry,
+    iate:concept_2224299_meerderheid_nl_entry, iate:concept_2224299_mehrheit_de_entry,
+    iate:concept_2224299_pleiopsephia_el_entry, iate:concept_2224299_tobbseg_hu_entry,
+    iate:concept_2224299_tromlach_ga_entry, iate:concept_2224299_vairakums_lv_entry, iate:concept_2224299_vecina_sl_entry,
+    iate:concept_2224299_wiekszosc_pl_entry;
+  ontolex:lexicalizedSense iate:concept_2224299_aantenenemmisto_fi_sense, iate:concept_2224299_balsu_dauguma_lt_sense,
+    iate:concept_2224299_balsu_vairakums_lv_sense, iate:concept_2224299_flertal_da_sense,
+    iate:concept_2224299_haalteenamus_et_sense, iate:concept_2224299_maggioranza_it_sense,
+    iate:concept_2224299_maggoranza_mt_sense, iate:concept_2224299_majorite_fr_sense,
+    iate:concept_2224299_majoritet_da_sense, iate:concept_2224299_majority_en_sense, iate:concept_2224299_mayoria_es_sense,
+    iate:concept_2224299_meerderheid_nl_sense, iate:concept_2224299_mehrheit_de_sense,
+    iate:concept_2224299_pleiopsephia_el_sense, iate:concept_2224299_tobbseg_hu_sense,
+    iate:concept_2224299_tromlach_ga_sense, iate:concept_2224299_vairakums_lv_sense, iate:concept_2224299_vecina_sl_sense,
+    iate:concept_2224299_wiekszosc_pl_sense .
+
+iate:concept_2224299_aantenenemmisto_fi_entry a ontolex:LexicalEntry;
+  dct:language "fi";
+  lexinfo:termType lexinfo:entryTerm;
+  ontolex:evokes iate:concept_2224299;
+  ontolex:lexicalForm iate:concept_2224299_aantenenemmisto_fi_form;
+  ontolex:sense iate:concept_2224299_aantenenemmisto_fi_sense .
+
+iate:concept_2224299_aantenenemmisto_fi_form a ontolex:LexicalForm;
+  ontolex:writtenRep "ääntenenemmistö" .
+
+iate:concept_2224299_aantenenemmisto_fi_sense a ontolex:LexicalSense;
+  vartrans:translation iate:concept_2224299_balsu_dauguma_lt_sense, iate:concept_2224299_balsu_vairakums_lv_sense,
+    iate:concept_2224299_flertal_da_sense, iate:concept_2224299_haalteenamus_et_sense,
+    iate:concept_2224299_maggioranza_it_sense, iate:concept_2224299_maggoranza_mt_sense,
+    iate:concept_2224299_majorite_fr_sense, iate:concept_2224299_majoritet_da_sense, iate:concept_2224299_majority_en_sense,
+    iate:concept_2224299_mayoria_es_sense, iate:concept_2224299_meerderheid_nl_sense,
+    iate:concept_2224299_mehrheit_de_sense, iate:concept_2224299_pleiopsephia_el_sense,
+    iate:concept_2224299_tobbseg_hu_sense, iate:concept_2224299_tromlach_ga_sense, iate:concept_2224299_vairakums_lv_sense,
+    iate:concept_2224299_vecina_sl_sense, iate:concept_2224299_wiekszosc_pl_sense;
+  ontolex:isLexicalizedSenseOf iate:concept_2224299;
+  ontolex:isSenseOf iate:concept_2224299_aantenenemmisto_fi_entry .
+
+iate:concept_2224299_balsu_dauguma_lt_entry a ontolex:LexicalEntry;
+  dct:language "lt";
+  lexinfo:termType lexinfo:entryTerm;
+  ontolex:evokes iate:concept_2224299;
+  ontolex:lexicalForm iate:concept_2224299_balsu_dauguma_lt_form;
+  ontolex:sense iate:concept_2224299_balsu_dauguma_lt_sense .
+
+iate:concept_2224299_balsu_dauguma_lt_form a ontolex:LexicalForm;
+  ontolex:writtenRep "balsų dauguma" .
+
+iate:concept_2224299_balsu_dauguma_lt_sense a ontolex:LexicalSense;
+  vartrans:translation iate:concept_2224299_aantenenemmisto_fi_sense, iate:concept_2224299_balsu_vairakums_lv_sense,
+    iate:concept_2224299_flertal_da_sense, iate:concept_2224299_haalteenamus_et_sense,
+    iate:concept_2224299_maggioranza_it_sense, iate:concept_2224299_maggoranza_mt_sense,
+    iate:concept_2224299_majorite_fr_sense, iate:concept_2224299_majoritet_da_sense, iate:concept_2224299_majority_en_sense,
+    iate:concept_2224299_mayoria_es_sense, iate:concept_2224299_meerderheid_nl_sense,
+    iate:concept_2224299_mehrheit_de_sense, iate:concept_2224299_pleiopsephia_el_sense,
+    iate:concept_2224299_tobbseg_hu_sense, iate:concept_2224299_tromlach_ga_sense, iate:concept_2224299_vairakums_lv_sense,
+    iate:concept_2224299_vecina_sl_sense, iate:concept_2224299_wiekszosc_pl_sense;
+  ontolex:isLexicalizedSenseOf iate:concept_2224299;
+  ontolex:isSenseOf iate:concept_2224299_balsu_dauguma_lt_entry .
+
+iate:concept_2224299_balsu_vairakums_lv_entry a ontolex:LexicalEntry;
+  dct:language "lv";
+  lexinfo:termType lexinfo:entryTerm;
+  ontolex:evokes iate:concept_2224299;
+  ontolex:lexicalForm iate:concept_2224299_balsu_vairakums_lv_form;
+  ontolex:sense iate:concept_2224299_balsu_vairakums_lv_sense .
+
+iate:concept_2224299_balsu_vairakums_lv_form a ontolex:LexicalForm;
+  ontolex:writtenRep "balsu vairākums" .
+
+iate:concept_2224299_balsu_vairakums_lv_sense a ontolex:LexicalSense;
+  lexinfo:synonym iate:concept_2224299_vairakums_lv_sense;
+  vartrans:translation iate:concept_2224299_aantenenemmisto_fi_sense, iate:concept_2224299_balsu_dauguma_lt_sense,
+    iate:concept_2224299_flertal_da_sense, iate:concept_2224299_haalteenamus_et_sense,
+    iate:concept_2224299_maggioranza_it_sense, iate:concept_2224299_maggoranza_mt_sense,
+    iate:concept_2224299_majorite_fr_sense, iate:concept_2224299_majoritet_da_sense, iate:concept_2224299_majority_en_sense,
+    iate:concept_2224299_mayoria_es_sense, iate:concept_2224299_meerderheid_nl_sense,
+    iate:concept_2224299_mehrheit_de_sense, iate:concept_2224299_pleiopsephia_el_sense,
+    iate:concept_2224299_tobbseg_hu_sense, iate:concept_2224299_tromlach_ga_sense, iate:concept_2224299_vecina_sl_sense,
+    iate:concept_2224299_wiekszosc_pl_sense;
+  ontolex:isLexicalizedSenseOf iate:concept_2224299;
+  ontolex:isSenseOf iate:concept_2224299_balsu_vairakums_lv_entry .
+
+iate:concept_2224299_flertal_da_entry a ontolex:LexicalEntry;
+  dct:language "da";
+  lexinfo:termType lexinfo:entryTerm;
+  ontolex:evokes iate:concept_2224299;
+  ontolex:lexicalForm iate:concept_2224299_flertal_da_form;
+  ontolex:sense iate:concept_2224299_flertal_da_sense .
+
+iate:concept_2224299_flertal_da_form a ontolex:LexicalForm;
+  ontolex:writtenRep "flertal" .
+
+iate:concept_2224299_flertal_da_sense a ontolex:LexicalSense;
+  lexinfo:synonym iate:concept_2224299_majoritet_da_sense;
+  vartrans:translation iate:concept_2224299_aantenenemmisto_fi_sense, iate:concept_2224299_balsu_dauguma_lt_sense,
+    iate:concept_2224299_balsu_vairakums_lv_sense, iate:concept_2224299_haalteenamus_et_sense,
+    iate:concept_2224299_maggioranza_it_sense, iate:concept_2224299_maggoranza_mt_sense,
+    iate:concept_2224299_majorite_fr_sense, iate:concept_2224299_majority_en_sense, iate:concept_2224299_mayoria_es_sense,
+    iate:concept_2224299_meerderheid_nl_sense, iate:concept_2224299_mehrheit_de_sense,
+    iate:concept_2224299_pleiopsephia_el_sense, iate:concept_2224299_tobbseg_hu_sense,
+    iate:concept_2224299_tromlach_ga_sense, iate:concept_2224299_vairakums_lv_sense, iate:concept_2224299_vecina_sl_sense,
+    iate:concept_2224299_wiekszosc_pl_sense;
+  ontolex:isLexicalizedSenseOf iate:concept_2224299;
+  ontolex:isSenseOf iate:concept_2224299_flertal_da_entry .
+
+iate:concept_2224299_haalteenamus_et_entry a ontolex:LexicalEntry;
+  dct:language "et";
+  lexinfo:termType lexinfo:entryTerm;
+  ontolex:evokes iate:concept_2224299;
+  ontolex:lexicalForm iate:concept_2224299_haalteenamus_et_form;
+  ontolex:sense iate:concept_2224299_haalteenamus_et_sense .
+
+iate:concept_2224299_haalteenamus_et_form a ontolex:LexicalForm;
+  ontolex:writtenRep "häälteenamus" .
+
+iate:concept_2224299_haalteenamus_et_sense a ontolex:LexicalSense;
+  vartrans:translation iate:concept_2224299_aantenenemmisto_fi_sense, iate:concept_2224299_balsu_dauguma_lt_sense,
+    iate:concept_2224299_balsu_vairakums_lv_sense, iate:concept_2224299_flertal_da_sense,
+    iate:concept_2224299_maggioranza_it_sense, iate:concept_2224299_maggoranza_mt_sense,
+    iate:concept_2224299_majorite_fr_sense, iate:concept_2224299_majoritet_da_sense, iate:concept_2224299_majority_en_sense,
+    iate:concept_2224299_mayoria_es_sense, iate:concept_2224299_meerderheid_nl_sense,
+    iate:concept_2224299_mehrheit_de_sense, iate:concept_2224299_pleiopsephia_el_sense,
+    iate:concept_2224299_tobbseg_hu_sense, iate:concept_2224299_tromlach_ga_sense, iate:concept_2224299_vairakums_lv_sense,
+    iate:concept_2224299_vecina_sl_sense, iate:concept_2224299_wiekszosc_pl_sense;
+  ontolex:isLexicalizedSenseOf iate:concept_2224299;
+  ontolex:isSenseOf iate:concept_2224299_haalteenamus_et_entry .
+
+iate:concept_2224299_maggioranza_it_entry a ontolex:LexicalEntry;
+  dct:language "it";
+  lexinfo:termType lexinfo:entryTerm;
+  ontolex:evokes iate:concept_2224299;
+  ontolex:lexicalForm iate:concept_2224299_maggioranza_it_form;
+  ontolex:sense iate:concept_2224299_maggioranza_it_sense .
+
+iate:concept_2224299_maggioranza_it_form a ontolex:LexicalForm;
+  ontolex:writtenRep "maggioranza" .
+
+iate:concept_2224299_maggioranza_it_sense a ontolex:LexicalSense;
+  vartrans:translation iate:concept_2224299_aantenenemmisto_fi_sense, iate:concept_2224299_balsu_dauguma_lt_sense,
+    iate:concept_2224299_balsu_vairakums_lv_sense, iate:concept_2224299_flertal_da_sense,
+    iate:concept_2224299_haalteenamus_et_sense, iate:concept_2224299_maggoranza_mt_sense,
+    iate:concept_2224299_majorite_fr_sense, iate:concept_2224299_majoritet_da_sense, iate:concept_2224299_majority_en_sense,
+    iate:concept_2224299_mayoria_es_sense, iate:concept_2224299_meerderheid_nl_sense,
+    iate:concept_2224299_mehrheit_de_sense, iate:concept_2224299_pleiopsephia_el_sense,
+    iate:concept_2224299_tobbseg_hu_sense, iate:concept_2224299_tromlach_ga_sense, iate:concept_2224299_vairakums_lv_sense,
+    iate:concept_2224299_vecina_sl_sense, iate:concept_2224299_wiekszosc_pl_sense;
+  ontolex:isLexicalizedSenseOf iate:concept_2224299;
+  ontolex:isSenseOf iate:concept_2224299_maggioranza_it_entry .
+
+iate:concept_2224299_maggoranza_mt_entry a ontolex:LexicalEntry;
+  dct:language "mt";
+  lexinfo:termType lexinfo:entryTerm;
+  ontolex:evokes iate:concept_2224299;
+  ontolex:lexicalForm iate:concept_2224299_maggoranza_mt_form;
+  ontolex:sense iate:concept_2224299_maggoranza_mt_sense .
+
+iate:concept_2224299_maggoranza_mt_form a ontolex:LexicalForm;
+  ontolex:writtenRep "maġġoranza" .
+
+iate:concept_2224299_maggoranza_mt_sense a ontolex:LexicalSense;
+  vartrans:translation iate:concept_2224299_aantenenemmisto_fi_sense, iate:concept_2224299_balsu_dauguma_lt_sense,
+    iate:concept_2224299_balsu_vairakums_lv_sense, iate:concept_2224299_flertal_da_sense,
+    iate:concept_2224299_haalteenamus_et_sense, iate:concept_2224299_maggioranza_it_sense,
+    iate:concept_2224299_majorite_fr_sense, iate:concept_2224299_majoritet_da_sense, iate:concept_2224299_majority_en_sense,
+    iate:concept_2224299_mayoria_es_sense, iate:concept_2224299_meerderheid_nl_sense,
+    iate:concept_2224299_mehrheit_de_sense, iate:concept_2224299_pleiopsephia_el_sense,
+    iate:concept_2224299_tobbseg_hu_sense, iate:concept_2224299_tromlach_ga_sense, iate:concept_2224299_vairakums_lv_sense,
+    iate:concept_2224299_vecina_sl_sense, iate:concept_2224299_wiekszosc_pl_sense;
+  ontolex:isLexicalizedSenseOf iate:concept_2224299;
+  ontolex:isSenseOf iate:concept_2224299_maggoranza_mt_entry .
+
+iate:concept_2224299_majorite_fr_entry a ontolex:LexicalEntry;
+  dct:language "fr";
+  lexinfo:termType lexinfo:entryTerm;
+  ontolex:evokes iate:concept_2224299;
+  ontolex:lexicalForm iate:concept_2224299_majorite_fr_form;
+  ontolex:sense iate:concept_2224299_majorite_fr_sense .
+
+iate:concept_2224299_majorite_fr_form a ontolex:LexicalForm;
+  ontolex:writtenRep "majorité" .
+
+iate:concept_2224299_majorite_fr_sense a ontolex:LexicalSense;
+  vartrans:translation iate:concept_2224299_aantenenemmisto_fi_sense, iate:concept_2224299_balsu_dauguma_lt_sense,
+    iate:concept_2224299_balsu_vairakums_lv_sense, iate:concept_2224299_flertal_da_sense,
+    iate:concept_2224299_haalteenamus_et_sense, iate:concept_2224299_maggioranza_it_sense,
+    iate:concept_2224299_maggoranza_mt_sense, iate:concept_2224299_majoritet_da_sense,
+    iate:concept_2224299_majority_en_sense, iate:concept_2224299_mayoria_es_sense, iate:concept_2224299_meerderheid_nl_sense,
+    iate:concept_2224299_mehrheit_de_sense, iate:concept_2224299_pleiopsephia_el_sense,
+    iate:concept_2224299_tobbseg_hu_sense, iate:concept_2224299_tromlach_ga_sense, iate:concept_2224299_vairakums_lv_sense,
+    iate:concept_2224299_vecina_sl_sense, iate:concept_2224299_wiekszosc_pl_sense;
+  ontolex:isLexicalizedSenseOf iate:concept_2224299;
+  ontolex:isSenseOf iate:concept_2224299_majorite_fr_entry .
+
+iate:concept_2224299_majoritet_da_entry a ontolex:LexicalEntry;
+  dct:language "da";
+  lexinfo:termType lexinfo:entryTerm;
+  ontolex:evokes iate:concept_2224299;
+  ontolex:lexicalForm iate:concept_2224299_majoritet_da_form;
+  ontolex:sense iate:concept_2224299_majoritet_da_sense .
+
+iate:concept_2224299_majoritet_da_form a ontolex:LexicalForm;
+  ontolex:writtenRep "majoritet" .
+
+iate:concept_2224299_majoritet_da_sense a ontolex:LexicalSense;
+  lexinfo:synonym iate:concept_2224299_flertal_da_sense;
+  vartrans:translation iate:concept_2224299_aantenenemmisto_fi_sense, iate:concept_2224299_balsu_dauguma_lt_sense,
+    iate:concept_2224299_balsu_vairakums_lv_sense, iate:concept_2224299_haalteenamus_et_sense,
+    iate:concept_2224299_maggioranza_it_sense, iate:concept_2224299_maggoranza_mt_sense,
+    iate:concept_2224299_majorite_fr_sense, iate:concept_2224299_majority_en_sense, iate:concept_2224299_mayoria_es_sense,
+    iate:concept_2224299_meerderheid_nl_sense, iate:concept_2224299_mehrheit_de_sense,
+    iate:concept_2224299_pleiopsephia_el_sense, iate:concept_2224299_tobbseg_hu_sense,
+    iate:concept_2224299_tromlach_ga_sense, iate:concept_2224299_vairakums_lv_sense, iate:concept_2224299_vecina_sl_sense,
+    iate:concept_2224299_wiekszosc_pl_sense;
+  ontolex:isLexicalizedSenseOf iate:concept_2224299;
+  ontolex:isSenseOf iate:concept_2224299_majoritet_da_entry .
+
+iate:concept_2224299_majority_en_entry a ontolex:LexicalEntry;
+  dct:language "en";
+  lexinfo:termType lexinfo:entryTerm;
+  ontolex:evokes iate:concept_2224299;
+  ontolex:lexicalForm iate:concept_2224299_majority_en_form;
+  ontolex:sense iate:concept_2224299_majority_en_sense .
+
+iate:concept_2224299_majority_en_form a ontolex:LexicalForm;
+  ontolex:writtenRep "majority" .
+
+iate:concept_2224299_majority_en_sense a ontolex:LexicalSense;
+  vartrans:translation iate:concept_2224299_aantenenemmisto_fi_sense, iate:concept_2224299_balsu_dauguma_lt_sense,
+    iate:concept_2224299_balsu_vairakums_lv_sense, iate:concept_2224299_flertal_da_sense,
+    iate:concept_2224299_haalteenamus_et_sense, iate:concept_2224299_maggioranza_it_sense,
+    iate:concept_2224299_maggoranza_mt_sense, iate:concept_2224299_majorite_fr_sense,
+    iate:concept_2224299_majoritet_da_sense, iate:concept_2224299_mayoria_es_sense, iate:concept_2224299_meerderheid_nl_sense,
+    iate:concept_2224299_mehrheit_de_sense, iate:concept_2224299_pleiopsephia_el_sense,
+    iate:concept_2224299_tobbseg_hu_sense, iate:concept_2224299_tromlach_ga_sense, iate:concept_2224299_vairakums_lv_sense,
+    iate:concept_2224299_vecina_sl_sense, iate:concept_2224299_wiekszosc_pl_sense;
+  ontolex:isLexicalizedSenseOf iate:concept_2224299;
+  ontolex:isSenseOf iate:concept_2224299_majority_en_entry .
+
+iate:concept_2224299_mayoria_es_entry a ontolex:LexicalEntry;
+  dct:language "es";
+  lexinfo:termType lexinfo:entryTerm;
+  ontolex:evokes iate:concept_2224299;
+  ontolex:lexicalForm iate:concept_2224299_mayoria_es_form;
+  ontolex:sense iate:concept_2224299_mayoria_es_sense .
+
+iate:concept_2224299_mayoria_es_form a ontolex:LexicalForm;
+  ontolex:writtenRep "mayoría" .
+
+iate:concept_2224299_mayoria_es_sense a ontolex:LexicalSense;
+  vartrans:translation iate:concept_2224299_aantenenemmisto_fi_sense, iate:concept_2224299_balsu_dauguma_lt_sense,
+    iate:concept_2224299_balsu_vairakums_lv_sense, iate:concept_2224299_flertal_da_sense,
+    iate:concept_2224299_haalteenamus_et_sense, iate:concept_2224299_maggioranza_it_sense,
+    iate:concept_2224299_maggoranza_mt_sense, iate:concept_2224299_majorite_fr_sense,
+    iate:concept_2224299_majoritet_da_sense, iate:concept_2224299_majority_en_sense, iate:concept_2224299_meerderheid_nl_sense,
+    iate:concept_2224299_mehrheit_de_sense, iate:concept_2224299_pleiopsephia_el_sense,
+    iate:concept_2224299_tobbseg_hu_sense, iate:concept_2224299_tromlach_ga_sense, iate:concept_2224299_vairakums_lv_sense,
+    iate:concept_2224299_vecina_sl_sense, iate:concept_2224299_wiekszosc_pl_sense;
+  ontolex:isLexicalizedSenseOf iate:concept_2224299;
+  ontolex:isSenseOf iate:concept_2224299_mayoria_es_entry .
+
+iate:concept_2224299_meerderheid_nl_entry a ontolex:LexicalEntry;
+  dct:language "nl";
+  lexinfo:termType lexinfo:entryTerm;
+  ontolex:evokes iate:concept_2224299;
+  ontolex:lexicalForm iate:concept_2224299_meerderheid_nl_form;
+  ontolex:sense iate:concept_2224299_meerderheid_nl_sense .
+
+iate:concept_2224299_meerderheid_nl_form a ontolex:LexicalForm;
+  ontolex:writtenRep "meerderheid" .
+
+iate:concept_2224299_meerderheid_nl_sense a ontolex:LexicalSense;
+  vartrans:translation iate:concept_2224299_aantenenemmisto_fi_sense, iate:concept_2224299_balsu_dauguma_lt_sense,
+    iate:concept_2224299_balsu_vairakums_lv_sense, iate:concept_2224299_flertal_da_sense,
+    iate:concept_2224299_haalteenamus_et_sense, iate:concept_2224299_maggioranza_it_sense,
+    iate:concept_2224299_maggoranza_mt_sense, iate:concept_2224299_majorite_fr_sense,
+    iate:concept_2224299_majoritet_da_sense, iate:concept_2224299_majority_en_sense, iate:concept_2224299_mayoria_es_sense,
+    iate:concept_2224299_mehrheit_de_sense, iate:concept_2224299_pleiopsephia_el_sense,
+    iate:concept_2224299_tobbseg_hu_sense, iate:concept_2224299_tromlach_ga_sense, iate:concept_2224299_vairakums_lv_sense,
+    iate:concept_2224299_vecina_sl_sense, iate:concept_2224299_wiekszosc_pl_sense;
+  ontolex:isLexicalizedSenseOf iate:concept_2224299;
+  ontolex:isSenseOf iate:concept_2224299_meerderheid_nl_entry .
+
+iate:concept_2224299_mehrheit_de_entry a ontolex:LexicalEntry;
+  dct:language "de";
+  lexinfo:termType lexinfo:entryTerm;
+  ontolex:evokes iate:concept_2224299;
+  ontolex:lexicalForm iate:concept_2224299_mehrheit_de_form;
+  ontolex:sense iate:concept_2224299_mehrheit_de_sense .
+
+iate:concept_2224299_mehrheit_de_form a ontolex:LexicalForm;
+  ontolex:writtenRep "Mehrheit" .
+
+iate:concept_2224299_mehrheit_de_sense a ontolex:LexicalSense;
+  vartrans:translation iate:concept_2224299_aantenenemmisto_fi_sense, iate:concept_2224299_balsu_dauguma_lt_sense,
+    iate:concept_2224299_balsu_vairakums_lv_sense, iate:concept_2224299_flertal_da_sense,
+    iate:concept_2224299_haalteenamus_et_sense, iate:concept_2224299_maggioranza_it_sense,
+    iate:concept_2224299_maggoranza_mt_sense, iate:concept_2224299_majorite_fr_sense,
+    iate:concept_2224299_majoritet_da_sense, iate:concept_2224299_majority_en_sense, iate:concept_2224299_mayoria_es_sense,
+    iate:concept_2224299_meerderheid_nl_sense, iate:concept_2224299_pleiopsephia_el_sense,
+    iate:concept_2224299_tobbseg_hu_sense, iate:concept_2224299_tromlach_ga_sense, iate:concept_2224299_vairakums_lv_sense,
+    iate:concept_2224299_vecina_sl_sense, iate:concept_2224299_wiekszosc_pl_sense;
+  ontolex:isLexicalizedSenseOf iate:concept_2224299;
+  ontolex:isSenseOf iate:concept_2224299_mehrheit_de_entry .
+
+iate:concept_2224299_pleiopsephia_el_entry a ontolex:LexicalEntry;
+  dct:language "el";
+  lexinfo:termType lexinfo:entryTerm;
+  ontolex:evokes iate:concept_2224299;
+  ontolex:lexicalForm iate:concept_2224299_pleiopsephia_el_form;
+  ontolex:sense iate:concept_2224299_pleiopsephia_el_sense .
+
+iate:concept_2224299_pleiopsephia_el_form a ontolex:LexicalForm;
+  ontolex:writtenRep "πλειοψηφία" .
+
+iate:concept_2224299_pleiopsephia_el_sense a ontolex:LexicalSense;
+  vartrans:translation iate:concept_2224299_aantenenemmisto_fi_sense, iate:concept_2224299_balsu_dauguma_lt_sense,
+    iate:concept_2224299_balsu_vairakums_lv_sense, iate:concept_2224299_flertal_da_sense,
+    iate:concept_2224299_haalteenamus_et_sense, iate:concept_2224299_maggioranza_it_sense,
+    iate:concept_2224299_maggoranza_mt_sense, iate:concept_2224299_majorite_fr_sense,
+    iate:concept_2224299_majoritet_da_sense, iate:concept_2224299_majority_en_sense, iate:concept_2224299_mayoria_es_sense,
+    iate:concept_2224299_meerderheid_nl_sense, iate:concept_2224299_mehrheit_de_sense,
+    iate:concept_2224299_tobbseg_hu_sense, iate:concept_2224299_tromlach_ga_sense, iate:concept_2224299_vairakums_lv_sense,
+    iate:concept_2224299_vecina_sl_sense, iate:concept_2224299_wiekszosc_pl_sense;
+  ontolex:isLexicalizedSenseOf iate:concept_2224299;
+  ontolex:isSenseOf iate:concept_2224299_pleiopsephia_el_entry .
+
+iate:concept_2224299_tobbseg_hu_entry a ontolex:LexicalEntry;
+  dct:language "hu";
+  lexinfo:termType lexinfo:entryTerm;
+  ontolex:evokes iate:concept_2224299;
+  ontolex:lexicalForm iate:concept_2224299_tobbseg_hu_form;
+  ontolex:sense iate:concept_2224299_tobbseg_hu_sense .
+
+iate:concept_2224299_tobbseg_hu_form a ontolex:LexicalForm;
+  ontolex:writtenRep "többség" .
+
+iate:concept_2224299_tobbseg_hu_sense a ontolex:LexicalSense;
+  vartrans:translation iate:concept_2224299_aantenenemmisto_fi_sense, iate:concept_2224299_balsu_dauguma_lt_sense,
+    iate:concept_2224299_balsu_vairakums_lv_sense, iate:concept_2224299_flertal_da_sense,
+    iate:concept_2224299_haalteenamus_et_sense, iate:concept_2224299_maggioranza_it_sense,
+    iate:concept_2224299_maggoranza_mt_sense, iate:concept_2224299_majorite_fr_sense,
+    iate:concept_2224299_majoritet_da_sense, iate:concept_2224299_majority_en_sense, iate:concept_2224299_mayoria_es_sense,
+    iate:concept_2224299_meerderheid_nl_sense, iate:concept_2224299_mehrheit_de_sense,
+    iate:concept_2224299_pleiopsephia_el_sense, iate:concept_2224299_tromlach_ga_sense,
+    iate:concept_2224299_vairakums_lv_sense, iate:concept_2224299_vecina_sl_sense, iate:concept_2224299_wiekszosc_pl_sense;
+  ontolex:isLexicalizedSenseOf iate:concept_2224299;
+  ontolex:isSenseOf iate:concept_2224299_tobbseg_hu_entry .
+
+iate:concept_2224299_tromlach_ga_entry a ontolex:LexicalEntry;
+  dct:language "ga";
+  lexinfo:termType lexinfo:entryTerm;
+  ontolex:evokes iate:concept_2224299;
+  ontolex:lexicalForm iate:concept_2224299_tromlach_ga_form;
+  ontolex:sense iate:concept_2224299_tromlach_ga_sense .
+
+iate:concept_2224299_tromlach_ga_form a ontolex:LexicalForm;
+  ontolex:writtenRep "tromlach" .
+
+iate:concept_2224299_tromlach_ga_sense a ontolex:LexicalSense;
+  vartrans:translation iate:concept_2224299_aantenenemmisto_fi_sense, iate:concept_2224299_balsu_dauguma_lt_sense,
+    iate:concept_2224299_balsu_vairakums_lv_sense, iate:concept_2224299_flertal_da_sense,
+    iate:concept_2224299_haalteenamus_et_sense, iate:concept_2224299_maggioranza_it_sense,
+    iate:concept_2224299_maggoranza_mt_sense, iate:concept_2224299_majorite_fr_sense,
+    iate:concept_2224299_majoritet_da_sense, iate:concept_2224299_majority_en_sense, iate:concept_2224299_mayoria_es_sense,
+    iate:concept_2224299_meerderheid_nl_sense, iate:concept_2224299_mehrheit_de_sense,
+    iate:concept_2224299_pleiopsephia_el_sense, iate:concept_2224299_tobbseg_hu_sense,
+    iate:concept_2224299_vairakums_lv_sense, iate:concept_2224299_vecina_sl_sense, iate:concept_2224299_wiekszosc_pl_sense;
+  ontolex:isLexicalizedSenseOf iate:concept_2224299;
+  ontolex:isSenseOf iate:concept_2224299_tromlach_ga_entry .
+
+iate:concept_2224299_vairakums_lv_entry a ontolex:LexicalEntry;
+  dct:language "lv";
+  lexinfo:termType lexinfo:entryTerm;
+  ontolex:evokes iate:concept_2224299;
+  ontolex:lexicalForm iate:concept_2224299_vairakums_lv_form;
+  ontolex:sense iate:concept_2224299_vairakums_lv_sense .
+
+iate:concept_2224299_vairakums_lv_form a ontolex:LexicalForm;
+  ontolex:writtenRep "vairākums" .
+
+iate:concept_2224299_vairakums_lv_sense a ontolex:LexicalSense;
+  lexinfo:synonym iate:concept_2224299_balsu_vairakums_lv_sense;
+  vartrans:translation iate:concept_2224299_aantenenemmisto_fi_sense, iate:concept_2224299_balsu_dauguma_lt_sense,
+    iate:concept_2224299_flertal_da_sense, iate:concept_2224299_haalteenamus_et_sense,
+    iate:concept_2224299_maggioranza_it_sense, iate:concept_2224299_maggoranza_mt_sense,
+    iate:concept_2224299_majorite_fr_sense, iate:concept_2224299_majoritet_da_sense, iate:concept_2224299_majority_en_sense,
+    iate:concept_2224299_mayoria_es_sense, iate:concept_2224299_meerderheid_nl_sense,
+    iate:concept_2224299_mehrheit_de_sense, iate:concept_2224299_pleiopsephia_el_sense,
+    iate:concept_2224299_tobbseg_hu_sense, iate:concept_2224299_tromlach_ga_sense, iate:concept_2224299_vecina_sl_sense,
+    iate:concept_2224299_wiekszosc_pl_sense;
+  ontolex:isLexicalizedSenseOf iate:concept_2224299;
+  ontolex:isSenseOf iate:concept_2224299_vairakums_lv_entry .
+
+iate:concept_2224299_vecina_sl_entry a ontolex:LexicalEntry;
+  dct:language "sl";
+  lexinfo:termType lexinfo:entryTerm;
+  ontolex:evokes iate:concept_2224299;
+  ontolex:lexicalForm iate:concept_2224299_vecina_sl_form;
+  ontolex:sense iate:concept_2224299_vecina_sl_sense .
+
+iate:concept_2224299_vecina_sl_form a ontolex:LexicalForm;
+  ontolex:writtenRep "večina" .
+
+iate:concept_2224299_vecina_sl_sense a ontolex:LexicalSense;
+  vartrans:translation iate:concept_2224299_aantenenemmisto_fi_sense, iate:concept_2224299_balsu_dauguma_lt_sense,
+    iate:concept_2224299_balsu_vairakums_lv_sense, iate:concept_2224299_flertal_da_sense,
+    iate:concept_2224299_haalteenamus_et_sense, iate:concept_2224299_maggioranza_it_sense,
+    iate:concept_2224299_maggoranza_mt_sense, iate:concept_2224299_majorite_fr_sense,
+    iate:concept_2224299_majoritet_da_sense, iate:concept_2224299_majority_en_sense, iate:concept_2224299_mayoria_es_sense,
+    iate:concept_2224299_meerderheid_nl_sense, iate:concept_2224299_mehrheit_de_sense,
+    iate:concept_2224299_pleiopsephia_el_sense, iate:concept_2224299_tobbseg_hu_sense,
+    iate:concept_2224299_tromlach_ga_sense, iate:concept_2224299_vairakums_lv_sense, iate:concept_2224299_wiekszosc_pl_sense;
+  ontolex:isLexicalizedSenseOf iate:concept_2224299;
+  ontolex:isSenseOf iate:concept_2224299_vecina_sl_entry .
+
+iate:concept_2224299_wiekszosc_pl_entry a ontolex:LexicalEntry;
+  dct:language "pl";
+  lexinfo:termType lexinfo:entryTerm;
+  ontolex:evokes iate:concept_2224299;
+  ontolex:lexicalForm iate:concept_2224299_wiekszosc_pl_form;
+  ontolex:sense iate:concept_2224299_wiekszosc_pl_sense .
+
+iate:concept_2224299_wiekszosc_pl_form a ontolex:LexicalForm;
+  ontolex:writtenRep "większość" .
+
+iate:concept_2224299_wiekszosc_pl_sense a ontolex:LexicalSense;
+  vartrans:translation iate:concept_2224299_aantenenemmisto_fi_sense, iate:concept_2224299_balsu_dauguma_lt_sense,
+    iate:concept_2224299_balsu_vairakums_lv_sense, iate:concept_2224299_flertal_da_sense,
+    iate:concept_2224299_haalteenamus_et_sense, iate:concept_2224299_maggioranza_it_sense,
+    iate:concept_2224299_maggoranza_mt_sense, iate:concept_2224299_majorite_fr_sense,
+    iate:concept_2224299_majoritet_da_sense, iate:concept_2224299_majority_en_sense, iate:concept_2224299_mayoria_es_sense,
+    iate:concept_2224299_meerderheid_nl_sense, iate:concept_2224299_mehrheit_de_sense,
+    iate:concept_2224299_pleiopsephia_el_sense, iate:concept_2224299_tobbseg_hu_sense,
+    iate:concept_2224299_tromlach_ga_sense, iate:concept_2224299_vairakums_lv_sense, iate:concept_2224299_vecina_sl_sense;
+  ontolex:isLexicalizedSenseOf iate:concept_2224299;
+  ontolex:isSenseOf iate:concept_2224299_wiekszosc_pl_entry .
+
+iate:concept_773005 a ontolex:LexicalConcept;
+  dct:identifier "IATE-773005";
+  skos:inScheme iate:IATE_ConceptSet;
+  ontolex:isEvokedBy iate:concept_773005_doble_mayoria_es_entry, iate:concept_773005_eidike_pleiopsephia_el_entry,
+    iate:concept_773005_gekwalificeerde_meerderheid_nl_entry, iate:concept_773005_kvalificerad_majoritet_sv_entry,
+    iate:concept_773005_kvalificeret_flertal_da_entry, iate:concept_773005_kvalificets_balsu_vairakums_lv_entry,
+    iate:concept_773005_kvalificirana_vecina_hr_entry, iate:concept_773005_kvalificirana_vecina_sl_entry,
+    iate:concept_773005_kvalifikovana_vacsina_sk_entry, iate:concept_773005_kvalifikovana_vetsina_cs_entry,
+    iate:concept_773005_kvalifikuota_balsu_dauguma_lt_entry, iate:concept_773005_kvalifitseeritud_haalteenamus_et_entry,
+    iate:concept_773005_kvalifitsirano_mnozinstvo_bg_entry, iate:concept_773005_maaraenemmisto_fi_entry,
+    iate:concept_773005_maggioranza_qualificata_it_entry, iate:concept_773005_maggoranza_kwalifikata_mt_entry,
+    iate:concept_773005_maioria_qualificada_pt_entry, iate:concept_773005_majoritate_calificata_ro_entry,
+    iate:concept_773005_majorite_qualifiee_fr_entry, iate:concept_773005_mayoria_calificada_es_entry,
+    iate:concept_773005_mayoria_cualificada_es_entry, iate:concept_773005_minositett_tobbseg_hu_entry,
+    iate:concept_773005_qm_en_entry, iate:concept_773005_qualified_majority_en_entry,
+    iate:concept_773005_qualifizierte_mehrheit_de_entry, iate:concept_773005_supermajority_en_entry,
+    iate:concept_773005_tromlach_cailithe_ga_entry, iate:concept_773005_wiekszosc_kwalifikowana_pl_entry;
+  ontolex:lexicalizedSense iate:concept_773005_doble_mayoria_es_sense, iate:concept_773005_eidike_pleiopsephia_el_sense,
+    iate:concept_773005_gekwalificeerde_meerderheid_nl_sense, iate:concept_773005_kvalificerad_majoritet_sv_sense,
+    iate:concept_773005_kvalificeret_flertal_da_sense, iate:concept_773005_kvalificets_balsu_vairakums_lv_sense,
+    iate:concept_773005_kvalificirana_vecina_hr_sense, iate:concept_773005_kvalificirana_vecina_sl_sense,
+    iate:concept_773005_kvalifikovana_vacsina_sk_sense, iate:concept_773005_kvalifikovana_vetsina_cs_sense,
+    iate:concept_773005_kvalifikuota_balsu_dauguma_lt_sense, iate:concept_773005_kvalifitseeritud_haalteenamus_et_sense,
+    iate:concept_773005_kvalifitsirano_mnozinstvo_bg_sense, iate:concept_773005_maaraenemmisto_fi_sense,
+    iate:concept_773005_maggioranza_qualificata_it_sense, iate:concept_773005_maggoranza_kwalifikata_mt_sense,
+    iate:concept_773005_maioria_qualificada_pt_sense, iate:concept_773005_majoritate_calificata_ro_sense,
+    iate:concept_773005_majorite_qualifiee_fr_sense, iate:concept_773005_mayoria_calificada_es_sense,
+    iate:concept_773005_mayoria_cualificada_es_sense, iate:concept_773005_minositett_tobbseg_hu_sense,
+    iate:concept_773005_qm_en_sense, iate:concept_773005_qualified_majority_en_sense,
+    iate:concept_773005_qualifizierte_mehrheit_de_sense, iate:concept_773005_supermajority_en_sense,
+    iate:concept_773005_tromlach_cailithe_ga_sense, iate:concept_773005_wiekszosc_kwalifikowana_pl_sense .
+
+iate:concept_773005_doble_mayoria_es_entry a ontolex:LexicalEntry;
+  dct:language "es";
+  lexinfo:termType lexinfo:entryTerm;
+  ontolex:evokes iate:concept_773005;
+  ontolex:lexicalForm iate:concept_773005_doble_mayoria_es_form;
+  ontolex:sense iate:concept_773005_doble_mayoria_es_sense .
+
+iate:concept_773005_doble_mayoria_es_form a ontolex:LexicalForm;
+  ontolex:writtenRep "doble mayoría" .
+
+iate:concept_773005_doble_mayoria_es_sense a ontolex:LexicalSense;
+  lexinfo:synonym iate:concept_773005_mayoria_calificada_es_sense, iate:concept_773005_mayoria_cualificada_es_sense;
+  vartrans:translation iate:concept_773005_eidike_pleiopsephia_el_sense, iate:concept_773005_gekwalificeerde_meerderheid_nl_sense,
+    iate:concept_773005_kvalificerad_majoritet_sv_sense, iate:concept_773005_kvalificeret_flertal_da_sense,
+    iate:concept_773005_kvalificets_balsu_vairakums_lv_sense, iate:concept_773005_kvalificirana_vecina_hr_sense,
+    iate:concept_773005_kvalificirana_vecina_sl_sense, iate:concept_773005_kvalifikovana_vacsina_sk_sense,
+    iate:concept_773005_kvalifikovana_vetsina_cs_sense, iate:concept_773005_kvalifikuota_balsu_dauguma_lt_sense,
+    iate:concept_773005_kvalifitseeritud_haalteenamus_et_sense, iate:concept_773005_kvalifitsirano_mnozinstvo_bg_sense,
+    iate:concept_773005_maaraenemmisto_fi_sense, iate:concept_773005_maggioranza_qualificata_it_sense,
+    iate:concept_773005_maggoranza_kwalifikata_mt_sense, iate:concept_773005_maioria_qualificada_pt_sense,
+    iate:concept_773005_majoritate_calificata_ro_sense, iate:concept_773005_majorite_qualifiee_fr_sense,
+    iate:concept_773005_minositett_tobbseg_hu_sense, iate:concept_773005_qm_en_sense,
+    iate:concept_773005_qualified_majority_en_sense, iate:concept_773005_qualifizierte_mehrheit_de_sense,
+    iate:concept_773005_supermajority_en_sense, iate:concept_773005_tromlach_cailithe_ga_sense,
+    iate:concept_773005_wiekszosc_kwalifikowana_pl_sense;
+  ontolex:isLexicalizedSenseOf iate:concept_773005;
+  ontolex:isSenseOf iate:concept_773005_doble_mayoria_es_entry .
+
+iate:concept_773005_eidike_pleiopsephia_el_entry a ontolex:LexicalEntry;
+  dct:language "el";
+  lexinfo:termType lexinfo:entryTerm;
+  ontolex:evokes iate:concept_773005;
+  ontolex:lexicalForm iate:concept_773005_eidike_pleiopsephia_el_form;
+  ontolex:sense iate:concept_773005_eidike_pleiopsephia_el_sense .
+
+iate:concept_773005_eidike_pleiopsephia_el_form a ontolex:LexicalForm;
+  ontolex:writtenRep "ειδική πλειοψηφία" .
+
+iate:concept_773005_eidike_pleiopsephia_el_sense a ontolex:LexicalSense;
+  vartrans:translation iate:concept_773005_doble_mayoria_es_sense, iate:concept_773005_gekwalificeerde_meerderheid_nl_sense,
+    iate:concept_773005_kvalificerad_majoritet_sv_sense, iate:concept_773005_kvalificeret_flertal_da_sense,
+    iate:concept_773005_kvalificets_balsu_vairakums_lv_sense, iate:concept_773005_kvalificirana_vecina_hr_sense,
+    iate:concept_773005_kvalificirana_vecina_sl_sense, iate:concept_773005_kvalifikovana_vacsina_sk_sense,
+    iate:concept_773005_kvalifikovana_vetsina_cs_sense, iate:concept_773005_kvalifikuota_balsu_dauguma_lt_sense,
+    iate:concept_773005_kvalifitseeritud_haalteenamus_et_sense, iate:concept_773005_kvalifitsirano_mnozinstvo_bg_sense,
+    iate:concept_773005_maaraenemmisto_fi_sense, iate:concept_773005_maggioranza_qualificata_it_sense,
+    iate:concept_773005_maggoranza_kwalifikata_mt_sense, iate:concept_773005_maioria_qualificada_pt_sense,
+    iate:concept_773005_majoritate_calificata_ro_sense, iate:concept_773005_majorite_qualifiee_fr_sense,
+    iate:concept_773005_mayoria_calificada_es_sense, iate:concept_773005_mayoria_cualificada_es_sense,
+    iate:concept_773005_minositett_tobbseg_hu_sense, iate:concept_773005_qm_en_sense,
+    iate:concept_773005_qualified_majority_en_sense, iate:concept_773005_qualifizierte_mehrheit_de_sense,
+    iate:concept_773005_supermajority_en_sense, iate:concept_773005_tromlach_cailithe_ga_sense,
+    iate:concept_773005_wiekszosc_kwalifikowana_pl_sense;
+  ontolex:isLexicalizedSenseOf iate:concept_773005;
+  ontolex:isSenseOf iate:concept_773005_eidike_pleiopsephia_el_entry .
+
+iate:concept_773005_gekwalificeerde_meerderheid_nl_entry a ontolex:LexicalEntry;
+  dct:language "nl";
+  lexinfo:termType lexinfo:entryTerm;
+  ontolex:evokes iate:concept_773005;
+  ontolex:lexicalForm iate:concept_773005_gekwalificeerde_meerderheid_nl_form;
+  ontolex:sense iate:concept_773005_gekwalificeerde_meerderheid_nl_sense .
+
+iate:concept_773005_gekwalificeerde_meerderheid_nl_form a ontolex:LexicalForm;
+  ontolex:writtenRep "gekwalificeerde meerderheid" .
+
+iate:concept_773005_gekwalificeerde_meerderheid_nl_sense a ontolex:LexicalSense;
+  vartrans:translation iate:concept_773005_doble_mayoria_es_sense, iate:concept_773005_eidike_pleiopsephia_el_sense,
+    iate:concept_773005_kvalificerad_majoritet_sv_sense, iate:concept_773005_kvalificeret_flertal_da_sense,
+    iate:concept_773005_kvalificets_balsu_vairakums_lv_sense, iate:concept_773005_kvalificirana_vecina_hr_sense,
+    iate:concept_773005_kvalificirana_vecina_sl_sense, iate:concept_773005_kvalifikovana_vacsina_sk_sense,
+    iate:concept_773005_kvalifikovana_vetsina_cs_sense, iate:concept_773005_kvalifikuota_balsu_dauguma_lt_sense,
+    iate:concept_773005_kvalifitseeritud_haalteenamus_et_sense, iate:concept_773005_kvalifitsirano_mnozinstvo_bg_sense,
+    iate:concept_773005_maaraenemmisto_fi_sense, iate:concept_773005_maggioranza_qualificata_it_sense,
+    iate:concept_773005_maggoranza_kwalifikata_mt_sense, iate:concept_773005_maioria_qualificada_pt_sense,
+    iate:concept_773005_majoritate_calificata_ro_sense, iate:concept_773005_majorite_qualifiee_fr_sense,
+    iate:concept_773005_mayoria_calificada_es_sense, iate:concept_773005_mayoria_cualificada_es_sense,
+    iate:concept_773005_minositett_tobbseg_hu_sense, iate:concept_773005_qm_en_sense,
+    iate:concept_773005_qualified_majority_en_sense, iate:concept_773005_qualifizierte_mehrheit_de_sense,
+    iate:concept_773005_supermajority_en_sense, iate:concept_773005_tromlach_cailithe_ga_sense,
+    iate:concept_773005_wiekszosc_kwalifikowana_pl_sense;
+  ontolex:isLexicalizedSenseOf iate:concept_773005;
+  ontolex:isSenseOf iate:concept_773005_gekwalificeerde_meerderheid_nl_entry .
+
+iate:concept_773005_kvalificerad_majoritet_sv_entry a ontolex:LexicalEntry;
+  dct:language "sv";
+  lexinfo:termType lexinfo:entryTerm;
+  ontolex:evokes iate:concept_773005;
+  ontolex:lexicalForm iate:concept_773005_kvalificerad_majoritet_sv_form;
+  ontolex:sense iate:concept_773005_kvalificerad_majoritet_sv_sense .
+
+iate:concept_773005_kvalificerad_majoritet_sv_form a ontolex:LexicalForm;
+  ontolex:writtenRep "kvalificerad majoritet" .
+
+iate:concept_773005_kvalificerad_majoritet_sv_sense a ontolex:LexicalSense;
+  vartrans:translation iate:concept_773005_doble_mayoria_es_sense, iate:concept_773005_eidike_pleiopsephia_el_sense,
+    iate:concept_773005_gekwalificeerde_meerderheid_nl_sense, iate:concept_773005_kvalificeret_flertal_da_sense,
+    iate:concept_773005_kvalificets_balsu_vairakums_lv_sense, iate:concept_773005_kvalificirana_vecina_hr_sense,
+    iate:concept_773005_kvalificirana_vecina_sl_sense, iate:concept_773005_kvalifikovana_vacsina_sk_sense,
+    iate:concept_773005_kvalifikovana_vetsina_cs_sense, iate:concept_773005_kvalifikuota_balsu_dauguma_lt_sense,
+    iate:concept_773005_kvalifitseeritud_haalteenamus_et_sense, iate:concept_773005_kvalifitsirano_mnozinstvo_bg_sense,
+    iate:concept_773005_maaraenemmisto_fi_sense, iate:concept_773005_maggioranza_qualificata_it_sense,
+    iate:concept_773005_maggoranza_kwalifikata_mt_sense, iate:concept_773005_maioria_qualificada_pt_sense,
+    iate:concept_773005_majoritate_calificata_ro_sense, iate:concept_773005_majorite_qualifiee_fr_sense,
+    iate:concept_773005_mayoria_calificada_es_sense, iate:concept_773005_mayoria_cualificada_es_sense,
+    iate:concept_773005_minositett_tobbseg_hu_sense, iate:concept_773005_qm_en_sense,
+    iate:concept_773005_qualified_majority_en_sense, iate:concept_773005_qualifizierte_mehrheit_de_sense,
+    iate:concept_773005_supermajority_en_sense, iate:concept_773005_tromlach_cailithe_ga_sense,
+    iate:concept_773005_wiekszosc_kwalifikowana_pl_sense;
+  ontolex:isLexicalizedSenseOf iate:concept_773005;
+  ontolex:isSenseOf iate:concept_773005_kvalificerad_majoritet_sv_entry .
+
+iate:concept_773005_kvalificeret_flertal_da_entry a ontolex:LexicalEntry;
+  dct:language "da";
+  lexinfo:termType lexinfo:entryTerm;
+  ontolex:evokes iate:concept_773005;
+  ontolex:lexicalForm iate:concept_773005_kvalificeret_flertal_da_form;
+  ontolex:sense iate:concept_773005_kvalificeret_flertal_da_sense .
+
+iate:concept_773005_kvalificeret_flertal_da_form a ontolex:LexicalForm;
+  ontolex:writtenRep "kvalificeret flertal" .
+
+iate:concept_773005_kvalificeret_flertal_da_sense a ontolex:LexicalSense;
+  vartrans:translation iate:concept_773005_doble_mayoria_es_sense, iate:concept_773005_eidike_pleiopsephia_el_sense,
+    iate:concept_773005_gekwalificeerde_meerderheid_nl_sense, iate:concept_773005_kvalificerad_majoritet_sv_sense,
+    iate:concept_773005_kvalificets_balsu_vairakums_lv_sense, iate:concept_773005_kvalificirana_vecina_hr_sense,
+    iate:concept_773005_kvalificirana_vecina_sl_sense, iate:concept_773005_kvalifikovana_vacsina_sk_sense,
+    iate:concept_773005_kvalifikovana_vetsina_cs_sense, iate:concept_773005_kvalifikuota_balsu_dauguma_lt_sense,
+    iate:concept_773005_kvalifitseeritud_haalteenamus_et_sense, iate:concept_773005_kvalifitsirano_mnozinstvo_bg_sense,
+    iate:concept_773005_maaraenemmisto_fi_sense, iate:concept_773005_maggioranza_qualificata_it_sense,
+    iate:concept_773005_maggoranza_kwalifikata_mt_sense, iate:concept_773005_maioria_qualificada_pt_sense,
+    iate:concept_773005_majoritate_calificata_ro_sense, iate:concept_773005_majorite_qualifiee_fr_sense,
+    iate:concept_773005_mayoria_calificada_es_sense, iate:concept_773005_mayoria_cualificada_es_sense,
+    iate:concept_773005_minositett_tobbseg_hu_sense, iate:concept_773005_qm_en_sense,
+    iate:concept_773005_qualified_majority_en_sense, iate:concept_773005_qualifizierte_mehrheit_de_sense,
+    iate:concept_773005_supermajority_en_sense, iate:concept_773005_tromlach_cailithe_ga_sense,
+    iate:concept_773005_wiekszosc_kwalifikowana_pl_sense;
+  ontolex:isLexicalizedSenseOf iate:concept_773005;
+  ontolex:isSenseOf iate:concept_773005_kvalificeret_flertal_da_entry .
+
+iate:concept_773005_kvalificets_balsu_vairakums_lv_entry a ontolex:LexicalEntry;
+  dct:language "lv";
+  lexinfo:termType lexinfo:entryTerm;
+  ontolex:evokes iate:concept_773005;
+  ontolex:lexicalForm iate:concept_773005_kvalificets_balsu_vairakums_lv_form;
+  ontolex:sense iate:concept_773005_kvalificets_balsu_vairakums_lv_sense .
+
+iate:concept_773005_kvalificets_balsu_vairakums_lv_form a ontolex:LexicalForm;
+  ontolex:writtenRep "kvalificēts balsu vairākums" .
+
+iate:concept_773005_kvalificets_balsu_vairakums_lv_sense a ontolex:LexicalSense;
+  vartrans:translation iate:concept_773005_doble_mayoria_es_sense, iate:concept_773005_eidike_pleiopsephia_el_sense,
+    iate:concept_773005_gekwalificeerde_meerderheid_nl_sense, iate:concept_773005_kvalificerad_majoritet_sv_sense,
+    iate:concept_773005_kvalificeret_flertal_da_sense, iate:concept_773005_kvalificirana_vecina_hr_sense,
+    iate:concept_773005_kvalificirana_vecina_sl_sense, iate:concept_773005_kvalifikovana_vacsina_sk_sense,
+    iate:concept_773005_kvalifikovana_vetsina_cs_sense, iate:concept_773005_kvalifikuota_balsu_dauguma_lt_sense,
+    iate:concept_773005_kvalifitseeritud_haalteenamus_et_sense, iate:concept_773005_kvalifitsirano_mnozinstvo_bg_sense,
+    iate:concept_773005_maaraenemmisto_fi_sense, iate:concept_773005_maggioranza_qualificata_it_sense,
+    iate:concept_773005_maggoranza_kwalifikata_mt_sense, iate:concept_773005_maioria_qualificada_pt_sense,
+    iate:concept_773005_majoritate_calificata_ro_sense, iate:concept_773005_majorite_qualifiee_fr_sense,
+    iate:concept_773005_mayoria_calificada_es_sense, iate:concept_773005_mayoria_cualificada_es_sense,
+    iate:concept_773005_minositett_tobbseg_hu_sense, iate:concept_773005_qm_en_sense,
+    iate:concept_773005_qualified_majority_en_sense, iate:concept_773005_qualifizierte_mehrheit_de_sense,
+    iate:concept_773005_supermajority_en_sense, iate:concept_773005_tromlach_cailithe_ga_sense,
+    iate:concept_773005_wiekszosc_kwalifikowana_pl_sense;
+  ontolex:isLexicalizedSenseOf iate:concept_773005;
+  ontolex:isSenseOf iate:concept_773005_kvalificets_balsu_vairakums_lv_entry .
+
+iate:concept_773005_kvalificirana_vecina_hr_entry a ontolex:LexicalEntry;
+  dct:language "hr";
+  lexinfo:termType lexinfo:entryTerm;
+  ontolex:evokes iate:concept_773005;
+  ontolex:lexicalForm iate:concept_773005_kvalificirana_vecina_hr_form;
+  ontolex:sense iate:concept_773005_kvalificirana_vecina_hr_sense .
+
+iate:concept_773005_kvalificirana_vecina_hr_form a ontolex:LexicalForm;
+  ontolex:writtenRep "kvalificirana većina" .
+
+iate:concept_773005_kvalificirana_vecina_hr_sense a ontolex:LexicalSense;
+  vartrans:translation iate:concept_773005_doble_mayoria_es_sense, iate:concept_773005_eidike_pleiopsephia_el_sense,
+    iate:concept_773005_gekwalificeerde_meerderheid_nl_sense, iate:concept_773005_kvalificerad_majoritet_sv_sense,
+    iate:concept_773005_kvalificeret_flertal_da_sense, iate:concept_773005_kvalificets_balsu_vairakums_lv_sense,
+    iate:concept_773005_kvalificirana_vecina_sl_sense, iate:concept_773005_kvalifikovana_vacsina_sk_sense,
+    iate:concept_773005_kvalifikovana_vetsina_cs_sense, iate:concept_773005_kvalifikuota_balsu_dauguma_lt_sense,
+    iate:concept_773005_kvalifitseeritud_haalteenamus_et_sense, iate:concept_773005_kvalifitsirano_mnozinstvo_bg_sense,
+    iate:concept_773005_maaraenemmisto_fi_sense, iate:concept_773005_maggioranza_qualificata_it_sense,
+    iate:concept_773005_maggoranza_kwalifikata_mt_sense, iate:concept_773005_maioria_qualificada_pt_sense,
+    iate:concept_773005_majoritate_calificata_ro_sense, iate:concept_773005_majorite_qualifiee_fr_sense,
+    iate:concept_773005_mayoria_calificada_es_sense, iate:concept_773005_mayoria_cualificada_es_sense,
+    iate:concept_773005_minositett_tobbseg_hu_sense, iate:concept_773005_qm_en_sense,
+    iate:concept_773005_qualified_majority_en_sense, iate:concept_773005_qualifizierte_mehrheit_de_sense,
+    iate:concept_773005_supermajority_en_sense, iate:concept_773005_tromlach_cailithe_ga_sense,
+    iate:concept_773005_wiekszosc_kwalifikowana_pl_sense;
+  ontolex:isLexicalizedSenseOf iate:concept_773005;
+  ontolex:isSenseOf iate:concept_773005_kvalificirana_vecina_hr_entry .
+
+iate:concept_773005_kvalificirana_vecina_sl_entry a ontolex:LexicalEntry;
+  dct:language "sl";
+  lexinfo:termType lexinfo:entryTerm;
+  ontolex:evokes iate:concept_773005;
+  ontolex:lexicalForm iate:concept_773005_kvalificirana_vecina_sl_form;
+  ontolex:sense iate:concept_773005_kvalificirana_vecina_sl_sense .
+
+iate:concept_773005_kvalificirana_vecina_sl_form a ontolex:LexicalForm;
+  ontolex:writtenRep "kvalificirana večina" .
+
+iate:concept_773005_kvalificirana_vecina_sl_sense a ontolex:LexicalSense;
+  vartrans:translation iate:concept_773005_doble_mayoria_es_sense, iate:concept_773005_eidike_pleiopsephia_el_sense,
+    iate:concept_773005_gekwalificeerde_meerderheid_nl_sense, iate:concept_773005_kvalificerad_majoritet_sv_sense,
+    iate:concept_773005_kvalificeret_flertal_da_sense, iate:concept_773005_kvalificets_balsu_vairakums_lv_sense,
+    iate:concept_773005_kvalificirana_vecina_hr_sense, iate:concept_773005_kvalifikovana_vacsina_sk_sense,
+    iate:concept_773005_kvalifikovana_vetsina_cs_sense, iate:concept_773005_kvalifikuota_balsu_dauguma_lt_sense,
+    iate:concept_773005_kvalifitseeritud_haalteenamus_et_sense, iate:concept_773005_kvalifitsirano_mnozinstvo_bg_sense,
+    iate:concept_773005_maaraenemmisto_fi_sense, iate:concept_773005_maggioranza_qualificata_it_sense,
+    iate:concept_773005_maggoranza_kwalifikata_mt_sense, iate:concept_773005_maioria_qualificada_pt_sense,
+    iate:concept_773005_majoritate_calificata_ro_sense, iate:concept_773005_majorite_qualifiee_fr_sense,
+    iate:concept_773005_mayoria_calificada_es_sense, iate:concept_773005_mayoria_cualificada_es_sense,
+    iate:concept_773005_minositett_tobbseg_hu_sense, iate:concept_773005_qm_en_sense,
+    iate:concept_773005_qualified_majority_en_sense, iate:concept_773005_qualifizierte_mehrheit_de_sense,
+    iate:concept_773005_supermajority_en_sense, iate:concept_773005_tromlach_cailithe_ga_sense,
+    iate:concept_773005_wiekszosc_kwalifikowana_pl_sense;
+  ontolex:isLexicalizedSenseOf iate:concept_773005;
+  ontolex:isSenseOf iate:concept_773005_kvalificirana_vecina_sl_entry .
+
+iate:concept_773005_kvalifikovana_vacsina_sk_entry a ontolex:LexicalEntry;
+  dct:language "sk";
+  lexinfo:termType lexinfo:entryTerm;
+  ontolex:evokes iate:concept_773005;
+  ontolex:lexicalForm iate:concept_773005_kvalifikovana_vacsina_sk_form;
+  ontolex:sense iate:concept_773005_kvalifikovana_vacsina_sk_sense .
+
+iate:concept_773005_kvalifikovana_vacsina_sk_form a ontolex:LexicalForm;
+  ontolex:writtenRep "kvalifikovaná väčšina" .
+
+iate:concept_773005_kvalifikovana_vacsina_sk_sense a ontolex:LexicalSense;
+  vartrans:translation iate:concept_773005_doble_mayoria_es_sense, iate:concept_773005_eidike_pleiopsephia_el_sense,
+    iate:concept_773005_gekwalificeerde_meerderheid_nl_sense, iate:concept_773005_kvalificerad_majoritet_sv_sense,
+    iate:concept_773005_kvalificeret_flertal_da_sense, iate:concept_773005_kvalificets_balsu_vairakums_lv_sense,
+    iate:concept_773005_kvalificirana_vecina_hr_sense, iate:concept_773005_kvalificirana_vecina_sl_sense,
+    iate:concept_773005_kvalifikovana_vetsina_cs_sense, iate:concept_773005_kvalifikuota_balsu_dauguma_lt_sense,
+    iate:concept_773005_kvalifitseeritud_haalteenamus_et_sense, iate:concept_773005_kvalifitsirano_mnozinstvo_bg_sense,
+    iate:concept_773005_maaraenemmisto_fi_sense, iate:concept_773005_maggioranza_qualificata_it_sense,
+    iate:concept_773005_maggoranza_kwalifikata_mt_sense, iate:concept_773005_maioria_qualificada_pt_sense,
+    iate:concept_773005_majoritate_calificata_ro_sense, iate:concept_773005_majorite_qualifiee_fr_sense,
+    iate:concept_773005_mayoria_calificada_es_sense, iate:concept_773005_mayoria_cualificada_es_sense,
+    iate:concept_773005_minositett_tobbseg_hu_sense, iate:concept_773005_qm_en_sense,
+    iate:concept_773005_qualified_majority_en_sense, iate:concept_773005_qualifizierte_mehrheit_de_sense,
+    iate:concept_773005_supermajority_en_sense, iate:concept_773005_tromlach_cailithe_ga_sense,
+    iate:concept_773005_wiekszosc_kwalifikowana_pl_sense;
+  ontolex:isLexicalizedSenseOf iate:concept_773005;
+  ontolex:isSenseOf iate:concept_773005_kvalifikovana_vacsina_sk_entry .
+
+iate:concept_773005_kvalifikovana_vetsina_cs_entry a ontolex:LexicalEntry;
+  dct:language "cs";
+  lexinfo:termType lexinfo:entryTerm;
+  ontolex:evokes iate:concept_773005;
+  ontolex:lexicalForm iate:concept_773005_kvalifikovana_vetsina_cs_form;
+  ontolex:sense iate:concept_773005_kvalifikovana_vetsina_cs_sense .
+
+iate:concept_773005_kvalifikovana_vetsina_cs_form a ontolex:LexicalForm;
+  ontolex:writtenRep "kvalifikovaná většina" .
+
+iate:concept_773005_kvalifikovana_vetsina_cs_sense a ontolex:LexicalSense;
+  vartrans:translation iate:concept_773005_doble_mayoria_es_sense, iate:concept_773005_eidike_pleiopsephia_el_sense,
+    iate:concept_773005_gekwalificeerde_meerderheid_nl_sense, iate:concept_773005_kvalificerad_majoritet_sv_sense,
+    iate:concept_773005_kvalificeret_flertal_da_sense, iate:concept_773005_kvalificets_balsu_vairakums_lv_sense,
+    iate:concept_773005_kvalificirana_vecina_hr_sense, iate:concept_773005_kvalificirana_vecina_sl_sense,
+    iate:concept_773005_kvalifikovana_vacsina_sk_sense, iate:concept_773005_kvalifikuota_balsu_dauguma_lt_sense,
+    iate:concept_773005_kvalifitseeritud_haalteenamus_et_sense, iate:concept_773005_kvalifitsirano_mnozinstvo_bg_sense,
+    iate:concept_773005_maaraenemmisto_fi_sense, iate:concept_773005_maggioranza_qualificata_it_sense,
+    iate:concept_773005_maggoranza_kwalifikata_mt_sense, iate:concept_773005_maioria_qualificada_pt_sense,
+    iate:concept_773005_majoritate_calificata_ro_sense, iate:concept_773005_majorite_qualifiee_fr_sense,
+    iate:concept_773005_mayoria_calificada_es_sense, iate:concept_773005_mayoria_cualificada_es_sense,
+    iate:concept_773005_minositett_tobbseg_hu_sense, iate:concept_773005_qm_en_sense,
+    iate:concept_773005_qualified_majority_en_sense, iate:concept_773005_qualifizierte_mehrheit_de_sense,
+    iate:concept_773005_supermajority_en_sense, iate:concept_773005_tromlach_cailithe_ga_sense,
+    iate:concept_773005_wiekszosc_kwalifikowana_pl_sense;
+  ontolex:isLexicalizedSenseOf iate:concept_773005;
+  ontolex:isSenseOf iate:concept_773005_kvalifikovana_vetsina_cs_entry .
+
+iate:concept_773005_kvalifikuota_balsu_dauguma_lt_entry a ontolex:LexicalEntry;
+  dct:language "lt";
+  lexinfo:termType lexinfo:entryTerm;
+  ontolex:evokes iate:concept_773005;
+  ontolex:lexicalForm iate:concept_773005_kvalifikuota_balsu_dauguma_lt_form;
+  ontolex:sense iate:concept_773005_kvalifikuota_balsu_dauguma_lt_sense .
+
+iate:concept_773005_kvalifikuota_balsu_dauguma_lt_form a ontolex:LexicalForm;
+  ontolex:writtenRep "kvalifikuota balsų dauguma" .
+
+iate:concept_773005_kvalifikuota_balsu_dauguma_lt_sense a ontolex:LexicalSense;
+  vartrans:translation iate:concept_773005_doble_mayoria_es_sense, iate:concept_773005_eidike_pleiopsephia_el_sense,
+    iate:concept_773005_gekwalificeerde_meerderheid_nl_sense, iate:concept_773005_kvalificerad_majoritet_sv_sense,
+    iate:concept_773005_kvalificeret_flertal_da_sense, iate:concept_773005_kvalificets_balsu_vairakums_lv_sense,
+    iate:concept_773005_kvalificirana_vecina_hr_sense, iate:concept_773005_kvalificirana_vecina_sl_sense,
+    iate:concept_773005_kvalifikovana_vacsina_sk_sense, iate:concept_773005_kvalifikovana_vetsina_cs_sense,
+    iate:concept_773005_kvalifitseeritud_haalteenamus_et_sense, iate:concept_773005_kvalifitsirano_mnozinstvo_bg_sense,
+    iate:concept_773005_maaraenemmisto_fi_sense, iate:concept_773005_maggioranza_qualificata_it_sense,
+    iate:concept_773005_maggoranza_kwalifikata_mt_sense, iate:concept_773005_maioria_qualificada_pt_sense,
+    iate:concept_773005_majoritate_calificata_ro_sense, iate:concept_773005_majorite_qualifiee_fr_sense,
+    iate:concept_773005_mayoria_calificada_es_sense, iate:concept_773005_mayoria_cualificada_es_sense,
+    iate:concept_773005_minositett_tobbseg_hu_sense, iate:concept_773005_qm_en_sense,
+    iate:concept_773005_qualified_majority_en_sense, iate:concept_773005_qualifizierte_mehrheit_de_sense,
+    iate:concept_773005_supermajority_en_sense, iate:concept_773005_tromlach_cailithe_ga_sense,
+    iate:concept_773005_wiekszosc_kwalifikowana_pl_sense;
+  ontolex:isLexicalizedSenseOf iate:concept_773005;
+  ontolex:isSenseOf iate:concept_773005_kvalifikuota_balsu_dauguma_lt_entry .
+
+iate:concept_773005_kvalifitseeritud_haalteenamus_et_entry a ontolex:LexicalEntry;
+  dct:language "et";
+  lexinfo:termType lexinfo:entryTerm;
+  ontolex:evokes iate:concept_773005;
+  ontolex:lexicalForm iate:concept_773005_kvalifitseeritud_haalteenamus_et_form;
+  ontolex:sense iate:concept_773005_kvalifitseeritud_haalteenamus_et_sense .
+
+iate:concept_773005_kvalifitseeritud_haalteenamus_et_form a ontolex:LexicalForm;
+  ontolex:writtenRep "kvalifitseeritud häälteenamus" .
+
+iate:concept_773005_kvalifitseeritud_haalteenamus_et_sense a ontolex:LexicalSense;
+  vartrans:translation iate:concept_773005_doble_mayoria_es_sense, iate:concept_773005_eidike_pleiopsephia_el_sense,
+    iate:concept_773005_gekwalificeerde_meerderheid_nl_sense, iate:concept_773005_kvalificerad_majoritet_sv_sense,
+    iate:concept_773005_kvalificeret_flertal_da_sense, iate:concept_773005_kvalificets_balsu_vairakums_lv_sense,
+    iate:concept_773005_kvalificirana_vecina_hr_sense, iate:concept_773005_kvalificirana_vecina_sl_sense,
+    iate:concept_773005_kvalifikovana_vacsina_sk_sense, iate:concept_773005_kvalifikovana_vetsina_cs_sense,
+    iate:concept_773005_kvalifikuota_balsu_dauguma_lt_sense, iate:concept_773005_kvalifitsirano_mnozinstvo_bg_sense,
+    iate:concept_773005_maaraenemmisto_fi_sense, iate:concept_773005_maggioranza_qualificata_it_sense,
+    iate:concept_773005_maggoranza_kwalifikata_mt_sense, iate:concept_773005_maioria_qualificada_pt_sense,
+    iate:concept_773005_majoritate_calificata_ro_sense, iate:concept_773005_majorite_qualifiee_fr_sense,
+    iate:concept_773005_mayoria_calificada_es_sense, iate:concept_773005_mayoria_cualificada_es_sense,
+    iate:concept_773005_minositett_tobbseg_hu_sense, iate:concept_773005_qm_en_sense,
+    iate:concept_773005_qualified_majority_en_sense, iate:concept_773005_qualifizierte_mehrheit_de_sense,
+    iate:concept_773005_supermajority_en_sense, iate:concept_773005_tromlach_cailithe_ga_sense,
+    iate:concept_773005_wiekszosc_kwalifikowana_pl_sense;
+  ontolex:isLexicalizedSenseOf iate:concept_773005;
+  ontolex:isSenseOf iate:concept_773005_kvalifitseeritud_haalteenamus_et_entry .
+
+iate:concept_773005_kvalifitsirano_mnozinstvo_bg_entry a ontolex:LexicalEntry;
+  dct:language "bg";
+  lexinfo:termType lexinfo:entryTerm;
+  ontolex:evokes iate:concept_773005;
+  ontolex:lexicalForm iate:concept_773005_kvalifitsirano_mnozinstvo_bg_form;
+  ontolex:sense iate:concept_773005_kvalifitsirano_mnozinstvo_bg_sense .
+
+iate:concept_773005_kvalifitsirano_mnozinstvo_bg_form a ontolex:LexicalForm;
+  ontolex:writtenRep "квалифицирано мнозинство" .
+
+iate:concept_773005_kvalifitsirano_mnozinstvo_bg_sense a ontolex:LexicalSense;
+  vartrans:translation iate:concept_773005_doble_mayoria_es_sense, iate:concept_773005_eidike_pleiopsephia_el_sense,
+    iate:concept_773005_gekwalificeerde_meerderheid_nl_sense, iate:concept_773005_kvalificerad_majoritet_sv_sense,
+    iate:concept_773005_kvalificeret_flertal_da_sense, iate:concept_773005_kvalificets_balsu_vairakums_lv_sense,
+    iate:concept_773005_kvalificirana_vecina_hr_sense, iate:concept_773005_kvalificirana_vecina_sl_sense,
+    iate:concept_773005_kvalifikovana_vacsina_sk_sense, iate:concept_773005_kvalifikovana_vetsina_cs_sense,
+    iate:concept_773005_kvalifikuota_balsu_dauguma_lt_sense, iate:concept_773005_kvalifitseeritud_haalteenamus_et_sense,
+    iate:concept_773005_maaraenemmisto_fi_sense, iate:concept_773005_maggioranza_qualificata_it_sense,
+    iate:concept_773005_maggoranza_kwalifikata_mt_sense, iate:concept_773005_maioria_qualificada_pt_sense,
+    iate:concept_773005_majoritate_calificata_ro_sense, iate:concept_773005_majorite_qualifiee_fr_sense,
+    iate:concept_773005_mayoria_calificada_es_sense, iate:concept_773005_mayoria_cualificada_es_sense,
+    iate:concept_773005_minositett_tobbseg_hu_sense, iate:concept_773005_qm_en_sense,
+    iate:concept_773005_qualified_majority_en_sense, iate:concept_773005_qualifizierte_mehrheit_de_sense,
+    iate:concept_773005_supermajority_en_sense, iate:concept_773005_tromlach_cailithe_ga_sense,
+    iate:concept_773005_wiekszosc_kwalifikowana_pl_sense;
+  ontolex:isLexicalizedSenseOf iate:concept_773005;
+  ontolex:isSenseOf iate:concept_773005_kvalifitsirano_mnozinstvo_bg_entry .
+
+iate:concept_773005_maaraenemmisto_fi_entry a ontolex:LexicalEntry;
+  dct:language "fi";
+  lexinfo:termType lexinfo:entryTerm;
+  ontolex:evokes iate:concept_773005;
+  ontolex:lexicalForm iate:concept_773005_maaraenemmisto_fi_form;
+  ontolex:sense iate:concept_773005_maaraenemmisto_fi_sense .
+
+iate:concept_773005_maaraenemmisto_fi_form a ontolex:LexicalForm;
+  ontolex:writtenRep "määräenemmistö" .
+
+iate:concept_773005_maaraenemmisto_fi_sense a ontolex:LexicalSense;
+  vartrans:translation iate:concept_773005_doble_mayoria_es_sense, iate:concept_773005_eidike_pleiopsephia_el_sense,
+    iate:concept_773005_gekwalificeerde_meerderheid_nl_sense, iate:concept_773005_kvalificerad_majoritet_sv_sense,
+    iate:concept_773005_kvalificeret_flertal_da_sense, iate:concept_773005_kvalificets_balsu_vairakums_lv_sense,
+    iate:concept_773005_kvalificirana_vecina_hr_sense, iate:concept_773005_kvalificirana_vecina_sl_sense,
+    iate:concept_773005_kvalifikovana_vacsina_sk_sense, iate:concept_773005_kvalifikovana_vetsina_cs_sense,
+    iate:concept_773005_kvalifikuota_balsu_dauguma_lt_sense, iate:concept_773005_kvalifitseeritud_haalteenamus_et_sense,
+    iate:concept_773005_kvalifitsirano_mnozinstvo_bg_sense, iate:concept_773005_maggioranza_qualificata_it_sense,
+    iate:concept_773005_maggoranza_kwalifikata_mt_sense, iate:concept_773005_maioria_qualificada_pt_sense,
+    iate:concept_773005_majoritate_calificata_ro_sense, iate:concept_773005_majorite_qualifiee_fr_sense,
+    iate:concept_773005_mayoria_calificada_es_sense, iate:concept_773005_mayoria_cualificada_es_sense,
+    iate:concept_773005_minositett_tobbseg_hu_sense, iate:concept_773005_qm_en_sense,
+    iate:concept_773005_qualified_majority_en_sense, iate:concept_773005_qualifizierte_mehrheit_de_sense,
+    iate:concept_773005_supermajority_en_sense, iate:concept_773005_tromlach_cailithe_ga_sense,
+    iate:concept_773005_wiekszosc_kwalifikowana_pl_sense;
+  ontolex:isLexicalizedSenseOf iate:concept_773005;
+  ontolex:isSenseOf iate:concept_773005_maaraenemmisto_fi_entry .
+
+iate:concept_773005_maggioranza_qualificata_it_entry a ontolex:LexicalEntry;
+  dct:language "it";
+  lexinfo:termType lexinfo:entryTerm;
+  ontolex:evokes iate:concept_773005;
+  ontolex:lexicalForm iate:concept_773005_maggioranza_qualificata_it_form;
+  ontolex:sense iate:concept_773005_maggioranza_qualificata_it_sense .
+
+iate:concept_773005_maggioranza_qualificata_it_form a ontolex:LexicalForm;
+  ontolex:writtenRep "maggioranza qualificata" .
+
+iate:concept_773005_maggioranza_qualificata_it_sense a ontolex:LexicalSense;
+  vartrans:translation iate:concept_773005_doble_mayoria_es_sense, iate:concept_773005_eidike_pleiopsephia_el_sense,
+    iate:concept_773005_gekwalificeerde_meerderheid_nl_sense, iate:concept_773005_kvalificerad_majoritet_sv_sense,
+    iate:concept_773005_kvalificeret_flertal_da_sense, iate:concept_773005_kvalificets_balsu_vairakums_lv_sense,
+    iate:concept_773005_kvalificirana_vecina_hr_sense, iate:concept_773005_kvalificirana_vecina_sl_sense,
+    iate:concept_773005_kvalifikovana_vacsina_sk_sense, iate:concept_773005_kvalifikovana_vetsina_cs_sense,
+    iate:concept_773005_kvalifikuota_balsu_dauguma_lt_sense, iate:concept_773005_kvalifitseeritud_haalteenamus_et_sense,
+    iate:concept_773005_kvalifitsirano_mnozinstvo_bg_sense, iate:concept_773005_maaraenemmisto_fi_sense,
+    iate:concept_773005_maggoranza_kwalifikata_mt_sense, iate:concept_773005_maioria_qualificada_pt_sense,
+    iate:concept_773005_majoritate_calificata_ro_sense, iate:concept_773005_majorite_qualifiee_fr_sense,
+    iate:concept_773005_mayoria_calificada_es_sense, iate:concept_773005_mayoria_cualificada_es_sense,
+    iate:concept_773005_minositett_tobbseg_hu_sense, iate:concept_773005_qm_en_sense,
+    iate:concept_773005_qualified_majority_en_sense, iate:concept_773005_qualifizierte_mehrheit_de_sense,
+    iate:concept_773005_supermajority_en_sense, iate:concept_773005_tromlach_cailithe_ga_sense,
+    iate:concept_773005_wiekszosc_kwalifikowana_pl_sense;
+  ontolex:isLexicalizedSenseOf iate:concept_773005;
+  ontolex:isSenseOf iate:concept_773005_maggioranza_qualificata_it_entry .
+
+iate:concept_773005_maggoranza_kwalifikata_mt_entry a ontolex:LexicalEntry;
+  dct:language "mt";
+  lexinfo:termType lexinfo:entryTerm;
+  ontolex:evokes iate:concept_773005;
+  ontolex:lexicalForm iate:concept_773005_maggoranza_kwalifikata_mt_form;
+  ontolex:sense iate:concept_773005_maggoranza_kwalifikata_mt_sense .
+
+iate:concept_773005_maggoranza_kwalifikata_mt_form a ontolex:LexicalForm;
+  ontolex:writtenRep "maġġoranza kwalifikata" .
+
+iate:concept_773005_maggoranza_kwalifikata_mt_sense a ontolex:LexicalSense;
+  vartrans:translation iate:concept_773005_doble_mayoria_es_sense, iate:concept_773005_eidike_pleiopsephia_el_sense,
+    iate:concept_773005_gekwalificeerde_meerderheid_nl_sense, iate:concept_773005_kvalificerad_majoritet_sv_sense,
+    iate:concept_773005_kvalificeret_flertal_da_sense, iate:concept_773005_kvalificets_balsu_vairakums_lv_sense,
+    iate:concept_773005_kvalificirana_vecina_hr_sense, iate:concept_773005_kvalificirana_vecina_sl_sense,
+    iate:concept_773005_kvalifikovana_vacsina_sk_sense, iate:concept_773005_kvalifikovana_vetsina_cs_sense,
+    iate:concept_773005_kvalifikuota_balsu_dauguma_lt_sense, iate:concept_773005_kvalifitseeritud_haalteenamus_et_sense,
+    iate:concept_773005_kvalifitsirano_mnozinstvo_bg_sense, iate:concept_773005_maaraenemmisto_fi_sense,
+    iate:concept_773005_maggioranza_qualificata_it_sense, iate:concept_773005_maioria_qualificada_pt_sense,
+    iate:concept_773005_majoritate_calificata_ro_sense, iate:concept_773005_majorite_qualifiee_fr_sense,
+    iate:concept_773005_mayoria_calificada_es_sense, iate:concept_773005_mayoria_cualificada_es_sense,
+    iate:concept_773005_minositett_tobbseg_hu_sense, iate:concept_773005_qm_en_sense,
+    iate:concept_773005_qualified_majority_en_sense, iate:concept_773005_qualifizierte_mehrheit_de_sense,
+    iate:concept_773005_supermajority_en_sense, iate:concept_773005_tromlach_cailithe_ga_sense,
+    iate:concept_773005_wiekszosc_kwalifikowana_pl_sense;
+  ontolex:isLexicalizedSenseOf iate:concept_773005;
+  ontolex:isSenseOf iate:concept_773005_maggoranza_kwalifikata_mt_entry .
+
+iate:concept_773005_maioria_qualificada_pt_entry a ontolex:LexicalEntry;
+  dct:language "pt";
+  lexinfo:termType lexinfo:entryTerm;
+  ontolex:evokes iate:concept_773005;
+  ontolex:lexicalForm iate:concept_773005_maioria_qualificada_pt_form;
+  ontolex:sense iate:concept_773005_maioria_qualificada_pt_sense .
+
+iate:concept_773005_maioria_qualificada_pt_form a ontolex:LexicalForm;
+  ontolex:writtenRep "maioria qualificada" .
+
+iate:concept_773005_maioria_qualificada_pt_sense a ontolex:LexicalSense;
+  vartrans:translation iate:concept_773005_doble_mayoria_es_sense, iate:concept_773005_eidike_pleiopsephia_el_sense,
+    iate:concept_773005_gekwalificeerde_meerderheid_nl_sense, iate:concept_773005_kvalificerad_majoritet_sv_sense,
+    iate:concept_773005_kvalificeret_flertal_da_sense, iate:concept_773005_kvalificets_balsu_vairakums_lv_sense,
+    iate:concept_773005_kvalificirana_vecina_hr_sense, iate:concept_773005_kvalificirana_vecina_sl_sense,
+    iate:concept_773005_kvalifikovana_vacsina_sk_sense, iate:concept_773005_kvalifikovana_vetsina_cs_sense,
+    iate:concept_773005_kvalifikuota_balsu_dauguma_lt_sense, iate:concept_773005_kvalifitseeritud_haalteenamus_et_sense,
+    iate:concept_773005_kvalifitsirano_mnozinstvo_bg_sense, iate:concept_773005_maaraenemmisto_fi_sense,
+    iate:concept_773005_maggioranza_qualificata_it_sense, iate:concept_773005_maggoranza_kwalifikata_mt_sense,
+    iate:concept_773005_majoritate_calificata_ro_sense, iate:concept_773005_majorite_qualifiee_fr_sense,
+    iate:concept_773005_mayoria_calificada_es_sense, iate:concept_773005_mayoria_cualificada_es_sense,
+    iate:concept_773005_minositett_tobbseg_hu_sense, iate:concept_773005_qm_en_sense,
+    iate:concept_773005_qualified_majority_en_sense, iate:concept_773005_qualifizierte_mehrheit_de_sense,
+    iate:concept_773005_supermajority_en_sense, iate:concept_773005_tromlach_cailithe_ga_sense,
+    iate:concept_773005_wiekszosc_kwalifikowana_pl_sense;
+  ontolex:isLexicalizedSenseOf iate:concept_773005;
+  ontolex:isSenseOf iate:concept_773005_maioria_qualificada_pt_entry .
+
+iate:concept_773005_majoritate_calificata_ro_entry a ontolex:LexicalEntry;
+  dct:language "ro";
+  lexinfo:termType lexinfo:entryTerm;
+  ontolex:evokes iate:concept_773005;
+  ontolex:lexicalForm iate:concept_773005_majoritate_calificata_ro_form;
+  ontolex:sense iate:concept_773005_majoritate_calificata_ro_sense .
+
+iate:concept_773005_majoritate_calificata_ro_form a ontolex:LexicalForm;
+  ontolex:writtenRep "majoritate calificată" .
+
+iate:concept_773005_majoritate_calificata_ro_sense a ontolex:LexicalSense;
+  vartrans:translation iate:concept_773005_doble_mayoria_es_sense, iate:concept_773005_eidike_pleiopsephia_el_sense,
+    iate:concept_773005_gekwalificeerde_meerderheid_nl_sense, iate:concept_773005_kvalificerad_majoritet_sv_sense,
+    iate:concept_773005_kvalificeret_flertal_da_sense, iate:concept_773005_kvalificets_balsu_vairakums_lv_sense,
+    iate:concept_773005_kvalificirana_vecina_hr_sense, iate:concept_773005_kvalificirana_vecina_sl_sense,
+    iate:concept_773005_kvalifikovana_vacsina_sk_sense, iate:concept_773005_kvalifikovana_vetsina_cs_sense,
+    iate:concept_773005_kvalifikuota_balsu_dauguma_lt_sense, iate:concept_773005_kvalifitseeritud_haalteenamus_et_sense,
+    iate:concept_773005_kvalifitsirano_mnozinstvo_bg_sense, iate:concept_773005_maaraenemmisto_fi_sense,
+    iate:concept_773005_maggioranza_qualificata_it_sense, iate:concept_773005_maggoranza_kwalifikata_mt_sense,
+    iate:concept_773005_maioria_qualificada_pt_sense, iate:concept_773005_majorite_qualifiee_fr_sense,
+    iate:concept_773005_mayoria_calificada_es_sense, iate:concept_773005_mayoria_cualificada_es_sense,
+    iate:concept_773005_minositett_tobbseg_hu_sense, iate:concept_773005_qm_en_sense,
+    iate:concept_773005_qualified_majority_en_sense, iate:concept_773005_qualifizierte_mehrheit_de_sense,
+    iate:concept_773005_supermajority_en_sense, iate:concept_773005_tromlach_cailithe_ga_sense,
+    iate:concept_773005_wiekszosc_kwalifikowana_pl_sense;
+  ontolex:isLexicalizedSenseOf iate:concept_773005;
+  ontolex:isSenseOf iate:concept_773005_majoritate_calificata_ro_entry .
+
+iate:concept_773005_majorite_qualifiee_fr_entry a ontolex:LexicalEntry;
+  dct:language "fr";
+  lexinfo:termType lexinfo:entryTerm;
+  ontolex:evokes iate:concept_773005;
+  ontolex:lexicalForm iate:concept_773005_majorite_qualifiee_fr_form;
+  ontolex:sense iate:concept_773005_majorite_qualifiee_fr_sense .
+
+iate:concept_773005_majorite_qualifiee_fr_form a ontolex:LexicalForm;
+  ontolex:writtenRep "majorité qualifiée" .
+
+iate:concept_773005_majorite_qualifiee_fr_sense a ontolex:LexicalSense;
+  vartrans:translation iate:concept_773005_doble_mayoria_es_sense, iate:concept_773005_eidike_pleiopsephia_el_sense,
+    iate:concept_773005_gekwalificeerde_meerderheid_nl_sense, iate:concept_773005_kvalificerad_majoritet_sv_sense,
+    iate:concept_773005_kvalificeret_flertal_da_sense, iate:concept_773005_kvalificets_balsu_vairakums_lv_sense,
+    iate:concept_773005_kvalificirana_vecina_hr_sense, iate:concept_773005_kvalificirana_vecina_sl_sense,
+    iate:concept_773005_kvalifikovana_vacsina_sk_sense, iate:concept_773005_kvalifikovana_vetsina_cs_sense,
+    iate:concept_773005_kvalifikuota_balsu_dauguma_lt_sense, iate:concept_773005_kvalifitseeritud_haalteenamus_et_sense,
+    iate:concept_773005_kvalifitsirano_mnozinstvo_bg_sense, iate:concept_773005_maaraenemmisto_fi_sense,
+    iate:concept_773005_maggioranza_qualificata_it_sense, iate:concept_773005_maggoranza_kwalifikata_mt_sense,
+    iate:concept_773005_maioria_qualificada_pt_sense, iate:concept_773005_majoritate_calificata_ro_sense,
+    iate:concept_773005_mayoria_calificada_es_sense, iate:concept_773005_mayoria_cualificada_es_sense,
+    iate:concept_773005_minositett_tobbseg_hu_sense, iate:concept_773005_qm_en_sense,
+    iate:concept_773005_qualified_majority_en_sense, iate:concept_773005_qualifizierte_mehrheit_de_sense,
+    iate:concept_773005_supermajority_en_sense, iate:concept_773005_tromlach_cailithe_ga_sense,
+    iate:concept_773005_wiekszosc_kwalifikowana_pl_sense;
+  ontolex:isLexicalizedSenseOf iate:concept_773005;
+  ontolex:isSenseOf iate:concept_773005_majorite_qualifiee_fr_entry .
+
+iate:concept_773005_mayoria_calificada_es_entry a ontolex:LexicalEntry;
+  dct:language "es";
+  ontolex:evokes iate:concept_773005;
+  ontolex:lexicalForm iate:concept_773005_mayoria_calificada_es_form;
+  ontolex:sense iate:concept_773005_mayoria_calificada_es_sense .
+
+iate:concept_773005_mayoria_calificada_es_form a ontolex:LexicalForm;
+  ontolex:writtenRep "mayoría calificada" .
+
+iate:concept_773005_mayoria_calificada_es_sense a ontolex:LexicalSense;
+  lexinfo:synonym iate:concept_773005_doble_mayoria_es_sense, iate:concept_773005_mayoria_cualificada_es_sense;
+  vartrans:translation iate:concept_773005_eidike_pleiopsephia_el_sense, iate:concept_773005_gekwalificeerde_meerderheid_nl_sense,
+    iate:concept_773005_kvalificerad_majoritet_sv_sense, iate:concept_773005_kvalificeret_flertal_da_sense,
+    iate:concept_773005_kvalificets_balsu_vairakums_lv_sense, iate:concept_773005_kvalificirana_vecina_hr_sense,
+    iate:concept_773005_kvalificirana_vecina_sl_sense, iate:concept_773005_kvalifikovana_vacsina_sk_sense,
+    iate:concept_773005_kvalifikovana_vetsina_cs_sense, iate:concept_773005_kvalifikuota_balsu_dauguma_lt_sense,
+    iate:concept_773005_kvalifitseeritud_haalteenamus_et_sense, iate:concept_773005_kvalifitsirano_mnozinstvo_bg_sense,
+    iate:concept_773005_maaraenemmisto_fi_sense, iate:concept_773005_maggioranza_qualificata_it_sense,
+    iate:concept_773005_maggoranza_kwalifikata_mt_sense, iate:concept_773005_maioria_qualificada_pt_sense,
+    iate:concept_773005_majoritate_calificata_ro_sense, iate:concept_773005_majorite_qualifiee_fr_sense,
+    iate:concept_773005_minositett_tobbseg_hu_sense, iate:concept_773005_qm_en_sense,
+    iate:concept_773005_qualified_majority_en_sense, iate:concept_773005_qualifizierte_mehrheit_de_sense,
+    iate:concept_773005_supermajority_en_sense, iate:concept_773005_tromlach_cailithe_ga_sense,
+    iate:concept_773005_wiekszosc_kwalifikowana_pl_sense;
+  ontolex:isLexicalizedSenseOf iate:concept_773005;
+  ontolex:isSenseOf iate:concept_773005_mayoria_calificada_es_entry .
+
+iate:concept_773005_mayoria_cualificada_es_entry a ontolex:LexicalEntry;
+  dct:language "es";
+  lexinfo:termType lexinfo:entryTerm;
+  ontolex:evokes iate:concept_773005;
+  ontolex:lexicalForm iate:concept_773005_mayoria_cualificada_es_form;
+  ontolex:sense iate:concept_773005_mayoria_cualificada_es_sense .
+
+iate:concept_773005_mayoria_cualificada_es_form a ontolex:LexicalForm;
+  ontolex:writtenRep "mayoría cualificada" .
+
+iate:concept_773005_mayoria_cualificada_es_sense a ontolex:LexicalSense;
+  lexinfo:synonym iate:concept_773005_doble_mayoria_es_sense, iate:concept_773005_mayoria_calificada_es_sense;
+  vartrans:translation iate:concept_773005_eidike_pleiopsephia_el_sense, iate:concept_773005_gekwalificeerde_meerderheid_nl_sense,
+    iate:concept_773005_kvalificerad_majoritet_sv_sense, iate:concept_773005_kvalificeret_flertal_da_sense,
+    iate:concept_773005_kvalificets_balsu_vairakums_lv_sense, iate:concept_773005_kvalificirana_vecina_hr_sense,
+    iate:concept_773005_kvalificirana_vecina_sl_sense, iate:concept_773005_kvalifikovana_vacsina_sk_sense,
+    iate:concept_773005_kvalifikovana_vetsina_cs_sense, iate:concept_773005_kvalifikuota_balsu_dauguma_lt_sense,
+    iate:concept_773005_kvalifitseeritud_haalteenamus_et_sense, iate:concept_773005_kvalifitsirano_mnozinstvo_bg_sense,
+    iate:concept_773005_maaraenemmisto_fi_sense, iate:concept_773005_maggioranza_qualificata_it_sense,
+    iate:concept_773005_maggoranza_kwalifikata_mt_sense, iate:concept_773005_maioria_qualificada_pt_sense,
+    iate:concept_773005_majoritate_calificata_ro_sense, iate:concept_773005_majorite_qualifiee_fr_sense,
+    iate:concept_773005_minositett_tobbseg_hu_sense, iate:concept_773005_qm_en_sense,
+    iate:concept_773005_qualified_majority_en_sense, iate:concept_773005_qualifizierte_mehrheit_de_sense,
+    iate:concept_773005_supermajority_en_sense, iate:concept_773005_tromlach_cailithe_ga_sense,
+    iate:concept_773005_wiekszosc_kwalifikowana_pl_sense;
+  ontolex:isLexicalizedSenseOf iate:concept_773005;
+  ontolex:isSenseOf iate:concept_773005_mayoria_cualificada_es_entry .
+
+iate:concept_773005_minositett_tobbseg_hu_entry a ontolex:LexicalEntry;
+  dct:language "hu";
+  lexinfo:termType lexinfo:entryTerm;
+  ontolex:evokes iate:concept_773005;
+  ontolex:lexicalForm iate:concept_773005_minositett_tobbseg_hu_form;
+  ontolex:sense iate:concept_773005_minositett_tobbseg_hu_sense .
+
+iate:concept_773005_minositett_tobbseg_hu_form a ontolex:LexicalForm;
+  ontolex:writtenRep "minősített többség" .
+
+iate:concept_773005_minositett_tobbseg_hu_sense a ontolex:LexicalSense;
+  vartrans:translation iate:concept_773005_doble_mayoria_es_sense, iate:concept_773005_eidike_pleiopsephia_el_sense,
+    iate:concept_773005_gekwalificeerde_meerderheid_nl_sense, iate:concept_773005_kvalificerad_majoritet_sv_sense,
+    iate:concept_773005_kvalificeret_flertal_da_sense, iate:concept_773005_kvalificets_balsu_vairakums_lv_sense,
+    iate:concept_773005_kvalificirana_vecina_hr_sense, iate:concept_773005_kvalificirana_vecina_sl_sense,
+    iate:concept_773005_kvalifikovana_vacsina_sk_sense, iate:concept_773005_kvalifikovana_vetsina_cs_sense,
+    iate:concept_773005_kvalifikuota_balsu_dauguma_lt_sense, iate:concept_773005_kvalifitseeritud_haalteenamus_et_sense,
+    iate:concept_773005_kvalifitsirano_mnozinstvo_bg_sense, iate:concept_773005_maaraenemmisto_fi_sense,
+    iate:concept_773005_maggioranza_qualificata_it_sense, iate:concept_773005_maggoranza_kwalifikata_mt_sense,
+    iate:concept_773005_maioria_qualificada_pt_sense, iate:concept_773005_majoritate_calificata_ro_sense,
+    iate:concept_773005_majorite_qualifiee_fr_sense, iate:concept_773005_mayoria_calificada_es_sense,
+    iate:concept_773005_mayoria_cualificada_es_sense, iate:concept_773005_qm_en_sense,
+    iate:concept_773005_qualified_majority_en_sense, iate:concept_773005_qualifizierte_mehrheit_de_sense,
+    iate:concept_773005_supermajority_en_sense, iate:concept_773005_tromlach_cailithe_ga_sense,
+    iate:concept_773005_wiekszosc_kwalifikowana_pl_sense;
+  ontolex:isLexicalizedSenseOf iate:concept_773005;
+  ontolex:isSenseOf iate:concept_773005_minositett_tobbseg_hu_entry .
+
+iate:concept_773005_qm_en_entry a ontolex:LexicalEntry;
+  dct:language "en";
+  ontolex:evokes iate:concept_773005;
+  ontolex:lexicalForm iate:concept_773005_qm_en_form;
+  ontolex:sense iate:concept_773005_qm_en_sense .
+
+iate:concept_773005_qm_en_form a ontolex:LexicalForm;
+  ontolex:writtenRep "QM" .
+
+iate:concept_773005_qm_en_sense a ontolex:LexicalSense;
+  lexinfo:synonym iate:concept_773005_qualified_majority_en_sense, iate:concept_773005_supermajority_en_sense;
+  vartrans:translation iate:concept_773005_doble_mayoria_es_sense, iate:concept_773005_eidike_pleiopsephia_el_sense,
+    iate:concept_773005_gekwalificeerde_meerderheid_nl_sense, iate:concept_773005_kvalificerad_majoritet_sv_sense,
+    iate:concept_773005_kvalificeret_flertal_da_sense, iate:concept_773005_kvalificets_balsu_vairakums_lv_sense,
+    iate:concept_773005_kvalificirana_vecina_hr_sense, iate:concept_773005_kvalificirana_vecina_sl_sense,
+    iate:concept_773005_kvalifikovana_vacsina_sk_sense, iate:concept_773005_kvalifikovana_vetsina_cs_sense,
+    iate:concept_773005_kvalifikuota_balsu_dauguma_lt_sense, iate:concept_773005_kvalifitseeritud_haalteenamus_et_sense,
+    iate:concept_773005_kvalifitsirano_mnozinstvo_bg_sense, iate:concept_773005_maaraenemmisto_fi_sense,
+    iate:concept_773005_maggioranza_qualificata_it_sense, iate:concept_773005_maggoranza_kwalifikata_mt_sense,
+    iate:concept_773005_maioria_qualificada_pt_sense, iate:concept_773005_majoritate_calificata_ro_sense,
+    iate:concept_773005_majorite_qualifiee_fr_sense, iate:concept_773005_mayoria_calificada_es_sense,
+    iate:concept_773005_mayoria_cualificada_es_sense, iate:concept_773005_minositett_tobbseg_hu_sense,
+    iate:concept_773005_qualifizierte_mehrheit_de_sense, iate:concept_773005_tromlach_cailithe_ga_sense,
+    iate:concept_773005_wiekszosc_kwalifikowana_pl_sense;
+  ontolex:isLexicalizedSenseOf iate:concept_773005;
+  ontolex:isSenseOf iate:concept_773005_qm_en_entry .
+
+iate:concept_773005_qualified_majority_en_entry a ontolex:LexicalEntry;
+  dct:language "en";
+  lexinfo:termType lexinfo:entryTerm;
+  ontolex:evokes iate:concept_773005;
+  ontolex:lexicalForm iate:concept_773005_qualified_majority_en_form;
+  ontolex:sense iate:concept_773005_qualified_majority_en_sense .
+
+iate:concept_773005_qualified_majority_en_form a ontolex:LexicalForm;
+  ontolex:writtenRep "qualified majority" .
+
+iate:concept_773005_qualified_majority_en_sense a ontolex:LexicalSense;
+  lexinfo:synonym iate:concept_773005_qm_en_sense, iate:concept_773005_supermajority_en_sense;
+  vartrans:translation iate:concept_773005_doble_mayoria_es_sense, iate:concept_773005_eidike_pleiopsephia_el_sense,
+    iate:concept_773005_gekwalificeerde_meerderheid_nl_sense, iate:concept_773005_kvalificerad_majoritet_sv_sense,
+    iate:concept_773005_kvalificeret_flertal_da_sense, iate:concept_773005_kvalificets_balsu_vairakums_lv_sense,
+    iate:concept_773005_kvalificirana_vecina_hr_sense, iate:concept_773005_kvalificirana_vecina_sl_sense,
+    iate:concept_773005_kvalifikovana_vacsina_sk_sense, iate:concept_773005_kvalifikovana_vetsina_cs_sense,
+    iate:concept_773005_kvalifikuota_balsu_dauguma_lt_sense, iate:concept_773005_kvalifitseeritud_haalteenamus_et_sense,
+    iate:concept_773005_kvalifitsirano_mnozinstvo_bg_sense, iate:concept_773005_maaraenemmisto_fi_sense,
+    iate:concept_773005_maggioranza_qualificata_it_sense, iate:concept_773005_maggoranza_kwalifikata_mt_sense,
+    iate:concept_773005_maioria_qualificada_pt_sense, iate:concept_773005_majoritate_calificata_ro_sense,
+    iate:concept_773005_majorite_qualifiee_fr_sense, iate:concept_773005_mayoria_calificada_es_sense,
+    iate:concept_773005_mayoria_cualificada_es_sense, iate:concept_773005_minositett_tobbseg_hu_sense,
+    iate:concept_773005_qualifizierte_mehrheit_de_sense, iate:concept_773005_tromlach_cailithe_ga_sense,
+    iate:concept_773005_wiekszosc_kwalifikowana_pl_sense;
+  ontolex:isLexicalizedSenseOf iate:concept_773005;
+  ontolex:isSenseOf iate:concept_773005_qualified_majority_en_entry .
+
+iate:concept_773005_qualifizierte_mehrheit_de_entry a ontolex:LexicalEntry;
+  dct:language "de";
+  lexinfo:termType lexinfo:entryTerm;
+  ontolex:evokes iate:concept_773005;
+  ontolex:lexicalForm iate:concept_773005_qualifizierte_mehrheit_de_form;
+  ontolex:sense iate:concept_773005_qualifizierte_mehrheit_de_sense .
+
+iate:concept_773005_qualifizierte_mehrheit_de_form a ontolex:LexicalForm;
+  ontolex:writtenRep "qualifizierte Mehrheit" .
+
+iate:concept_773005_qualifizierte_mehrheit_de_sense a ontolex:LexicalSense;
+  vartrans:translation iate:concept_773005_doble_mayoria_es_sense, iate:concept_773005_eidike_pleiopsephia_el_sense,
+    iate:concept_773005_gekwalificeerde_meerderheid_nl_sense, iate:concept_773005_kvalificerad_majoritet_sv_sense,
+    iate:concept_773005_kvalificeret_flertal_da_sense, iate:concept_773005_kvalificets_balsu_vairakums_lv_sense,
+    iate:concept_773005_kvalificirana_vecina_hr_sense, iate:concept_773005_kvalificirana_vecina_sl_sense,
+    iate:concept_773005_kvalifikovana_vacsina_sk_sense, iate:concept_773005_kvalifikovana_vetsina_cs_sense,
+    iate:concept_773005_kvalifikuota_balsu_dauguma_lt_sense, iate:concept_773005_kvalifitseeritud_haalteenamus_et_sense,
+    iate:concept_773005_kvalifitsirano_mnozinstvo_bg_sense, iate:concept_773005_maaraenemmisto_fi_sense,
+    iate:concept_773005_maggioranza_qualificata_it_sense, iate:concept_773005_maggoranza_kwalifikata_mt_sense,
+    iate:concept_773005_maioria_qualificada_pt_sense, iate:concept_773005_majoritate_calificata_ro_sense,
+    iate:concept_773005_majorite_qualifiee_fr_sense, iate:concept_773005_mayoria_calificada_es_sense,
+    iate:concept_773005_mayoria_cualificada_es_sense, iate:concept_773005_minositett_tobbseg_hu_sense,
+    iate:concept_773005_qm_en_sense, iate:concept_773005_qualified_majority_en_sense,
+    iate:concept_773005_supermajority_en_sense, iate:concept_773005_tromlach_cailithe_ga_sense,
+    iate:concept_773005_wiekszosc_kwalifikowana_pl_sense;
+  ontolex:isLexicalizedSenseOf iate:concept_773005;
+  ontolex:isSenseOf iate:concept_773005_qualifizierte_mehrheit_de_entry .
+
+iate:concept_773005_supermajority_en_entry a ontolex:LexicalEntry;
+  dct:language "en";
+  ontolex:evokes iate:concept_773005;
+  ontolex:lexicalForm iate:concept_773005_supermajority_en_form;
+  ontolex:sense iate:concept_773005_supermajority_en_sense .
+
+iate:concept_773005_supermajority_en_form a ontolex:LexicalForm;
+  ontolex:writtenRep "supermajority" .
+
+iate:concept_773005_supermajority_en_sense a ontolex:LexicalSense;
+  lexinfo:synonym iate:concept_773005_qm_en_sense, iate:concept_773005_qualified_majority_en_sense;
+  vartrans:translation iate:concept_773005_doble_mayoria_es_sense, iate:concept_773005_eidike_pleiopsephia_el_sense,
+    iate:concept_773005_gekwalificeerde_meerderheid_nl_sense, iate:concept_773005_kvalificerad_majoritet_sv_sense,
+    iate:concept_773005_kvalificeret_flertal_da_sense, iate:concept_773005_kvalificets_balsu_vairakums_lv_sense,
+    iate:concept_773005_kvalificirana_vecina_hr_sense, iate:concept_773005_kvalificirana_vecina_sl_sense,
+    iate:concept_773005_kvalifikovana_vacsina_sk_sense, iate:concept_773005_kvalifikovana_vetsina_cs_sense,
+    iate:concept_773005_kvalifikuota_balsu_dauguma_lt_sense, iate:concept_773005_kvalifitseeritud_haalteenamus_et_sense,
+    iate:concept_773005_kvalifitsirano_mnozinstvo_bg_sense, iate:concept_773005_maaraenemmisto_fi_sense,
+    iate:concept_773005_maggioranza_qualificata_it_sense, iate:concept_773005_maggoranza_kwalifikata_mt_sense,
+    iate:concept_773005_maioria_qualificada_pt_sense, iate:concept_773005_majoritate_calificata_ro_sense,
+    iate:concept_773005_majorite_qualifiee_fr_sense, iate:concept_773005_mayoria_calificada_es_sense,
+    iate:concept_773005_mayoria_cualificada_es_sense, iate:concept_773005_minositett_tobbseg_hu_sense,
+    iate:concept_773005_qualifizierte_mehrheit_de_sense, iate:concept_773005_tromlach_cailithe_ga_sense,
+    iate:concept_773005_wiekszosc_kwalifikowana_pl_sense;
+  ontolex:isLexicalizedSenseOf iate:concept_773005;
+  ontolex:isSenseOf iate:concept_773005_supermajority_en_entry .
+
+iate:concept_773005_tromlach_cailithe_ga_entry a ontolex:LexicalEntry;
+  dct:language "ga";
+  lexinfo:termType lexinfo:entryTerm;
+  ontolex:evokes iate:concept_773005;
+  ontolex:lexicalForm iate:concept_773005_tromlach_cailithe_ga_form;
+  ontolex:sense iate:concept_773005_tromlach_cailithe_ga_sense .
+
+iate:concept_773005_tromlach_cailithe_ga_form a ontolex:LexicalForm;
+  ontolex:writtenRep "tromlach cáilithe" .
+
+iate:concept_773005_tromlach_cailithe_ga_sense a ontolex:LexicalSense;
+  vartrans:translation iate:concept_773005_doble_mayoria_es_sense, iate:concept_773005_eidike_pleiopsephia_el_sense,
+    iate:concept_773005_gekwalificeerde_meerderheid_nl_sense, iate:concept_773005_kvalificerad_majoritet_sv_sense,
+    iate:concept_773005_kvalificeret_flertal_da_sense, iate:concept_773005_kvalificets_balsu_vairakums_lv_sense,
+    iate:concept_773005_kvalificirana_vecina_hr_sense, iate:concept_773005_kvalificirana_vecina_sl_sense,
+    iate:concept_773005_kvalifikovana_vacsina_sk_sense, iate:concept_773005_kvalifikovana_vetsina_cs_sense,
+    iate:concept_773005_kvalifikuota_balsu_dauguma_lt_sense, iate:concept_773005_kvalifitseeritud_haalteenamus_et_sense,
+    iate:concept_773005_kvalifitsirano_mnozinstvo_bg_sense, iate:concept_773005_maaraenemmisto_fi_sense,
+    iate:concept_773005_maggioranza_qualificata_it_sense, iate:concept_773005_maggoranza_kwalifikata_mt_sense,
+    iate:concept_773005_maioria_qualificada_pt_sense, iate:concept_773005_majoritate_calificata_ro_sense,
+    iate:concept_773005_majorite_qualifiee_fr_sense, iate:concept_773005_mayoria_calificada_es_sense,
+    iate:concept_773005_mayoria_cualificada_es_sense, iate:concept_773005_minositett_tobbseg_hu_sense,
+    iate:concept_773005_qm_en_sense, iate:concept_773005_qualified_majority_en_sense,
+    iate:concept_773005_qualifizierte_mehrheit_de_sense, iate:concept_773005_supermajority_en_sense,
+    iate:concept_773005_wiekszosc_kwalifikowana_pl_sense;
+  ontolex:isLexicalizedSenseOf iate:concept_773005;
+  ontolex:isSenseOf iate:concept_773005_tromlach_cailithe_ga_entry .
+
+iate:concept_773005_wiekszosc_kwalifikowana_pl_entry a ontolex:LexicalEntry;
+  dct:language "pl";
+  lexinfo:termType lexinfo:entryTerm;
+  ontolex:evokes iate:concept_773005;
+  ontolex:lexicalForm iate:concept_773005_wiekszosc_kwalifikowana_pl_form;
+  ontolex:sense iate:concept_773005_wiekszosc_kwalifikowana_pl_sense .
+
+iate:concept_773005_wiekszosc_kwalifikowana_pl_form a ontolex:LexicalForm;
+  ontolex:writtenRep "większość kwalifikowana" .
+
+iate:concept_773005_wiekszosc_kwalifikowana_pl_sense a ontolex:LexicalSense;
+  vartrans:translation iate:concept_773005_doble_mayoria_es_sense, iate:concept_773005_eidike_pleiopsephia_el_sense,
+    iate:concept_773005_gekwalificeerde_meerderheid_nl_sense, iate:concept_773005_kvalificerad_majoritet_sv_sense,
+    iate:concept_773005_kvalificeret_flertal_da_sense, iate:concept_773005_kvalificets_balsu_vairakums_lv_sense,
+    iate:concept_773005_kvalificirana_vecina_hr_sense, iate:concept_773005_kvalificirana_vecina_sl_sense,
+    iate:concept_773005_kvalifikovana_vacsina_sk_sense, iate:concept_773005_kvalifikovana_vetsina_cs_sense,
+    iate:concept_773005_kvalifikuota_balsu_dauguma_lt_sense, iate:concept_773005_kvalifitseeritud_haalteenamus_et_sense,
+    iate:concept_773005_kvalifitsirano_mnozinstvo_bg_sense, iate:concept_773005_maaraenemmisto_fi_sense,
+    iate:concept_773005_maggioranza_qualificata_it_sense, iate:concept_773005_maggoranza_kwalifikata_mt_sense,
+    iate:concept_773005_maioria_qualificada_pt_sense, iate:concept_773005_majoritate_calificata_ro_sense,
+    iate:concept_773005_majorite_qualifiee_fr_sense, iate:concept_773005_mayoria_calificada_es_sense,
+    iate:concept_773005_mayoria_cualificada_es_sense, iate:concept_773005_minositett_tobbseg_hu_sense,
+    iate:concept_773005_qm_en_sense, iate:concept_773005_qualified_majority_en_sense,
+    iate:concept_773005_qualifizierte_mehrheit_de_sense, iate:concept_773005_supermajority_en_sense,
+    iate:concept_773005_tromlach_cailithe_ga_sense;
+  ontolex:isLexicalizedSenseOf iate:concept_773005;
+  ontolex:isSenseOf iate:concept_773005_wiekszosc_kwalifikowana_pl_entry .
+
+iate:concept_878515 a ontolex:LexicalConcept;
+  dct:identifier "IATE-878515";
+  dct:subject iate:domain_electoral_procedure_and_voting, iate:domain_legislative_procedure;
+  skos:broader iate:concept_2224299;
+  skos:definition iate:concept_878515_definition_en, iate:concept_878515_definition_es;
+  skos:inScheme iate:IATE_ConceptSet;
+  skos:note iate:concept_878515_note_es;
+  skos:related iate:concept_773005;
+  ontolex:isEvokedBy iate:concept_878515_mayoria_relativa_es_entry, iate:concept_878515_mayoria_simple_es_entry,
+    iate:concept_878515_relative_majority_en_entry, iate:concept_878515_simple_majority_en_entry;
+  ontolex:lexicalizedSense iate:concept_878515_mayoria_relativa_es_sense, iate:concept_878515_mayoria_simple_es_sense,
+    iate:concept_878515_relative_majority_en_sense, iate:concept_878515_simple_majority_en_sense .
+
+iate:concept_878515_definition_en a termlex:Definition;
+  dct:language "en";
+  dct:source iate:concept_878515_definition_en_source;
+  rdfs:label "Greater number of votes cast on a piece of legislation, enough to ensure it is adopted when an absolute or qualified majority is not required" .
+
+iate:concept_878515_definition_en_source a termlex:Source;
+  rdfs:label "Council-EN" .
+
+iate:concept_878515_definition_es a termlex:Definition;
+  dct:language "es";
+  dct:source iate:concept_878515_definition_es_source;
+  rdfs:label "Conjunto uniforme de pareceres o de votos que predomina en una discusión o votación, sin llegar a más de la mitad de los emitidos." .
+
+iate:concept_878515_definition_es_source a termlex:Source;
+  rdfs:label "Cabanellas, G.: Diccionario Enciclopédico de Derecho Usual, Heliasta, Buenos Aires, 1981" .
+
+iate:concept_878515_mayoria_relativa_es_entry a ontolex:LexicalEntry;
+  dct:language "es";
+  dct:source iate:concept_878515_mayoria_relativa_es_entry_source1;
+  lexinfo:termType lexinfo:entryTerm;
+  ontolex:evokes iate:concept_878515;
+  ontolex:lexicalForm iate:concept_878515_mayoria_relativa_es_form;
+  ontolex:sense iate:concept_878515_mayoria_relativa_es_sense .
+
+iate:concept_878515_mayoria_relativa_es_entry_source1 a termlex:Source;
+  dct:label "<p>Reglamento del Parlamento Europeo (ed. provisional de enero de 2017), art. 17.1 <a href=\"http://www.europarl.europa.eu/sides/getLastRules.do;jsessionid=520DEC7042C8D73366C233E820C64BE5.node1?language=ES&amp;reference=TOC\" target=\"_blank\">http://www.europarl.europa.eu/sides/getLastRules.do;jsessionid=520DEC7042C8D73366C233E820C64BE5.node1?language=ES&amp;reference=TOC</a> [4.4.2017]</p>Real Academia Española y Asociación de Academias de la Lengua Española, Diccionario de la lengua española, Edición del Tricentenario, voz «mayoría» <a href=\"http://dle.rae.es/?id=OgHvXOA\" target=\"_blank\">http://dle.rae.es/?id=OgHvXOA</a> [4.4.2017]" .
+
+iate:concept_878515_mayoria_relativa_es_form a ontolex:LexicalForm;
+  ontolex:writtenRep "mayoría relativa" .
+
+iate:concept_878515_mayoria_relativa_es_sense a ontolex:LexicalSense;
+  lexinfo:synonym iate:concept_878515_mayoria_simple_es_sense;
+  vartrans:translation iate:concept_878515_relative_majority_en_sense, iate:concept_878515_simple_majority_en_sense;
+  termlex:reliabiliityCode termlex:4;
+  ontolex:isLexicalizedSenseOf iate:concept_878515;
+  ontolex:isSenseOf iate:concept_878515_mayoria_relativa_es_entry .
+
+iate:concept_878515_mayoria_simple_es_entry a ontolex:LexicalEntry;
+  dct:language "es";
+  dct:source iate:concept_878515_mayoria_simple_es_entry_source1;
+  lexinfo:termType lexinfo:entryTerm;
+  ontolex:evokes iate:concept_878515;
+  ontolex:lexicalForm iate:concept_878515_mayoria_simple_es_form;
+  ontolex:sense iate:concept_878515_mayoria_simple_es_sense .
+
+iate:concept_878515_mayoria_simple_es_entry_source1 a termlex:Source;
+  dct:label "Tratado de Funcionamiento de la Unión Europea, art. 238 <a href=\"http://eur-lex.europa.eu/legal-content/ES/TXT/?uri=uriserv:OJ.C_.2016.202.01.0001.01.SPA&amp;toc=OJ:C:2016:202:TOC\" target=\"_blank\">http://eur-lex.europa.eu/legal-content/ES/TXT/?uri=uriserv:OJ.C_.2016.202.01.0001.01.SPA&amp;toc=OJ:C:2016:202:TOC</a> [4.4.2017]" .
+
+iate:concept_878515_mayoria_simple_es_form a ontolex:LexicalForm;
+  ontolex:writtenRep "mayoría simple" .
+
+iate:concept_878515_mayoria_simple_es_sense a ontolex:LexicalSense;
+  lexinfo:synonym iate:concept_878515_mayoria_relativa_es_sense;
+  vartrans:translation iate:concept_878515_relative_majority_en_sense, iate:concept_878515_simple_majority_en_sense;
+  termlex:reliabiliityCode termlex:4;
+  ontolex:isLexicalizedSenseOf iate:concept_878515;
+  ontolex:isSenseOf iate:concept_878515_mayoria_simple_es_entry .
+
+iate:concept_878515_note_es a termlex:Note;
+  dct:language "es";
+  rdfs:label "Véanse asimismo:<p>- «mayoría» <a href=\"/entry/result/2224299/all\" id=\"ENTRY_TO_ENTRY_CONVERTER\" target=\"_blank\">IATE:2224299</a> </p><p>- «mayoría absoluta» <a href=\"/entry/result/1133882/all\" id=\"ENTRY_TO_ENTRY_CONVERTER\" target=\"_blank\">IATE:1133882</a> </p><p>- «mayoría cualificada» <a href=\"/entry/result/773005/all\" id=\"ENTRY_TO_ENTRY_CONVERTER\" target=\"_blank\">IATE:773005</a> </p><p>- «mayoría política» <a href=\"/entry/result/2224778/all\" id=\"ENTRY_TO_ENTRY_CONVERTER\" target=\"_blank\">IATE:2224778</a> </p><p>- «mayoría especial» <a href=\"/entry/result/1880882/all\" id=\"ENTRY_TO_ENTRY_CONVERTER\" target=\"_blank\">IATE:1880882</a> </p><p>- «mayoría inversa» <a href=\"/entry/result/3527705/all\" id=\"ENTRY_TO_ENTRY_CONVERTER\" target=\"_blank\">IATE:3527705</a> </p>" .
+
+iate:concept_878515_relative_majority_en_entry a ontolex:LexicalEntry;
+  dct:language "en";
+  ontolex:evokes iate:concept_878515;
+  ontolex:lexicalForm iate:concept_878515_relative_majority_en_form;
+  ontolex:sense iate:concept_878515_relative_majority_en_sense .
+
+iate:concept_878515_relative_majority_en_form a ontolex:LexicalForm;
+  ontolex:writtenRep "relative majority" .
+
+iate:concept_878515_relative_majority_en_sense a ontolex:LexicalSense;
+  lexinfo:synonym iate:concept_878515_simple_majority_en_sense;
+  vartrans:translation iate:concept_878515_mayoria_relativa_es_sense, iate:concept_878515_mayoria_simple_es_sense;
+  termlex:reliabiliityCode termlex:1;
+  ontolex:isLexicalizedSenseOf iate:concept_878515;
+  ontolex:isSenseOf iate:concept_878515_relative_majority_en_entry .
+
+iate:concept_878515_simple_majority_en_entry a ontolex:LexicalEntry;
+  dct:language "en";
+  dct:source iate:concept_878515_simple_majority_en_entry_source1;
+  lexinfo:termType lexinfo:entryTerm;
+  ontolex:evokes iate:concept_878515;
+  ontolex:lexicalForm iate:concept_878515_simple_majority_en_form;
+  ontolex:sense iate:concept_878515_simple_majority_en_sense .
+
+iate:concept_878515_simple_majority_en_entry_source1 a termlex:Source;
+  dct:label "Consolidated version of the Treaty on the Functioning of the European Union, Art. 238 (ex Article 205(1) and (2) <a href=\"http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:12008E238\" target=\"_blank\">CELEX:12008E238</a>" .
+
+iate:concept_878515_simple_majority_en_example1 a lexicog:UsageExample;
+  dct:language "en";
+  dct:source iate:concept_878515_simple_majority_en_example1_source;
+  rdfs:label "\"This means that a decision is taken when there are more votes for than against. Each Member of the Council has one vote. The simple majority is applicable when the Treaty does not provide otherwise (Article 205(1) EC). It is thus the decision-making process found in ordinary law. In practice it applies to only a small number of decisions: internal Council rules, organisation of the Council secretariat, and the rules governing committees provided for in the Treaty.\"" .
+
+iate:concept_878515_simple_majority_en_example1_source a termlex:Source;
+  dct:label "How the European Union Works <a href=\"http://www.europarl.europa.eu/parliament/expert/displayFtu.do?language=en&amp;id=74&amp;ftuId=FTU_1.3.6.html\" target=\"_blank\">http://www.europarl.europa.eu/parliament/expert/displayFtu.do?language=en&amp;id=74&amp;ftuId=FTU_1.3.6.html</a> (27.11.2009)" .
+
+iate:concept_878515_simple_majority_en_form a ontolex:LexicalForm;
+  ontolex:writtenRep "simple majority" .
+
+iate:concept_878515_simple_majority_en_sense a ontolex:LexicalSense;
+  lexinfo:synonym iate:concept_878515_relative_majority_en_sense;
+  lexicog:usageExample iate:concept_878515_simple_majority_en_example1;
+  vartrans:translation iate:concept_878515_mayoria_relativa_es_sense, iate:concept_878515_mayoria_simple_es_sense;
+  termlex:reliabiliityCode termlex:4;
+  ontolex:isLexicalizedSenseOf iate:concept_878515;
+  ontolex:isSenseOf iate:concept_878515_simple_majority_en_entry .
+
+iate:domain_electoral_procedure_and_voting a skos:Concept;
+  dct:identifier "EUROVOC-0416";
+  skos:broader iate:domain_politics;
+  skos:inScheme iate:eurovoc_domain_scheme;
+  skos:prefLabel "electoral procedure and voting" .
+
+iate:domain_legislative_procedure a skos:Concept;
+  dct:identifier "EUROVOC-2702";
+  skos:broader iate:domain_parliamentary_proceedings;
+  skos:inScheme iate:eurovoc_domain_scheme;
+  skos:prefLabel "legislative procedure" .
+
+iate:domain_parliamentary_proceedings a skos:Concept;
+  skos:broader iate:domain_politics;
+  skos:inScheme iate:eurovoc_domain_scheme;
+  skos:narrower iate:domain_legislative_procedure;
+  skos:prefLabel "parliamentary proceedings" .
+
+iate:domain_politics a skos:Concept;
+  skos:narrower iate:domain_electoral_procedure_and_voting, iate:domain_parliamentary_proceedings;
+  skos:prefLabel "POLITICS";
+  skos:topConceptOf iate:eurovoc_domain_scheme .
+
+iate:eurovoc_domain_scheme a skos:ConceptScheme;
+  skos:hasTopConcept iate:domain_politics .
